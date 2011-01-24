@@ -14,6 +14,9 @@
 
 from unittest2 import TestCase as UnitTestCase, main, TestLoader
 import os
+import gc, weakref
+from collections import defaultdict
+import types
 
 class TestCase(UnitTestCase):
   "Test base class"
@@ -37,6 +40,11 @@ def load_tests(loader, standard_tests, pattern):
     
 if __name__ == "__main__":
   import sys
+  if '-dbg' in sys.argv:
+    sys.argv.remove('-dbg')
+    import gc
+    gc.set_debug(gc.DEBUG_LEAK)
+
   if '-loop' in sys.argv:
       sys.argv.remove('-loop')
       while True:
@@ -47,3 +55,40 @@ if __name__ == "__main__":
   else:
        main()
 
+class LeakFind():
+  def __init__(self):
+    self.before=defaultdict(int)
+    
+    
+  def __enter__(self):
+    gc.collect()
+    for i in gc.get_objects():
+      if type(i) == types.InstanceType:
+        self.before[i.__class__]+=1
+      elif str(type(i)) == "<type 'instancemethod'>":
+        self.before[str(i)]+=1
+      else:
+        self.before[type(i)]+=1
+  
+  def __exit__(self, *args):
+    gc.collect()
+    after=defaultdict(int)
+    for i in gc.get_objects(): 
+      if type(i) == types.InstanceType:
+        after[i.__class__]+=1
+      elif str(type(i)) == "<type 'instancemethod'>":
+        after[str(i)]+=1
+      else:
+        after[type(i)]+=1
+    
+    #remove references in this class
+    after[defaultdict]-=1
+    
+    print "MEMORY LEAKS:"
+    print "============="
+    i = 1
+    for k in after:
+      if after[k]-self.before[k]:
+        print "%d. %s = %d" % (i, k, after[k]-self.before[k]) 
+        i += 1
+        

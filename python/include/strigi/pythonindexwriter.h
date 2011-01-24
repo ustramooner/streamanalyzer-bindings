@@ -23,6 +23,21 @@
 #ifdef SWIGGING
   %feature("director") PythonIndexWriter;
   %rename (IndexWriter) PythonIndexWriter;
+  
+  %extend PythonIndexWriter {
+    %pythoncode {
+      def dataHandlerfinishAnalysis(self, result):
+        self._finishAnalysis(result)
+        if 'datas' in self.__dict__ and result.path() in self.datas: del self.datas[result.path()]
+      def getData(self, result):
+        if 'datas' in self.__dict__ and result.path() in self.datas: return self.datas[result.path()]
+        else: return None
+      def setData(self, result, value):
+        if not 'datas' in self.__dict__: self.datas = {}
+        self.datas[result.path()] = value
+      def commit(self): pass
+    }
+  }
 #endif
 using namespace Strigi;
 
@@ -92,6 +107,17 @@ public:
      * @param length the length of the fragment
      */
     virtual void addText(const AnalysisResult* r, const std::string& text){}
+    
+    /**
+     * @brief Add a field to the index.
+     *
+     * See AnalysisResult::addValue() for more information.
+     *
+     * @param result the AnalysisResult for the object that is
+     * being analyzed
+     * @param field description of the field
+     * @param value value of the field
+     */
     virtual void addValue(const AnalysisResult* r, const RegisteredField* field, PyObject* value){}
 public:
     virtual ~PythonIndexWriter() {}
@@ -128,7 +154,7 @@ public:
     virtual void addValue(const AnalysisResult* r, const RegisteredField* field,
         const unsigned char* data, uint32_t size){
       try{
-        addValue(r, field, (PyObject*)PyByteArray_FromStringAndSize( (const char*)data, size));
+        addValue(r, field, Py_BuildValue("s#", (const char*)data, size));
 	    }_CLCATCH();
     }
     /**

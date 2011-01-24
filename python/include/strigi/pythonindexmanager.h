@@ -22,6 +22,30 @@
 
 #ifdef SWIGGING
   %feature("director") PythonIndexManager;
+  %extend PythonIndexManager {
+    static void addFactory(StreamEndAnalyzerFactory* factory){
+      PythonAnalyzerFactoryFactory::seaf.push_back(factory);
+    }
+    static void addFactory(StreamEventAnalyzerFactory* factory){
+      PythonAnalyzerFactoryFactory::sevaf.push_back(factory);
+    }
+    static void addFactory(StreamLineAnalyzerFactory* factory){
+      PythonAnalyzerFactoryFactory::slaf.push_back(factory);
+    }
+    static void addFactory(StreamSaxAnalyzerFactory* factory){
+      PythonAnalyzerFactoryFactory::ssaf.push_back(factory);
+    }
+    static void addFactory(StreamThroughAnalyzerFactory* factory){
+      PythonAnalyzerFactoryFactory::staf.push_back(factory);
+    }
+    static void clearFactories(){
+      PythonAnalyzerFactoryFactory::seaf.clear();
+      PythonAnalyzerFactoryFactory::sevaf.clear();
+      PythonAnalyzerFactoryFactory::slaf.clear();
+      PythonAnalyzerFactoryFactory::ssaf.clear();
+      PythonAnalyzerFactoryFactory::staf.clear();
+    }
+  }
 #endif
 
 /**

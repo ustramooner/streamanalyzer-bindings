@@ -70,7 +70,6 @@ class DummyWriter(IndexWriter):
     print "encoding: %s" % result.encoding()
     print "mimeType: %s" % result.mimeType()
     print "extension: %s" % result.extension()
-    print "config: %s" % result.config()
     
   def addTriplet(self, s, p, o):
     global triplets 
@@ -114,7 +113,7 @@ class ThreadRunner(Thread):
    def run(self):
       try:
         #TODO: using > 1 threads is faulty still..
-        self.p['analyzer'].analyzeDir(self.dir, 1)
+        self.p['analyzer'].analyzeDir(self.dir)
       except Exception as e:
         print e
 

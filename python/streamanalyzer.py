@@ -183,11 +183,17 @@ class InputStream(StreamsBase):
     __repr__ = _swig_repr
     __swig_destroy__ = _streamanalyzer.delete_InputStream
     __del__ = lambda self : None;
-    def read(self, *args): return _streamanalyzer.InputStream_read(self, *args)
     def skip(self, *args): return _streamanalyzer.InputStream_skip(self, *args)
     def reset(self, *args): return _streamanalyzer.InputStream_reset(self, *args)
+    __swig_getmethods__["openFile"] = lambda x: _streamanalyzer.InputStream_openFile
+    if _newclass:openFile = staticmethod(_streamanalyzer.InputStream_openFile)
+    def read(self, *args): return _streamanalyzer.InputStream_read(self, *args)
 InputStream_swigregister = _streamanalyzer.InputStream_swigregister
 InputStream_swigregister(InputStream)
+
+def InputStream_openFile(*args):
+  return _streamanalyzer.InputStream_openFile(*args)
+InputStream_openFile = _streamanalyzer.InputStream_openFile
 
 class Reader(StreamsBase):
     __swig_setmethods__ = {}
@@ -200,7 +206,6 @@ class Reader(StreamsBase):
     __repr__ = _swig_repr
     __swig_destroy__ = _streamanalyzer.delete_Reader
     __del__ = lambda self : None;
-    def read(self, *args): return _streamanalyzer.Reader_read(self, *args)
     def skip(self, *args): return _streamanalyzer.Reader_skip(self, *args)
     def reset(self, *args): return _streamanalyzer.Reader_reset(self, *args)
 Reader_swigregister = _streamanalyzer.Reader_swigregister
@@ -249,6 +254,73 @@ class RegisteredField(_object):
 RegisteredField_swigregister = _streamanalyzer.RegisteredField_swigregister
 RegisteredField_swigregister(RegisteredField)
 
+class FieldRegister(_object):
+    __swig_setmethods__ = {}
+    __setattr__ = lambda self, name, value: _swig_setattr(self, FieldRegister, name, value)
+    __swig_getmethods__ = {}
+    __getattr__ = lambda self, name: _swig_getattr(self, FieldRegister, name)
+    __repr__ = _swig_repr
+    def __init__(self): 
+        this = _streamanalyzer.new_FieldRegister()
+        try: self.this.append(this)
+        except: self.this = this
+    __swig_destroy__ = _streamanalyzer.delete_FieldRegister
+    __del__ = lambda self : None;
+    def registerField(self, *args): return _streamanalyzer.FieldRegister_registerField(self, *args)
+    __swig_setmethods__["pathField"] = _streamanalyzer.FieldRegister_pathField_set
+    __swig_getmethods__["pathField"] = _streamanalyzer.FieldRegister_pathField_get
+    if _newclass:pathField = _swig_property(_streamanalyzer.FieldRegister_pathField_get, _streamanalyzer.FieldRegister_pathField_set)
+    __swig_setmethods__["parentLocationField"] = _streamanalyzer.FieldRegister_parentLocationField_set
+    __swig_getmethods__["parentLocationField"] = _streamanalyzer.FieldRegister_parentLocationField_get
+    if _newclass:parentLocationField = _swig_property(_streamanalyzer.FieldRegister_parentLocationField_get, _streamanalyzer.FieldRegister_parentLocationField_set)
+    __swig_setmethods__["encodingField"] = _streamanalyzer.FieldRegister_encodingField_set
+    __swig_getmethods__["encodingField"] = _streamanalyzer.FieldRegister_encodingField_get
+    if _newclass:encodingField = _swig_property(_streamanalyzer.FieldRegister_encodingField_get, _streamanalyzer.FieldRegister_encodingField_set)
+    __swig_setmethods__["mimetypeField"] = _streamanalyzer.FieldRegister_mimetypeField_set
+    __swig_getmethods__["mimetypeField"] = _streamanalyzer.FieldRegister_mimetypeField_get
+    if _newclass:mimetypeField = _swig_property(_streamanalyzer.FieldRegister_mimetypeField_get, _streamanalyzer.FieldRegister_mimetypeField_set)
+    __swig_setmethods__["filenameField"] = _streamanalyzer.FieldRegister_filenameField_set
+    __swig_getmethods__["filenameField"] = _streamanalyzer.FieldRegister_filenameField_get
+    if _newclass:filenameField = _swig_property(_streamanalyzer.FieldRegister_filenameField_get, _streamanalyzer.FieldRegister_filenameField_set)
+    __swig_setmethods__["extensionField"] = _streamanalyzer.FieldRegister_extensionField_set
+    __swig_getmethods__["extensionField"] = _streamanalyzer.FieldRegister_extensionField_get
+    if _newclass:extensionField = _swig_property(_streamanalyzer.FieldRegister_extensionField_get, _streamanalyzer.FieldRegister_extensionField_set)
+    __swig_setmethods__["embeddepthField"] = _streamanalyzer.FieldRegister_embeddepthField_set
+    __swig_getmethods__["embeddepthField"] = _streamanalyzer.FieldRegister_embeddepthField_get
+    if _newclass:embeddepthField = _swig_property(_streamanalyzer.FieldRegister_embeddepthField_get, _streamanalyzer.FieldRegister_embeddepthField_set)
+    __swig_setmethods__["mtimeField"] = _streamanalyzer.FieldRegister_mtimeField_set
+    __swig_getmethods__["mtimeField"] = _streamanalyzer.FieldRegister_mtimeField_get
+    if _newclass:mtimeField = _swig_property(_streamanalyzer.FieldRegister_mtimeField_get, _streamanalyzer.FieldRegister_mtimeField_set)
+    __swig_setmethods__["sizeField"] = _streamanalyzer.FieldRegister_sizeField_set
+    __swig_getmethods__["sizeField"] = _streamanalyzer.FieldRegister_sizeField_get
+    if _newclass:sizeField = _swig_property(_streamanalyzer.FieldRegister_sizeField_get, _streamanalyzer.FieldRegister_sizeField_set)
+    __swig_setmethods__["typeField"] = _streamanalyzer.FieldRegister_typeField_set
+    __swig_getmethods__["typeField"] = _streamanalyzer.FieldRegister_typeField_get
+    if _newclass:typeField = _swig_property(_streamanalyzer.FieldRegister_typeField_get, _streamanalyzer.FieldRegister_typeField_set)
+    __swig_setmethods__["parseErrorField"] = _streamanalyzer.FieldRegister_parseErrorField_set
+    __swig_getmethods__["parseErrorField"] = _streamanalyzer.FieldRegister_parseErrorField_get
+    if _newclass:parseErrorField = _swig_property(_streamanalyzer.FieldRegister_parseErrorField_get, _streamanalyzer.FieldRegister_parseErrorField_set)
+FieldRegister_swigregister = _streamanalyzer.FieldRegister_swigregister
+FieldRegister_swigregister(FieldRegister)
+cvar = _streamanalyzer.cvar
+FieldRegister.floatType = _streamanalyzer.cvar.FieldRegister_floatType
+FieldRegister.integerType = _streamanalyzer.cvar.FieldRegister_integerType
+FieldRegister.binaryType = _streamanalyzer.cvar.FieldRegister_binaryType
+FieldRegister.stringType = _streamanalyzer.cvar.FieldRegister_stringType
+FieldRegister.datetimeType = _streamanalyzer.cvar.FieldRegister_datetimeType
+FieldRegister.pathFieldName = _streamanalyzer.cvar.FieldRegister_pathFieldName
+FieldRegister.parentLocationFieldName = _streamanalyzer.cvar.FieldRegister_parentLocationFieldName
+FieldRegister.encodingFieldName = _streamanalyzer.cvar.FieldRegister_encodingFieldName
+FieldRegister.mimetypeFieldName = _streamanalyzer.cvar.FieldRegister_mimetypeFieldName
+FieldRegister.filenameFieldName = _streamanalyzer.cvar.FieldRegister_filenameFieldName
+FieldRegister.contentFieldName = _streamanalyzer.cvar.FieldRegister_contentFieldName
+FieldRegister.extensionFieldName = _streamanalyzer.cvar.FieldRegister_extensionFieldName
+FieldRegister.embeddepthFieldName = _streamanalyzer.cvar.FieldRegister_embeddepthFieldName
+FieldRegister.mtimeFieldName = _streamanalyzer.cvar.FieldRegister_mtimeFieldName
+FieldRegister.sizeFieldName = _streamanalyzer.cvar.FieldRegister_sizeFieldName
+FieldRegister.typeFieldName = _streamanalyzer.cvar.FieldRegister_typeFieldName
+FieldRegister.defaultNamespace = _streamanalyzer.cvar.FieldRegister_defaultNamespace
+
 class RegisteredFieldVector(_object):
     __swig_setmethods__ = {}
     __setattr__ = lambda self, name, value: _swig_setattr(self, RegisteredFieldVector, name, value)
@@ -296,6 +368,22 @@ class RegisteredFieldVector(_object):
 RegisteredFieldVector_swigregister = _streamanalyzer.RegisteredFieldVector_swigregister
 RegisteredFieldVector_swigregister(RegisteredFieldVector)
 
+class StreamAnalyzer(_object):
+    __swig_setmethods__ = {}
+    __setattr__ = lambda self, name, value: _swig_setattr(self, StreamAnalyzer, name, value)
+    __swig_getmethods__ = {}
+    __getattr__ = lambda self, name: _swig_getattr(self, StreamAnalyzer, name)
+    __repr__ = _swig_repr
+    def __init__(self, *args): 
+        this = _streamanalyzer.new_StreamAnalyzer(*args)
+        try: self.this.append(this)
+        except: self.this = this
+    __swig_destroy__ = _streamanalyzer.delete_StreamAnalyzer
+    __del__ = lambda self : None;
+    def setIndexWriter(self, *args): return _streamanalyzer.StreamAnalyzer_setIndexWriter(self, *args)
+StreamAnalyzer_swigregister = _streamanalyzer.StreamAnalyzer_swigregister
+StreamAnalyzer_swigregister(StreamAnalyzer)
+
 class StreamAnalyzerFactory(_object):
     __swig_setmethods__ = {}
     __setattr__ = lambda self, name, value: _swig_setattr(self, StreamAnalyzerFactory, name, value)
@@ -306,9 +394,38 @@ class StreamAnalyzerFactory(_object):
     __swig_destroy__ = _streamanalyzer.delete_StreamAnalyzerFactory
     __del__ = lambda self : None;
     def name(self): return _streamanalyzer.StreamAnalyzerFactory_name(self)
+    def registerFields(self, *args): return _streamanalyzer.StreamAnalyzerFactory_registerFields(self, *args)
+    def addField(self, *args): return _streamanalyzer.StreamAnalyzerFactory_addField(self, *args)
     def registeredFields(self): return _streamanalyzer.StreamAnalyzerFactory_registeredFields(self)
 StreamAnalyzerFactory_swigregister = _streamanalyzer.StreamAnalyzerFactory_swigregister
 StreamAnalyzerFactory_swigregister(StreamAnalyzerFactory)
+
+class StreamEndAnalyzer(_object):
+    __swig_setmethods__ = {}
+    __setattr__ = lambda self, name, value: _swig_setattr(self, StreamEndAnalyzer, name, value)
+    __swig_getmethods__ = {}
+    __getattr__ = lambda self, name: _swig_getattr(self, StreamEndAnalyzer, name)
+    __repr__ = _swig_repr
+    __swig_destroy__ = _streamanalyzer.delete_StreamEndAnalyzer
+    __del__ = lambda self : None;
+    def checkHeader(self, *args): return _streamanalyzer.StreamEndAnalyzer_checkHeader(self, *args)
+    def analyze(self, *args): return _streamanalyzer.StreamEndAnalyzer_analyze(self, *args)
+    def error(self): return _streamanalyzer.StreamEndAnalyzer_error(self)
+    def name(self): return _streamanalyzer.StreamEndAnalyzer_name(self)
+    def __init__(self): 
+        if self.__class__ == StreamEndAnalyzer:
+            _self = None
+        else:
+            _self = self
+        this = _streamanalyzer.new_StreamEndAnalyzer(_self, )
+        try: self.this.append(this)
+        except: self.this = this
+    def __disown__(self):
+        self.this.disown()
+        _streamanalyzer.disown_StreamEndAnalyzer(self)
+        return weakref_proxy(self)
+StreamEndAnalyzer_swigregister = _streamanalyzer.StreamEndAnalyzer_swigregister
+StreamEndAnalyzer_swigregister(StreamEndAnalyzer)
 
 class StreamEndAnalyzerFactory(StreamAnalyzerFactory):
     __swig_setmethods__ = {}
@@ -317,13 +434,52 @@ class StreamEndAnalyzerFactory(StreamAnalyzerFactory):
     __swig_getmethods__ = {}
     for _s in [StreamAnalyzerFactory]: __swig_getmethods__.update(getattr(_s,'__swig_getmethods__',{}))
     __getattr__ = lambda self, name: _swig_getattr(self, StreamEndAnalyzerFactory, name)
-    def __init__(self, *args, **kwargs): raise AttributeError("No constructor defined - class is abstract")
     __repr__ = _swig_repr
-    def analyzesSubStreams(self): return _streamanalyzer.StreamEndAnalyzerFactory_analyzesSubStreams(self)
+    def newInstance(self): return _streamanalyzer.StreamEndAnalyzerFactory_newInstance(self)
+    def __init__(self): 
+        if self.__class__ == StreamEndAnalyzerFactory:
+            _self = None
+        else:
+            _self = self
+        this = _streamanalyzer.new_StreamEndAnalyzerFactory(_self, )
+        try: self.this.append(this)
+        except: self.this = this
     __swig_destroy__ = _streamanalyzer.delete_StreamEndAnalyzerFactory
     __del__ = lambda self : None;
+    def __disown__(self):
+        self.this.disown()
+        _streamanalyzer.disown_StreamEndAnalyzerFactory(self)
+        return weakref_proxy(self)
 StreamEndAnalyzerFactory_swigregister = _streamanalyzer.StreamEndAnalyzerFactory_swigregister
 StreamEndAnalyzerFactory_swigregister(StreamEndAnalyzerFactory)
+
+class StreamEventAnalyzer(_object):
+    __swig_setmethods__ = {}
+    __setattr__ = lambda self, name, value: _swig_setattr(self, StreamEventAnalyzer, name, value)
+    __swig_getmethods__ = {}
+    __getattr__ = lambda self, name: _swig_getattr(self, StreamEventAnalyzer, name)
+    __repr__ = _swig_repr
+    __swig_destroy__ = _streamanalyzer.delete_StreamEventAnalyzer
+    __del__ = lambda self : None;
+    def name(self): return _streamanalyzer.StreamEventAnalyzer_name(self)
+    def startAnalysis(self, *args): return _streamanalyzer.StreamEventAnalyzer_startAnalysis(self, *args)
+    def endAnalysis(self, *args): return _streamanalyzer.StreamEventAnalyzer_endAnalysis(self, *args)
+    def handleData(self, *args): return _streamanalyzer.StreamEventAnalyzer_handleData(self, *args)
+    def isReadyWithStream(self): return _streamanalyzer.StreamEventAnalyzer_isReadyWithStream(self)
+    def __init__(self): 
+        if self.__class__ == StreamEventAnalyzer:
+            _self = None
+        else:
+            _self = self
+        this = _streamanalyzer.new_StreamEventAnalyzer(_self, )
+        try: self.this.append(this)
+        except: self.this = this
+    def __disown__(self):
+        self.this.disown()
+        _streamanalyzer.disown_StreamEventAnalyzer(self)
+        return weakref_proxy(self)
+StreamEventAnalyzer_swigregister = _streamanalyzer.StreamEventAnalyzer_swigregister
+StreamEventAnalyzer_swigregister(StreamEventAnalyzer)
 
 class StreamEventAnalyzerFactory(StreamAnalyzerFactory):
     __swig_setmethods__ = {}
@@ -332,12 +488,52 @@ class StreamEventAnalyzerFactory(StreamAnalyzerFactory):
     __swig_getmethods__ = {}
     for _s in [StreamAnalyzerFactory]: __swig_getmethods__.update(getattr(_s,'__swig_getmethods__',{}))
     __getattr__ = lambda self, name: _swig_getattr(self, StreamEventAnalyzerFactory, name)
-    def __init__(self, *args, **kwargs): raise AttributeError("No constructor defined - class is abstract")
     __repr__ = _swig_repr
+    def newInstance(self): return _streamanalyzer.StreamEventAnalyzerFactory_newInstance(self)
+    def __init__(self): 
+        if self.__class__ == StreamEventAnalyzerFactory:
+            _self = None
+        else:
+            _self = self
+        this = _streamanalyzer.new_StreamEventAnalyzerFactory(_self, )
+        try: self.this.append(this)
+        except: self.this = this
     __swig_destroy__ = _streamanalyzer.delete_StreamEventAnalyzerFactory
     __del__ = lambda self : None;
+    def __disown__(self):
+        self.this.disown()
+        _streamanalyzer.disown_StreamEventAnalyzerFactory(self)
+        return weakref_proxy(self)
 StreamEventAnalyzerFactory_swigregister = _streamanalyzer.StreamEventAnalyzerFactory_swigregister
 StreamEventAnalyzerFactory_swigregister(StreamEventAnalyzerFactory)
+
+class StreamLineAnalyzer(_object):
+    __swig_setmethods__ = {}
+    __setattr__ = lambda self, name, value: _swig_setattr(self, StreamLineAnalyzer, name, value)
+    __swig_getmethods__ = {}
+    __getattr__ = lambda self, name: _swig_getattr(self, StreamLineAnalyzer, name)
+    __repr__ = _swig_repr
+    __swig_destroy__ = _streamanalyzer.delete_StreamLineAnalyzer
+    __del__ = lambda self : None;
+    def name(self): return _streamanalyzer.StreamLineAnalyzer_name(self)
+    def startAnalysis(self, *args): return _streamanalyzer.StreamLineAnalyzer_startAnalysis(self, *args)
+    def endAnalysis(self, *args): return _streamanalyzer.StreamLineAnalyzer_endAnalysis(self, *args)
+    def handleLine(self, *args): return _streamanalyzer.StreamLineAnalyzer_handleLine(self, *args)
+    def isReadyWithStream(self): return _streamanalyzer.StreamLineAnalyzer_isReadyWithStream(self)
+    def __init__(self): 
+        if self.__class__ == StreamLineAnalyzer:
+            _self = None
+        else:
+            _self = self
+        this = _streamanalyzer.new_StreamLineAnalyzer(_self, )
+        try: self.this.append(this)
+        except: self.this = this
+    def __disown__(self):
+        self.this.disown()
+        _streamanalyzer.disown_StreamLineAnalyzer(self)
+        return weakref_proxy(self)
+StreamLineAnalyzer_swigregister = _streamanalyzer.StreamLineAnalyzer_swigregister
+StreamLineAnalyzer_swigregister(StreamLineAnalyzer)
 
 class StreamLineAnalyzerFactory(StreamAnalyzerFactory):
     __swig_setmethods__ = {}
@@ -346,12 +542,54 @@ class StreamLineAnalyzerFactory(StreamAnalyzerFactory):
     __swig_getmethods__ = {}
     for _s in [StreamAnalyzerFactory]: __swig_getmethods__.update(getattr(_s,'__swig_getmethods__',{}))
     __getattr__ = lambda self, name: _swig_getattr(self, StreamLineAnalyzerFactory, name)
-    def __init__(self, *args, **kwargs): raise AttributeError("No constructor defined - class is abstract")
     __repr__ = _swig_repr
+    def newInstance(self): return _streamanalyzer.StreamLineAnalyzerFactory_newInstance(self)
+    def __init__(self): 
+        if self.__class__ == StreamLineAnalyzerFactory:
+            _self = None
+        else:
+            _self = self
+        this = _streamanalyzer.new_StreamLineAnalyzerFactory(_self, )
+        try: self.this.append(this)
+        except: self.this = this
     __swig_destroy__ = _streamanalyzer.delete_StreamLineAnalyzerFactory
     __del__ = lambda self : None;
+    def __disown__(self):
+        self.this.disown()
+        _streamanalyzer.disown_StreamLineAnalyzerFactory(self)
+        return weakref_proxy(self)
 StreamLineAnalyzerFactory_swigregister = _streamanalyzer.StreamLineAnalyzerFactory_swigregister
 StreamLineAnalyzerFactory_swigregister(StreamLineAnalyzerFactory)
+
+class StreamSaxAnalyzer(_object):
+    __swig_setmethods__ = {}
+    __setattr__ = lambda self, name, value: _swig_setattr(self, StreamSaxAnalyzer, name, value)
+    __swig_getmethods__ = {}
+    __getattr__ = lambda self, name: _swig_getattr(self, StreamSaxAnalyzer, name)
+    __repr__ = _swig_repr
+    def __init__(self): 
+        if self.__class__ == StreamSaxAnalyzer:
+            _self = None
+        else:
+            _self = self
+        this = _streamanalyzer.new_StreamSaxAnalyzer(_self, )
+        try: self.this.append(this)
+        except: self.this = this
+    __swig_destroy__ = _streamanalyzer.delete_StreamSaxAnalyzer
+    __del__ = lambda self : None;
+    def name(self): return _streamanalyzer.StreamSaxAnalyzer_name(self)
+    def startAnalysis(self, *args): return _streamanalyzer.StreamSaxAnalyzer_startAnalysis(self, *args)
+    def endAnalysis(self, *args): return _streamanalyzer.StreamSaxAnalyzer_endAnalysis(self, *args)
+    def startElement(self, *args): return _streamanalyzer.StreamSaxAnalyzer_startElement(self, *args)
+    def endElement(self, *args): return _streamanalyzer.StreamSaxAnalyzer_endElement(self, *args)
+    def characters(self, *args): return _streamanalyzer.StreamSaxAnalyzer_characters(self, *args)
+    def isReadyWithStream(self): return _streamanalyzer.StreamSaxAnalyzer_isReadyWithStream(self)
+    def __disown__(self):
+        self.this.disown()
+        _streamanalyzer.disown_StreamSaxAnalyzer(self)
+        return weakref_proxy(self)
+StreamSaxAnalyzer_swigregister = _streamanalyzer.StreamSaxAnalyzer_swigregister
+StreamSaxAnalyzer_swigregister(StreamSaxAnalyzer)
 
 class StreamSaxAnalyzerFactory(StreamAnalyzerFactory):
     __swig_setmethods__ = {}
@@ -360,12 +598,51 @@ class StreamSaxAnalyzerFactory(StreamAnalyzerFactory):
     __swig_getmethods__ = {}
     for _s in [StreamAnalyzerFactory]: __swig_getmethods__.update(getattr(_s,'__swig_getmethods__',{}))
     __getattr__ = lambda self, name: _swig_getattr(self, StreamSaxAnalyzerFactory, name)
-    def __init__(self, *args, **kwargs): raise AttributeError("No constructor defined - class is abstract")
     __repr__ = _swig_repr
+    def newInstance(self): return _streamanalyzer.StreamSaxAnalyzerFactory_newInstance(self)
+    def __init__(self): 
+        if self.__class__ == StreamSaxAnalyzerFactory:
+            _self = None
+        else:
+            _self = self
+        this = _streamanalyzer.new_StreamSaxAnalyzerFactory(_self, )
+        try: self.this.append(this)
+        except: self.this = this
     __swig_destroy__ = _streamanalyzer.delete_StreamSaxAnalyzerFactory
     __del__ = lambda self : None;
+    def __disown__(self):
+        self.this.disown()
+        _streamanalyzer.disown_StreamSaxAnalyzerFactory(self)
+        return weakref_proxy(self)
 StreamSaxAnalyzerFactory_swigregister = _streamanalyzer.StreamSaxAnalyzerFactory_swigregister
 StreamSaxAnalyzerFactory_swigregister(StreamSaxAnalyzerFactory)
+
+class StreamThroughAnalyzer(_object):
+    __swig_setmethods__ = {}
+    __setattr__ = lambda self, name, value: _swig_setattr(self, StreamThroughAnalyzer, name, value)
+    __swig_getmethods__ = {}
+    __getattr__ = lambda self, name: _swig_getattr(self, StreamThroughAnalyzer, name)
+    __repr__ = _swig_repr
+    __swig_destroy__ = _streamanalyzer.delete_StreamThroughAnalyzer
+    __del__ = lambda self : None;
+    def setIndexable(self, *args): return _streamanalyzer.StreamThroughAnalyzer_setIndexable(self, *args)
+    def connectInputStream(self, *args): return _streamanalyzer.StreamThroughAnalyzer_connectInputStream(self, *args)
+    def isReadyWithStream(self): return _streamanalyzer.StreamThroughAnalyzer_isReadyWithStream(self)
+    def name(self): return _streamanalyzer.StreamThroughAnalyzer_name(self)
+    def __init__(self): 
+        if self.__class__ == StreamThroughAnalyzer:
+            _self = None
+        else:
+            _self = self
+        this = _streamanalyzer.new_StreamThroughAnalyzer(_self, )
+        try: self.this.append(this)
+        except: self.this = this
+    def __disown__(self):
+        self.this.disown()
+        _streamanalyzer.disown_StreamThroughAnalyzer(self)
+        return weakref_proxy(self)
+StreamThroughAnalyzer_swigregister = _streamanalyzer.StreamThroughAnalyzer_swigregister
+StreamThroughAnalyzer_swigregister(StreamThroughAnalyzer)
 
 class StreamThroughAnalyzerFactory(StreamAnalyzerFactory):
     __swig_setmethods__ = {}
@@ -374,10 +651,22 @@ class StreamThroughAnalyzerFactory(StreamAnalyzerFactory):
     __swig_getmethods__ = {}
     for _s in [StreamAnalyzerFactory]: __swig_getmethods__.update(getattr(_s,'__swig_getmethods__',{}))
     __getattr__ = lambda self, name: _swig_getattr(self, StreamThroughAnalyzerFactory, name)
-    def __init__(self, *args, **kwargs): raise AttributeError("No constructor defined - class is abstract")
     __repr__ = _swig_repr
+    def newInstance(self): return _streamanalyzer.StreamThroughAnalyzerFactory_newInstance(self)
+    def __init__(self): 
+        if self.__class__ == StreamThroughAnalyzerFactory:
+            _self = None
+        else:
+            _self = self
+        this = _streamanalyzer.new_StreamThroughAnalyzerFactory(_self, )
+        try: self.this.append(this)
+        except: self.this = this
     __swig_destroy__ = _streamanalyzer.delete_StreamThroughAnalyzerFactory
     __del__ = lambda self : None;
+    def __disown__(self):
+        self.this.disown()
+        _streamanalyzer.disown_StreamThroughAnalyzerFactory(self)
+        return weakref_proxy(self)
 StreamThroughAnalyzerFactory_swigregister = _streamanalyzer.StreamThroughAnalyzerFactory_swigregister
 StreamThroughAnalyzerFactory_swigregister(StreamThroughAnalyzerFactory)
 
@@ -386,20 +675,29 @@ class AnalysisResult(_object):
     __setattr__ = lambda self, name, value: _swig_setattr(self, AnalysisResult, name, value)
     __swig_getmethods__ = {}
     __getattr__ = lambda self, name: _swig_getattr(self, AnalysisResult, name)
-    def __init__(self, *args, **kwargs): raise AttributeError("No constructor defined")
     __repr__ = _swig_repr
     __swig_destroy__ = _streamanalyzer.delete_AnalysisResult
     __del__ = lambda self : None;
+    def index(self, *args): return _streamanalyzer.AnalysisResult_index(self, *args)
     def child(self): return _streamanalyzer.AnalysisResult_child(self)
+    def addValue(self, *args): return _streamanalyzer.AnalysisResult_addValue(self, *args)
+    def addTriplet(self, *args): return _streamanalyzer.AnalysisResult_addTriplet(self, *args)
+    def newAnonymousUri(self): return _streamanalyzer.AnalysisResult_newAnonymousUri(self)
     def fileName(self): return _streamanalyzer.AnalysisResult_fileName(self)
     def path(self): return _streamanalyzer.AnalysisResult_path(self)
     def parentPath(self): return _streamanalyzer.AnalysisResult_parentPath(self)
     def mTime(self): return _streamanalyzer.AnalysisResult_mTime(self)
     def depth(self): return _streamanalyzer.AnalysisResult_depth(self)
+    def setEncoding(self, *args): return _streamanalyzer.AnalysisResult_setEncoding(self, *args)
     def encoding(self): return _streamanalyzer.AnalysisResult_encoding(self)
+    def setMimeType(self, *args): return _streamanalyzer.AnalysisResult_setMimeType(self, *args)
     def mimeType(self): return _streamanalyzer.AnalysisResult_mimeType(self)
     def extension(self): return _streamanalyzer.AnalysisResult_extension(self)
-    def config(self): return _streamanalyzer.AnalysisResult_config(self)
+    def __init__(self, *args): 
+        this = _streamanalyzer.new_AnalysisResult(*args)
+        try: self.this.append(this)
+        except: self.this = this
+    def addText(self, *args): return _streamanalyzer.AnalysisResult_addText(self, *args)
 AnalysisResult_swigregister = _streamanalyzer.AnalysisResult_swigregister
 AnalysisResult_swigregister(AnalysisResult)
 
@@ -445,6 +743,17 @@ class IndexWriter(_object):
     def addValue(self, *args): return _streamanalyzer.IndexWriter_addValue(self, *args)
     __swig_destroy__ = _streamanalyzer.delete_IndexWriter
     __del__ = lambda self : None;
+    def dataHandlerfinishAnalysis(self, result):
+      self._finishAnalysis(result)
+      if 'datas' in self.__dict__ and result.path() in self.datas: del self.datas[result.path()]
+    def getData(self, result):
+      if 'datas' in self.__dict__ and result.path() in self.datas: return self.datas[result.path()]
+      else: return None
+    def setData(self, result, value):
+      if not 'datas' in self.__dict__: self.datas = {}
+      self.datas[result.path()] = value
+    def commit(self): pass
+
     def __init__(self): 
         if self.__class__ == IndexWriter:
             _self = None
@@ -477,6 +786,10 @@ class PythonIndexManager(_object):
     __swig_destroy__ = _streamanalyzer.delete_PythonIndexManager
     __del__ = lambda self : None;
     def pythonIndexWriter(self): return _streamanalyzer.PythonIndexManager_pythonIndexWriter(self)
+    __swig_getmethods__["addFactory"] = lambda x: _streamanalyzer.PythonIndexManager_addFactory
+    if _newclass:addFactory = staticmethod(_streamanalyzer.PythonIndexManager_addFactory)
+    __swig_getmethods__["clearFactories"] = lambda x: _streamanalyzer.PythonIndexManager_clearFactories
+    if _newclass:clearFactories = staticmethod(_streamanalyzer.PythonIndexManager_clearFactories)
     def __disown__(self):
         self.this.disown()
         _streamanalyzer.disown_PythonIndexManager(self)
@@ -484,40 +797,16 @@ class PythonIndexManager(_object):
 PythonIndexManager_swigregister = _streamanalyzer.PythonIndexManager_swigregister
 PythonIndexManager_swigregister(PythonIndexManager)
 
-class DirAnalyzer(_object):
-    __swig_setmethods__ = {}
-    __setattr__ = lambda self, name, value: _swig_setattr(self, DirAnalyzer, name, value)
-    __swig_getmethods__ = {}
-    __getattr__ = lambda self, name: _swig_getattr(self, DirAnalyzer, name)
-    __repr__ = _swig_repr
-    def __init__(self, *args): 
-        this = _streamanalyzer.new_DirAnalyzer(*args)
-        try: self.this.append(this)
-        except: self.this = this
-    __swig_destroy__ = _streamanalyzer.delete_DirAnalyzer
-    __del__ = lambda self : None;
-    def analyzeDir(self, *args): return _streamanalyzer.DirAnalyzer_analyzeDir(self, *args)
-    def stop(self): return _streamanalyzer.DirAnalyzer_stop(self)
-    _traps = []
-    @staticmethod
-    def _handleSignal(*args):
-      for t in DirAnalyzer._traps:
-        t.stop()
-    def installSignal(self):
-      import signal
-      signal.signal(signal.SIGINT, DirAnalyzer._handleSignal)
-      if not self in DirAnalyzer._traps:
-        DirAnalyzer._traps.append(weakref.ref(self))
-    def uninstallSignal(self):
-      if self in DirAnalyzer._traps:
-        DirAnalyzer._traps.remove(self)
-    def __del__(self):
-      self.uninstallSignal()
+def PythonIndexManager_addFactory(*args):
+  return _streamanalyzer.PythonIndexManager_addFactory(*args)
+PythonIndexManager_addFactory = _streamanalyzer.PythonIndexManager_addFactory
 
-DirAnalyzer_swigregister = _streamanalyzer.DirAnalyzer_swigregister
-DirAnalyzer_swigregister(DirAnalyzer)
+def PythonIndexManager_clearFactories():
+  return _streamanalyzer.PythonIndexManager_clearFactories()
+PythonIndexManager_clearFactories = _streamanalyzer.PythonIndexManager_clearFactories
 
 import threading
+import os
 
 class IndexManager(PythonIndexManager):
   def __init__(self):
@@ -533,6 +822,165 @@ class IndexManager(PythonIndexManager):
     if not 'writer' in self.tls.__dict__:
       self.tls.writer = self.createIndexWriter()
     return self.tls.writer
+    
+  """ Adds a Analyzer Factory to the indexer. Note that this is global because Strigi does not provide any other way"""
+  @staticmethod
+  def addFactory(factory):
+    #TODO: need to find a better way of doing this!
+    if not 'STRIGI_PLUGIN_PATH' in os.environ:
+      os.environ['STRIGI_PLUGIN_PATH'] = os.path.dirname(__file__)
+    IndexManager.factories.append(factory)
+    PythonIndexManager.addFactory(factory)
+  """ Clears all the custom factories """
+  @staticmethod
+  def clearFactories():
+    del IndexManager.factories[:]
+    PythonIndexManager.clearFactories()
+  factories = []
+
+#add data cleanup to finishAnalysis
+def IndexWriterDataHandlerfinishAnalysis(self, result):
+  self._finishAnalysis(result)
+  if 'datas' in self.__dict__ and result.path() in self.datas: del self.datas[result.path()]
+IndexWriter._finishAnalysis = IndexWriter.finishAnalysis
+IndexWriter.finishAnalysis = IndexWriterDataHandlerfinishAnalysis
+
+class DirAnalyzer():
+  def __init__(self, manager, conf):
+    self.manager = manager
+    self.conf = conf
+    self.writer = manager.indexWriter()
+    self.analyzer = StreamAnalyzer(self.conf);
+    self.analyzer.setIndexWriter(self.writer);
+    self.running = False
+  def __del__(self): self.analyzer = None
+  def stop(self):
+    self.running = False
+  
+  def analyzeFile(self, path):
+    if os.path.exists(path):
+      mtime = os.path.getmtime(path)
+      exists = True
+    else:
+      mtime = 0
+      exists = False
+
+    result = AnalysisResult(path, int(mtime), self.writer, self.analyzer, "")
+    if exists and os.path.isfile(path):
+      stream = InputStream.openFile(path)
+      result.index(stream)
+      stream = None
+    else:
+      result.index(None)
+
+  def _analyze(self):
+      pass
+      
+  def analyzeDir(self, dir):
+    self.running = True
+    dir = os.path.abspath(dir)
+
+    # if the path does not point to a directory, return
+    if not os.path.exists(dir) or not os.path.isdir(dir):
+      self.analyzeFile(dir)
+      self.writer.commit()
+      return
+
+    for root, subFolders, files in os.walk(dir):
+      self.analyzeFile(root)
+
+      for file in files:
+        if self.conf.indexFile(root, file):
+          self.analyzeFile(os.path.join(root, file))
+
+      #commit after each directory
+      self.writer.commit()
+      if not self.running: break
+      
+      #remove subFolders that we don't want to index
+      remove = []
+      for subFolder in subFolders:
+        if not self.conf.indexDir(root, subFolder): remove.append(subFolder)
+      for r in remove:
+        subFolders.remove(r)
+
+
+
+#factories need to keep instances of the analyzers they create, add replacements in here... 
+def StreamEndAnalyzerFactoryNewInstance(self):
+  if not '_instances' in self.__dict__: self._instances = []
+  ret = self._newInstance()
+  self._instances.append(ret)
+  return ret
+def StreamEndAnalyzerFactoryInit(self):
+  StreamEndAnalyzerFactory.__initOrig__(self)
+  if not '_newInstance' in self.__class__.__dict__:
+    #replace the newInstance function
+    self.__class__._newInstance = self.__class__.newInstance
+    self.__class__.newInstance =  StreamEndAnalyzerFactoryNewInstance
+#replace the init
+StreamEndAnalyzerFactory.__initOrig__ = StreamEndAnalyzerFactory.__init__
+StreamEndAnalyzerFactory.__init__ = StreamEndAnalyzerFactoryInit 
+
+def StreamThroughAnalyzerFactoryNewInstance(self):
+  if not '_instances' in self.__dict__: self._instances = []
+  ret = self._newInstance()
+  self._instances.append(ret)
+  return ret
+def StreamThroughAnalyzerFactoryInit(self):
+  StreamThroughAnalyzerFactory.__initOrig__(self)
+  if not '_newInstance' in self.__class__.__dict__:
+    #replace the newInstance function
+    self.__class__._newInstance = self.__class__.newInstance
+    self.__class__.newInstance =  StreamThroughAnalyzerFactoryNewInstance
+#replace the init
+StreamThroughAnalyzerFactory.__initOrig__ = StreamThroughAnalyzerFactory.__init__
+StreamThroughAnalyzerFactory.__init__ = StreamThroughAnalyzerFactoryInit 
+
+def StreamSaxAnalyzerFactoryNewInstance(self):
+  if not '_instances' in self.__dict__: self._instances = []
+  ret = self._newInstance()
+  self._instances.append(ret)
+  return ret
+def StreamSaxAnalyzerFactoryInit(self):
+  StreamSaxAnalyzerFactory.__initOrig__(self)
+  if not '_newInstance' in self.__class__.__dict__:
+    #replace the newInstance function
+    self.__class__._newInstance = self.__class__.newInstance
+    self.__class__.newInstance =  StreamSaxAnalyzerFactoryNewInstance
+#replace the init
+StreamSaxAnalyzerFactory.__initOrig__ = StreamSaxAnalyzerFactory.__init__
+StreamSaxAnalyzerFactory.__init__ = StreamSaxAnalyzerFactoryInit 
+
+def StreamEventAnalyzerFactoryNewInstance(self):
+  if not '_instances' in self.__dict__: self._instances = []
+  ret = self._newInstance()
+  self._instances.append(ret)
+  return ret
+def StreamEventAnalyzerFactoryInit(self):
+  StreamEventAnalyzerFactory.__initOrig__(self)
+  if not '_newInstance' in self.__class__.__dict__:
+    #replace the newInstance function
+    self.__class__._newInstance = self.__class__.newInstance
+    self.__class__.newInstance =  StreamEventAnalyzerFactoryNewInstance
+#replace the init
+StreamEventAnalyzerFactory.__initOrig__ = StreamEventAnalyzerFactory.__init__
+StreamEventAnalyzerFactory.__init__ = StreamEventAnalyzerFactoryInit 
+
+def StreamLineAnalyzerFactoryNewInstance(self):
+  if not '_instances' in self.__dict__: self._instances = []
+  ret = self._newInstance()
+  self._instances.append(ret)
+  return ret
+def StreamLineAnalyzerFactoryInit(self):
+  StreamLineAnalyzerFactory.__initOrig__(self)
+  if not '_newInstance' in self.__class__.__dict__:
+    #replace the newInstance function
+    self.__class__._newInstance = self.__class__.newInstance
+    self.__class__.newInstance =  StreamLineAnalyzerFactoryNewInstance
+#replace the init
+StreamLineAnalyzerFactory.__initOrig__ = StreamLineAnalyzerFactory.__init__
+StreamLineAnalyzerFactory.__init__ = StreamLineAnalyzerFactoryInit 
 
 
 

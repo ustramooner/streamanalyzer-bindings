@@ -15,6 +15,486 @@
 #include <string>
 
 
+class SwigDirector_StreamEndAnalyzer : public Strigi::StreamEndAnalyzer, public Swig::Director {
+
+public:
+    SwigDirector_StreamEndAnalyzer(PyObject *self);
+    virtual ~SwigDirector_StreamEndAnalyzer();
+    virtual bool checkHeader(char const *header, int32_t headersize) const;
+    virtual signed char analyze(Strigi::AnalysisResult &idx, Strigi::InputStream *in);
+    virtual char const *name() const;
+
+
+/* Internal Director utilities */
+public:
+    bool swig_get_inner(const char* protected_method_name) const {
+      std::map<std::string, bool>::const_iterator iv = swig_inner.find(protected_method_name);
+      return (iv != swig_inner.end() ? iv->second : false);
+    }
+
+    void swig_set_inner(const char* protected_method_name, bool val) const
+    { swig_inner[protected_method_name] = val;}
+
+private:
+    mutable std::map<std::string, bool> swig_inner;
+
+
+#if defined(SWIG_PYTHON_DIRECTOR_VTABLE)
+/* VTable implementation */
+    PyObject *swig_get_method(size_t method_index, const char *method_name) const {
+      PyObject *method = vtable[method_index];
+      if (!method) {
+        swig::SwigVar_PyObject name = SWIG_Python_str_FromChar(method_name);
+        method = PyObject_GetAttr(swig_get_self(), name);
+        if (method == NULL) {
+          std::string msg = "Method in class StreamEndAnalyzer doesn't exist, undefined ";
+          msg += method_name;
+          Swig::DirectorMethodException::raise(msg.c_str());
+        }
+        vtable[method_index] = method;
+      };
+      return method;
+    }
+private:
+    mutable swig::SwigVar_PyObject vtable[3];
+#endif
+
+};
+
+
+class SwigDirector_StreamEndAnalyzerFactory : public Strigi::StreamEndAnalyzerFactory, public Swig::Director {
+
+public:
+    SwigDirector_StreamEndAnalyzerFactory(PyObject *self);
+    virtual ~SwigDirector_StreamEndAnalyzerFactory();
+    virtual char const *name() const;
+    virtual void registerFields(Strigi::FieldRegister &arg0);
+    virtual Strigi::StreamEndAnalyzer *newInstance() const;
+    virtual bool analyzesSubStreams() const;
+
+
+/* Internal Director utilities */
+public:
+    bool swig_get_inner(const char* protected_method_name) const {
+      std::map<std::string, bool>::const_iterator iv = swig_inner.find(protected_method_name);
+      return (iv != swig_inner.end() ? iv->second : false);
+    }
+
+    void swig_set_inner(const char* protected_method_name, bool val) const
+    { swig_inner[protected_method_name] = val;}
+
+private:
+    mutable std::map<std::string, bool> swig_inner;
+
+
+#if defined(SWIG_PYTHON_DIRECTOR_VTABLE)
+/* VTable implementation */
+    PyObject *swig_get_method(size_t method_index, const char *method_name) const {
+      PyObject *method = vtable[method_index];
+      if (!method) {
+        swig::SwigVar_PyObject name = SWIG_Python_str_FromChar(method_name);
+        method = PyObject_GetAttr(swig_get_self(), name);
+        if (method == NULL) {
+          std::string msg = "Method in class StreamEndAnalyzerFactory doesn't exist, undefined ";
+          msg += method_name;
+          Swig::DirectorMethodException::raise(msg.c_str());
+        }
+        vtable[method_index] = method;
+      };
+      return method;
+    }
+private:
+    mutable swig::SwigVar_PyObject vtable[3];
+#endif
+
+};
+
+
+class SwigDirector_StreamEventAnalyzer : public Strigi::StreamEventAnalyzer, public Swig::Director {
+
+public:
+    SwigDirector_StreamEventAnalyzer(PyObject *self);
+    virtual ~SwigDirector_StreamEventAnalyzer();
+    virtual char const *name() const;
+    virtual void startAnalysis(Strigi::AnalysisResult *arg0);
+    virtual void endAnalysis(bool complete);
+    virtual void handleData(char const *data, uint32_t length);
+    virtual bool isReadyWithStream();
+
+
+/* Internal Director utilities */
+public:
+    bool swig_get_inner(const char* protected_method_name) const {
+      std::map<std::string, bool>::const_iterator iv = swig_inner.find(protected_method_name);
+      return (iv != swig_inner.end() ? iv->second : false);
+    }
+
+    void swig_set_inner(const char* protected_method_name, bool val) const
+    { swig_inner[protected_method_name] = val;}
+
+private:
+    mutable std::map<std::string, bool> swig_inner;
+
+
+#if defined(SWIG_PYTHON_DIRECTOR_VTABLE)
+/* VTable implementation */
+    PyObject *swig_get_method(size_t method_index, const char *method_name) const {
+      PyObject *method = vtable[method_index];
+      if (!method) {
+        swig::SwigVar_PyObject name = SWIG_Python_str_FromChar(method_name);
+        method = PyObject_GetAttr(swig_get_self(), name);
+        if (method == NULL) {
+          std::string msg = "Method in class StreamEventAnalyzer doesn't exist, undefined ";
+          msg += method_name;
+          Swig::DirectorMethodException::raise(msg.c_str());
+        }
+        vtable[method_index] = method;
+      };
+      return method;
+    }
+private:
+    mutable swig::SwigVar_PyObject vtable[5];
+#endif
+
+};
+
+
+class SwigDirector_StreamEventAnalyzerFactory : public Strigi::StreamEventAnalyzerFactory, public Swig::Director {
+
+public:
+    SwigDirector_StreamEventAnalyzerFactory(PyObject *self);
+    virtual ~SwigDirector_StreamEventAnalyzerFactory();
+    virtual char const *name() const;
+    virtual void registerFields(Strigi::FieldRegister &arg0);
+    virtual Strigi::StreamEventAnalyzer *newInstance() const;
+
+
+/* Internal Director utilities */
+public:
+    bool swig_get_inner(const char* protected_method_name) const {
+      std::map<std::string, bool>::const_iterator iv = swig_inner.find(protected_method_name);
+      return (iv != swig_inner.end() ? iv->second : false);
+    }
+
+    void swig_set_inner(const char* protected_method_name, bool val) const
+    { swig_inner[protected_method_name] = val;}
+
+private:
+    mutable std::map<std::string, bool> swig_inner;
+
+
+#if defined(SWIG_PYTHON_DIRECTOR_VTABLE)
+/* VTable implementation */
+    PyObject *swig_get_method(size_t method_index, const char *method_name) const {
+      PyObject *method = vtable[method_index];
+      if (!method) {
+        swig::SwigVar_PyObject name = SWIG_Python_str_FromChar(method_name);
+        method = PyObject_GetAttr(swig_get_self(), name);
+        if (method == NULL) {
+          std::string msg = "Method in class StreamEventAnalyzerFactory doesn't exist, undefined ";
+          msg += method_name;
+          Swig::DirectorMethodException::raise(msg.c_str());
+        }
+        vtable[method_index] = method;
+      };
+      return method;
+    }
+private:
+    mutable swig::SwigVar_PyObject vtable[3];
+#endif
+
+};
+
+
+class SwigDirector_StreamLineAnalyzer : public Strigi::StreamLineAnalyzer, public Swig::Director {
+
+public:
+    SwigDirector_StreamLineAnalyzer(PyObject *self);
+    virtual ~SwigDirector_StreamLineAnalyzer();
+    virtual char const *name() const;
+    virtual void startAnalysis(Strigi::AnalysisResult *result);
+    virtual void endAnalysis(bool complete);
+    virtual void handleLine(char const *data, uint32_t length);
+    virtual bool isReadyWithStream();
+
+
+/* Internal Director utilities */
+public:
+    bool swig_get_inner(const char* protected_method_name) const {
+      std::map<std::string, bool>::const_iterator iv = swig_inner.find(protected_method_name);
+      return (iv != swig_inner.end() ? iv->second : false);
+    }
+
+    void swig_set_inner(const char* protected_method_name, bool val) const
+    { swig_inner[protected_method_name] = val;}
+
+private:
+    mutable std::map<std::string, bool> swig_inner;
+
+
+#if defined(SWIG_PYTHON_DIRECTOR_VTABLE)
+/* VTable implementation */
+    PyObject *swig_get_method(size_t method_index, const char *method_name) const {
+      PyObject *method = vtable[method_index];
+      if (!method) {
+        swig::SwigVar_PyObject name = SWIG_Python_str_FromChar(method_name);
+        method = PyObject_GetAttr(swig_get_self(), name);
+        if (method == NULL) {
+          std::string msg = "Method in class StreamLineAnalyzer doesn't exist, undefined ";
+          msg += method_name;
+          Swig::DirectorMethodException::raise(msg.c_str());
+        }
+        vtable[method_index] = method;
+      };
+      return method;
+    }
+private:
+    mutable swig::SwigVar_PyObject vtable[5];
+#endif
+
+};
+
+
+class SwigDirector_StreamLineAnalyzerFactory : public Strigi::StreamLineAnalyzerFactory, public Swig::Director {
+
+public:
+    SwigDirector_StreamLineAnalyzerFactory(PyObject *self);
+    virtual ~SwigDirector_StreamLineAnalyzerFactory();
+    virtual char const *name() const;
+    virtual void registerFields(Strigi::FieldRegister &arg0);
+    virtual Strigi::StreamLineAnalyzer *newInstance() const;
+
+
+/* Internal Director utilities */
+public:
+    bool swig_get_inner(const char* protected_method_name) const {
+      std::map<std::string, bool>::const_iterator iv = swig_inner.find(protected_method_name);
+      return (iv != swig_inner.end() ? iv->second : false);
+    }
+
+    void swig_set_inner(const char* protected_method_name, bool val) const
+    { swig_inner[protected_method_name] = val;}
+
+private:
+    mutable std::map<std::string, bool> swig_inner;
+
+
+#if defined(SWIG_PYTHON_DIRECTOR_VTABLE)
+/* VTable implementation */
+    PyObject *swig_get_method(size_t method_index, const char *method_name) const {
+      PyObject *method = vtable[method_index];
+      if (!method) {
+        swig::SwigVar_PyObject name = SWIG_Python_str_FromChar(method_name);
+        method = PyObject_GetAttr(swig_get_self(), name);
+        if (method == NULL) {
+          std::string msg = "Method in class StreamLineAnalyzerFactory doesn't exist, undefined ";
+          msg += method_name;
+          Swig::DirectorMethodException::raise(msg.c_str());
+        }
+        vtable[method_index] = method;
+      };
+      return method;
+    }
+private:
+    mutable swig::SwigVar_PyObject vtable[3];
+#endif
+
+};
+
+
+class SwigDirector_StreamSaxAnalyzer : public Strigi::StreamSaxAnalyzer, public Swig::Director {
+
+public:
+    SwigDirector_StreamSaxAnalyzer(PyObject *self);
+    virtual ~SwigDirector_StreamSaxAnalyzer();
+    virtual char const *name() const;
+    virtual void startAnalysis(Strigi::AnalysisResult *arg0);
+    virtual void endAnalysis(bool complete);
+    virtual void startElement(char const *localname, char const *prefix, char const *uri, int nb_namespaces, char const **namespaces, int nb_attributes, int nb_defaulted, char const **attributes);
+    virtual void endElement(char const *localname, char const *prefix, char const *uri);
+    virtual void characters(char const *data, uint32_t length);
+    virtual bool isReadyWithStream();
+
+
+/* Internal Director utilities */
+public:
+    bool swig_get_inner(const char* protected_method_name) const {
+      std::map<std::string, bool>::const_iterator iv = swig_inner.find(protected_method_name);
+      return (iv != swig_inner.end() ? iv->second : false);
+    }
+
+    void swig_set_inner(const char* protected_method_name, bool val) const
+    { swig_inner[protected_method_name] = val;}
+
+private:
+    mutable std::map<std::string, bool> swig_inner;
+
+
+#if defined(SWIG_PYTHON_DIRECTOR_VTABLE)
+/* VTable implementation */
+    PyObject *swig_get_method(size_t method_index, const char *method_name) const {
+      PyObject *method = vtable[method_index];
+      if (!method) {
+        swig::SwigVar_PyObject name = SWIG_Python_str_FromChar(method_name);
+        method = PyObject_GetAttr(swig_get_self(), name);
+        if (method == NULL) {
+          std::string msg = "Method in class StreamSaxAnalyzer doesn't exist, undefined ";
+          msg += method_name;
+          Swig::DirectorMethodException::raise(msg.c_str());
+        }
+        vtable[method_index] = method;
+      };
+      return method;
+    }
+private:
+    mutable swig::SwigVar_PyObject vtable[7];
+#endif
+
+};
+
+
+class SwigDirector_StreamSaxAnalyzerFactory : public Strigi::StreamSaxAnalyzerFactory, public Swig::Director {
+
+public:
+    SwigDirector_StreamSaxAnalyzerFactory(PyObject *self);
+    virtual ~SwigDirector_StreamSaxAnalyzerFactory();
+    virtual char const *name() const;
+    virtual void registerFields(Strigi::FieldRegister &arg0);
+    virtual Strigi::StreamSaxAnalyzer *newInstance() const;
+
+
+/* Internal Director utilities */
+public:
+    bool swig_get_inner(const char* protected_method_name) const {
+      std::map<std::string, bool>::const_iterator iv = swig_inner.find(protected_method_name);
+      return (iv != swig_inner.end() ? iv->second : false);
+    }
+
+    void swig_set_inner(const char* protected_method_name, bool val) const
+    { swig_inner[protected_method_name] = val;}
+
+private:
+    mutable std::map<std::string, bool> swig_inner;
+
+
+#if defined(SWIG_PYTHON_DIRECTOR_VTABLE)
+/* VTable implementation */
+    PyObject *swig_get_method(size_t method_index, const char *method_name) const {
+      PyObject *method = vtable[method_index];
+      if (!method) {
+        swig::SwigVar_PyObject name = SWIG_Python_str_FromChar(method_name);
+        method = PyObject_GetAttr(swig_get_self(), name);
+        if (method == NULL) {
+          std::string msg = "Method in class StreamSaxAnalyzerFactory doesn't exist, undefined ";
+          msg += method_name;
+          Swig::DirectorMethodException::raise(msg.c_str());
+        }
+        vtable[method_index] = method;
+      };
+      return method;
+    }
+private:
+    mutable swig::SwigVar_PyObject vtable[3];
+#endif
+
+};
+
+
+class SwigDirector_StreamThroughAnalyzer : public Strigi::StreamThroughAnalyzer, public Swig::Director {
+
+public:
+    SwigDirector_StreamThroughAnalyzer(PyObject *self);
+    virtual ~SwigDirector_StreamThroughAnalyzer();
+    virtual void setIndexable(Strigi::AnalysisResult *arg0);
+    virtual Strigi::InputStream *connectInputStream(Strigi::InputStream *in);
+    virtual bool isReadyWithStream();
+    virtual char const *name() const;
+
+
+/* Internal Director utilities */
+public:
+    bool swig_get_inner(const char* protected_method_name) const {
+      std::map<std::string, bool>::const_iterator iv = swig_inner.find(protected_method_name);
+      return (iv != swig_inner.end() ? iv->second : false);
+    }
+
+    void swig_set_inner(const char* protected_method_name, bool val) const
+    { swig_inner[protected_method_name] = val;}
+
+private:
+    mutable std::map<std::string, bool> swig_inner;
+
+
+#if defined(SWIG_PYTHON_DIRECTOR_VTABLE)
+/* VTable implementation */
+    PyObject *swig_get_method(size_t method_index, const char *method_name) const {
+      PyObject *method = vtable[method_index];
+      if (!method) {
+        swig::SwigVar_PyObject name = SWIG_Python_str_FromChar(method_name);
+        method = PyObject_GetAttr(swig_get_self(), name);
+        if (method == NULL) {
+          std::string msg = "Method in class StreamThroughAnalyzer doesn't exist, undefined ";
+          msg += method_name;
+          Swig::DirectorMethodException::raise(msg.c_str());
+        }
+        vtable[method_index] = method;
+      };
+      return method;
+    }
+private:
+    mutable swig::SwigVar_PyObject vtable[4];
+#endif
+
+};
+
+
+class SwigDirector_StreamThroughAnalyzerFactory : public Strigi::StreamThroughAnalyzerFactory, public Swig::Director {
+
+public:
+    SwigDirector_StreamThroughAnalyzerFactory(PyObject *self);
+    virtual ~SwigDirector_StreamThroughAnalyzerFactory();
+    virtual char const *name() const;
+    virtual void registerFields(Strigi::FieldRegister &arg0);
+    virtual Strigi::StreamThroughAnalyzer *newInstance() const;
+
+
+/* Internal Director utilities */
+public:
+    bool swig_get_inner(const char* protected_method_name) const {
+      std::map<std::string, bool>::const_iterator iv = swig_inner.find(protected_method_name);
+      return (iv != swig_inner.end() ? iv->second : false);
+    }
+
+    void swig_set_inner(const char* protected_method_name, bool val) const
+    { swig_inner[protected_method_name] = val;}
+
+private:
+    mutable std::map<std::string, bool> swig_inner;
+
+
+#if defined(SWIG_PYTHON_DIRECTOR_VTABLE)
+/* VTable implementation */
+    PyObject *swig_get_method(size_t method_index, const char *method_name) const {
+      PyObject *method = vtable[method_index];
+      if (!method) {
+        swig::SwigVar_PyObject name = SWIG_Python_str_FromChar(method_name);
+        method = PyObject_GetAttr(swig_get_self(), name);
+        if (method == NULL) {
+          std::string msg = "Method in class StreamThroughAnalyzerFactory doesn't exist, undefined ";
+          msg += method_name;
+          Swig::DirectorMethodException::raise(msg.c_str());
+        }
+        vtable[method_index] = method;
+      };
+      return method;
+    }
+private:
+    mutable swig::SwigVar_PyObject vtable[3];
+#endif
+
+};
+
+
 class SwigDirector_AnalyzerConfiguration : public Strigi::AnalyzerConfiguration, public Swig::Director {
 
 public:

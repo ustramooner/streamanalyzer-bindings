@@ -3156,48 +3156,54 @@ namespace Swig {
 
 /* -------- TYPES TABLE (BEGIN) -------- */
 
-#define SWIGTYPE_p_PythonDirAnalyzer swig_types[0]
-#define SWIGTYPE_p_PythonIndexManager swig_types[1]
-#define SWIGTYPE_p_PythonIndexWriter swig_types[2]
-#define SWIGTYPE_p_Strigi__AnalysisResult swig_types[3]
-#define SWIGTYPE_p_Strigi__AnalyzerConfiguration swig_types[4]
-#define SWIGTYPE_p_Strigi__FieldProperties swig_types[5]
+#define SWIGTYPE_p_PythonIndexManager swig_types[0]
+#define SWIGTYPE_p_PythonIndexWriter swig_types[1]
+#define SWIGTYPE_p_Strigi__AnalysisResult swig_types[2]
+#define SWIGTYPE_p_Strigi__AnalyzerConfiguration swig_types[3]
+#define SWIGTYPE_p_Strigi__FieldProperties swig_types[4]
+#define SWIGTYPE_p_Strigi__FieldRegister swig_types[5]
 #define SWIGTYPE_p_Strigi__RegisteredField swig_types[6]
-#define SWIGTYPE_p_Strigi__StreamAnalyzerFactory swig_types[7]
-#define SWIGTYPE_p_Strigi__StreamBaseBase swig_types[8]
-#define SWIGTYPE_p_Strigi__StreamBaseT_char_t swig_types[9]
-#define SWIGTYPE_p_Strigi__StreamBaseT_wchar_t_t swig_types[10]
-#define SWIGTYPE_p_Strigi__StreamEndAnalyzerFactory swig_types[11]
-#define SWIGTYPE_p_Strigi__StreamEventAnalyzerFactory swig_types[12]
-#define SWIGTYPE_p_Strigi__StreamLineAnalyzerFactory swig_types[13]
-#define SWIGTYPE_p_Strigi__StreamSaxAnalyzerFactory swig_types[14]
-#define SWIGTYPE_p_Strigi__StreamThroughAnalyzerFactory swig_types[15]
-#define SWIGTYPE_p_allocator_type swig_types[16]
-#define SWIGTYPE_p_char swig_types[17]
-#define SWIGTYPE_p_const_reference swig_types[18]
-#define SWIGTYPE_p_difference_type swig_types[19]
-#define SWIGTYPE_p_int swig_types[20]
-#define SWIGTYPE_p_long swig_types[21]
-#define SWIGTYPE_p_p_PyObject swig_types[22]
-#define SWIGTYPE_p_p_wchar_t swig_types[23]
-#define SWIGTYPE_p_reference swig_types[24]
-#define SWIGTYPE_p_short swig_types[25]
-#define SWIGTYPE_p_signed_char swig_types[26]
-#define SWIGTYPE_p_size_type swig_types[27]
-#define SWIGTYPE_p_std__invalid_argument swig_types[28]
-#define SWIGTYPE_p_std__vectorT_Strigi__RegisteredField_const_p_std__allocatorT_Strigi__RegisteredField_const_p_t_t swig_types[29]
-#define SWIGTYPE_p_std__vectorT_Strigi__RegisteredField_const_p_std__allocatorT_Strigi__RegisteredField_const_p_t_t__allocator_type swig_types[30]
-#define SWIGTYPE_p_std__vectorT_std__string_std__allocatorT_std__string_t_t swig_types[31]
-#define SWIGTYPE_p_std__vectorT_std__string_std__allocatorT_std__string_t_t__allocator_type swig_types[32]
-#define SWIGTYPE_p_swig__SwigPyIterator swig_types[33]
-#define SWIGTYPE_p_unsigned_char swig_types[34]
-#define SWIGTYPE_p_unsigned_int swig_types[35]
-#define SWIGTYPE_p_unsigned_long swig_types[36]
-#define SWIGTYPE_p_unsigned_short swig_types[37]
-#define SWIGTYPE_p_value_type swig_types[38]
-#define SWIGTYPE_std__vectorT_Strigi__RegisteredField_const_p_std__allocatorT_Strigi__RegisteredField_const_p_t_t__value_type swig_types[39]
-static swig_type_info *swig_types[41];
-static swig_module_info swig_module = {swig_types, 40, 0, 0, 0, 0};
+#define SWIGTYPE_p_Strigi__StreamAnalyzer swig_types[7]
+#define SWIGTYPE_p_Strigi__StreamAnalyzerFactory swig_types[8]
+#define SWIGTYPE_p_Strigi__StreamBaseBase swig_types[9]
+#define SWIGTYPE_p_Strigi__StreamBaseT_char_t swig_types[10]
+#define SWIGTYPE_p_Strigi__StreamBaseT_wchar_t_t swig_types[11]
+#define SWIGTYPE_p_Strigi__StreamEndAnalyzer swig_types[12]
+#define SWIGTYPE_p_Strigi__StreamEndAnalyzerFactory swig_types[13]
+#define SWIGTYPE_p_Strigi__StreamEventAnalyzer swig_types[14]
+#define SWIGTYPE_p_Strigi__StreamEventAnalyzerFactory swig_types[15]
+#define SWIGTYPE_p_Strigi__StreamLineAnalyzer swig_types[16]
+#define SWIGTYPE_p_Strigi__StreamLineAnalyzerFactory swig_types[17]
+#define SWIGTYPE_p_Strigi__StreamSaxAnalyzer swig_types[18]
+#define SWIGTYPE_p_Strigi__StreamSaxAnalyzerFactory swig_types[19]
+#define SWIGTYPE_p_Strigi__StreamThroughAnalyzer swig_types[20]
+#define SWIGTYPE_p_Strigi__StreamThroughAnalyzerFactory swig_types[21]
+#define SWIGTYPE_p_allocator_type swig_types[22]
+#define SWIGTYPE_p_char swig_types[23]
+#define SWIGTYPE_p_const_reference swig_types[24]
+#define SWIGTYPE_p_difference_type swig_types[25]
+#define SWIGTYPE_p_int swig_types[26]
+#define SWIGTYPE_p_long swig_types[27]
+#define SWIGTYPE_p_p_PyObject swig_types[28]
+#define SWIGTYPE_p_p_char swig_types[29]
+#define SWIGTYPE_p_reference swig_types[30]
+#define SWIGTYPE_p_short swig_types[31]
+#define SWIGTYPE_p_signed_char swig_types[32]
+#define SWIGTYPE_p_size_type swig_types[33]
+#define SWIGTYPE_p_std__invalid_argument swig_types[34]
+#define SWIGTYPE_p_std__vectorT_Strigi__RegisteredField_const_p_std__allocatorT_Strigi__RegisteredField_const_p_t_t swig_types[35]
+#define SWIGTYPE_p_std__vectorT_Strigi__RegisteredField_const_p_std__allocatorT_Strigi__RegisteredField_const_p_t_t__allocator_type swig_types[36]
+#define SWIGTYPE_p_std__vectorT_std__string_std__allocatorT_std__string_t_t swig_types[37]
+#define SWIGTYPE_p_std__vectorT_std__string_std__allocatorT_std__string_t_t__allocator_type swig_types[38]
+#define SWIGTYPE_p_swig__SwigPyIterator swig_types[39]
+#define SWIGTYPE_p_unsigned_char swig_types[40]
+#define SWIGTYPE_p_unsigned_int swig_types[41]
+#define SWIGTYPE_p_unsigned_long swig_types[42]
+#define SWIGTYPE_p_unsigned_short swig_types[43]
+#define SWIGTYPE_p_value_type swig_types[44]
+#define SWIGTYPE_std__vectorT_Strigi__RegisteredField_const_p_std__allocatorT_Strigi__RegisteredField_const_p_t_t__value_type swig_types[45]
+static swig_type_info *swig_types[47];
+static swig_module_info swig_module = {swig_types, 46, 0, 0, 0, 0};
 #define SWIG_TypeQuery(name) SWIG_TypeQueryModule(&swig_module, &swig_module, name)
 #define SWIG_MangledTypeQuery(name) SWIG_MangledTypeQueryModule(&swig_module, &swig_module, name)
 
@@ -3296,10 +3302,108 @@ namespace swig {
 
   //catch used in functions which may call a director function
   #define _CLCATCH() \
-    catch ( ... ){ \
+    catch ( std::exception& e ){ \
+      printf("exception caught\n"); \
+    }
+    
+    /* catch ( ... ){ \
       printf("... caught\n"); \
       throw Swig::DirectorMethodException(); \
-    }
+    }*/
+
+
+  #include <strigi/analyzerplugin.h>
+  #include <strigi/streamendanalyzer.h>
+  #include <strigi/streamthroughanalyzer.h>
+  #include <strigi/streamsaxanalyzer.h>
+  #include <strigi/streamlineanalyzer.h>
+  #include <strigi/streameventanalyzer.h>
+  #include <list>
+  
+  template <typename Type, typename Base>
+  class StreamAnalyzerFactoryWrapper : public Base {
+      Base* f;
+  public:
+      StreamAnalyzerFactoryWrapper(Base* f){  this->f = f; }
+      ~StreamAnalyzerFactoryWrapper(){ }
+      const char* name() const { 
+        try{ return this->f->name(); 
+        }catch(Swig::DirectorException& ex){ printf("DirectorException: %s in name\n", ex.getMessage()); }
+      }
+      Type* newInstance() const { 
+        try{ return this->f->newInstance(); 
+        }catch(Swig::DirectorException& ex){ printf("DirectorException: %s in newInstance\n", ex.getMessage()); }
+      }
+      void registerFields(Strigi::FieldRegister& f){ 
+        try{ this->f->registerFields(f); 
+        }catch(Swig::DirectorException& ex){ printf("DirectorException: %s in registerFields\n", ex.getMessage()); }
+      }
+  };  
+  typedef StreamAnalyzerFactoryWrapper<Strigi::StreamEndAnalyzer, Strigi::StreamEndAnalyzerFactory> PythonStreamEndAnalyzerFactory;
+  typedef StreamAnalyzerFactoryWrapper<Strigi::StreamThroughAnalyzer, Strigi::StreamThroughAnalyzerFactory> PythonStreamThroughAnalyzerFactory;
+  typedef StreamAnalyzerFactoryWrapper<Strigi::StreamSaxAnalyzer, Strigi::StreamSaxAnalyzerFactory> PythonStreamSaxAnalyzerFactory;
+  typedef StreamAnalyzerFactoryWrapper<Strigi::StreamLineAnalyzer, Strigi::StreamLineAnalyzerFactory> PythonStreamLineAnalyzerFactory;
+  typedef StreamAnalyzerFactoryWrapper<Strigi::StreamEventAnalyzer, Strigi::StreamEventAnalyzerFactory> PythonStreamEventAnalyzerFactory;
+  
+  //Factory
+  class PythonAnalyzerFactoryFactory : public Strigi::AnalyzerFactoryFactory {
+  public:
+      static std::list<Strigi::StreamEndAnalyzerFactory*> seaf;
+      static std::list<Strigi::StreamThroughAnalyzerFactory*> staf;
+      static std::list<Strigi::StreamSaxAnalyzerFactory*> ssaf;
+      static std::list<Strigi::StreamLineAnalyzerFactory*> slaf;
+      static std::list<Strigi::StreamEventAnalyzerFactory*> sevaf;
+      
+      std::list<Strigi::StreamEndAnalyzerFactory*>
+      streamEndAnalyzerFactories() const {
+          std::list<Strigi::StreamEndAnalyzerFactory*> ret;
+          for ( std::list<Strigi::StreamEndAnalyzerFactory*>::iterator itr = seaf.begin(); itr != seaf.end(); itr ++ ){
+            ret.push_back(new PythonStreamEndAnalyzerFactory(*itr));
+          }
+          return ret;
+      }
+      std::list<Strigi::StreamThroughAnalyzerFactory*>
+      streamThroughAnalyzerFactories() const {
+          std::list<Strigi::StreamThroughAnalyzerFactory*> ret;
+          for ( std::list<Strigi::StreamThroughAnalyzerFactory*>::iterator itr = staf.begin(); itr != staf.end(); itr ++ ){
+            ret.push_back(new PythonStreamThroughAnalyzerFactory(*itr));
+          }
+          return ret;
+      }
+      std::list<Strigi::StreamSaxAnalyzerFactory*>
+      streamSaxAnalyzerFactories() const {
+          std::list<Strigi::StreamSaxAnalyzerFactory*> ret;
+          for ( std::list<Strigi::StreamSaxAnalyzerFactory*>::iterator itr = ssaf.begin(); itr != ssaf.end(); itr ++ ){
+            ret.push_back(new PythonStreamSaxAnalyzerFactory(*itr));
+          }
+          return ret;
+      }
+      std::list<Strigi::StreamLineAnalyzerFactory*>
+      streamLineAnalyzerFactories() const {
+          std::list<Strigi::StreamLineAnalyzerFactory*> ret;
+          for ( std::list<Strigi::StreamLineAnalyzerFactory*>::iterator itr = slaf.begin(); itr != slaf.end(); itr ++ ){
+            ret.push_back(new PythonStreamLineAnalyzerFactory(*itr));
+          }
+          return ret;
+      }
+      std::list<Strigi::StreamEventAnalyzerFactory*>
+      streamEventAnalyzerFactories() const {
+          std::list<Strigi::StreamEventAnalyzerFactory*> ret;
+          for ( std::list<Strigi::StreamEventAnalyzerFactory*>::iterator itr = sevaf.begin(); itr != sevaf.end(); itr ++ ){
+            ret.push_back(new PythonStreamEventAnalyzerFactory(*itr));
+          }
+          return ret;
+      }
+  };
+  
+  std::list<Strigi::StreamEndAnalyzerFactory*> PythonAnalyzerFactoryFactory::seaf;
+  std::list<Strigi::StreamThroughAnalyzerFactory*> PythonAnalyzerFactoryFactory::staf;
+  std::list<Strigi::StreamSaxAnalyzerFactory*> PythonAnalyzerFactoryFactory::ssaf;
+  std::list<Strigi::StreamLineAnalyzerFactory*> PythonAnalyzerFactoryFactory::slaf;
+  std::list<Strigi::StreamEventAnalyzerFactory*> PythonAnalyzerFactoryFactory::sevaf;
+  
+
+  STRIGI_ANALYZER_FACTORY(PythonAnalyzerFactoryFactory)
 
 
 #include <stdexcept>
@@ -4952,6 +5056,7 @@ SWIGINTERN void std_vector_Sl_std_string_Sg__append(std::vector< std::string > *
   #include "strigi/stringstream.h"
   #include "strigi/stringterminatedsubstream.h"
   #include "strigi/inputstreamreader.h"
+  #include "strigi/fileinputstream.h"
   #include "strigi/stringterminatedsubstream.h"
 
   #include "strigi/substreamproviderprovider.h"
@@ -4993,25 +5098,6 @@ SWIG_FromCharPtr(const char *cptr)
 }
 
 
-
-
-
-SWIGINTERN int
-SWIG_AsVal_int (PyObject * obj, int *val)
-{
-  long v;
-  int res = SWIG_AsVal_long (obj, &v);
-  if (SWIG_IsOK(res)) {
-    if ((v < INT_MIN || v > INT_MAX)) {
-      return SWIG_OverflowError;
-    } else {
-      if (val) *val = static_cast< int >(v);
-    }
-  }  
-  return res;
-}
-
-
 SWIGINTERN int
 SWIG_AsVal_long_SS_long (PyObject *obj, long long *val)
 {
@@ -5049,6 +5135,33 @@ SWIG_AsVal_long_SS_long (PyObject *obj, long long *val)
 }
 
 
+
+
+SWIGINTERN Strigi::InputStream *Strigi_StreamBase_Sl_char_Sg__openFile(char const *path){
+    return new Strigi::FileInputStream(path);
+  }
+
+SWIGINTERN int
+SWIG_AsVal_int (PyObject * obj, int *val)
+{
+  long v;
+  int res = SWIG_AsVal_long (obj, &v);
+  if (SWIG_IsOK(res)) {
+    if ((v < INT_MIN || v > INT_MAX)) {
+      return SWIG_OverflowError;
+    } else {
+      if (val) *val = static_cast< int >(v);
+    }
+  }  
+  return res;
+}
+
+SWIGINTERN PyObject *Strigi_StreamBase_Sl_char_Sg__read(Strigi::StreamBase< char > *self,int32_t min,int32_t max){
+    const char* buf;
+    int32_t read = self->read(buf, min, max);
+    return Py_BuildValue("s#", buf, read);
+  }
+
   #include "strigi/analyzerconfiguration.h"
   #include "strigi/analysisresult.h"
   #include "strigi/streamanalyzer.h"
@@ -5056,8 +5169,6 @@ SWIG_AsVal_long_SS_long (PyObject *obj, long long *val)
   #include "strigi/pythonindexwriter.h"
   #include "strigi/indexmanager.h"
   #include "strigi/pythonindexmanager.h"
-  #include "strigi/diranalyzer.h"
-  #include "strigi/pythondiranalyzer.h"
 
 
   namespace swig {
@@ -5144,13 +5255,9 @@ SWIGINTERN void std_vector_Sl_Strigi_RegisteredField_SS_const_Sm__Sg____setitem_
 SWIGINTERN void std_vector_Sl_Strigi_RegisteredField_SS_const_Sm__Sg__append(std::vector< Strigi::RegisteredField const * > *self,std::vector< Strigi::RegisteredField const * >::value_type x){
       self->push_back(x);
     }
-
-SWIGINTERNINLINE PyObject *
-SWIG_From_signed_SS_char  (signed char value)
-{    
-  return SWIG_From_long  (value);
-}
-
+SWIGINTERN void Strigi_StreamAnalyzer_setIndexWriter(Strigi::StreamAnalyzer *self,PythonIndexWriter &writer){
+    self->setIndexWriter((IndexWriter&)writer);
+  }
 
 SWIGINTERN int
 SWIG_AsVal_bool (PyObject *obj, bool *val)
@@ -5163,12 +5270,1498 @@ SWIG_AsVal_bool (PyObject *obj, bool *val)
 }
 
 
+SWIGINTERN int
+SWIG_AsVal_signed_SS_char (PyObject * obj, signed char *val)
+{
+  long v;
+  int res = SWIG_AsVal_long (obj, &v);
+  if (SWIG_IsOK(res)) {
+    if ((v < SCHAR_MIN || v > SCHAR_MAX)) {
+      return SWIG_OverflowError;
+    } else {
+      if (val) *val = static_cast< signed char >(v);
+    }
+  }  
+  return res;
+}
+
+
+SWIGINTERNINLINE PyObject *
+SWIG_From_signed_SS_char  (signed char value)
+{    
+  return SWIG_From_long  (value);
+}
+
+
+SWIGINTERN int
+SWIG_AsVal_unsigned_SS_int (PyObject * obj, unsigned int *val)
+{
+  unsigned long v;
+  int res = SWIG_AsVal_unsigned_SS_long (obj, &v);
+  if (SWIG_IsOK(res)) {
+    if ((v > UINT_MAX)) {
+      return SWIG_OverflowError;
+    } else {
+      if (val) *val = static_cast< unsigned int >(v);
+    }
+  }  
+  return res;
+}
+
+SWIGINTERN Strigi::AnalysisResult *new_Strigi_AnalysisResult(std::string const &p,time_t mt,PythonIndexWriter &w,Strigi::StreamAnalyzer &analyzer,std::string const &parent){
+    return new AnalysisResult(p, mt, w, analyzer, parent);
+  }
+SWIGINTERN void Strigi_AnalysisResult_addText(Strigi::AnalysisResult *self,std::string const &text){
+    self->addText(text.c_str(), text.length());
+  }
+SWIGINTERN void PythonIndexManager_addFactory__SWIG_0(Strigi::StreamEndAnalyzerFactory *factory){
+      PythonAnalyzerFactoryFactory::seaf.push_back(factory);
+    }
+SWIGINTERN void PythonIndexManager_addFactory__SWIG_1(Strigi::StreamEventAnalyzerFactory *factory){
+      PythonAnalyzerFactoryFactory::sevaf.push_back(factory);
+    }
+SWIGINTERN void PythonIndexManager_addFactory__SWIG_2(Strigi::StreamLineAnalyzerFactory *factory){
+      PythonAnalyzerFactoryFactory::slaf.push_back(factory);
+    }
+SWIGINTERN void PythonIndexManager_addFactory__SWIG_3(Strigi::StreamSaxAnalyzerFactory *factory){
+      PythonAnalyzerFactoryFactory::ssaf.push_back(factory);
+    }
+SWIGINTERN void PythonIndexManager_addFactory__SWIG_4(Strigi::StreamThroughAnalyzerFactory *factory){
+      PythonAnalyzerFactoryFactory::staf.push_back(factory);
+    }
+SWIGINTERN void PythonIndexManager_clearFactories(){
+      PythonAnalyzerFactoryFactory::seaf.clear();
+      PythonAnalyzerFactoryFactory::sevaf.clear();
+      PythonAnalyzerFactoryFactory::slaf.clear();
+      PythonAnalyzerFactoryFactory::ssaf.clear();
+      PythonAnalyzerFactoryFactory::staf.clear();
+    }
+
 
 /* ---------------------------------------------------
  * C++ director class methods
  * --------------------------------------------------- */
 
 #include "strigiPYTHON_wrap.h"
+
+SwigDirector_StreamEndAnalyzer::SwigDirector_StreamEndAnalyzer(PyObject *self): Strigi::StreamEndAnalyzer(), Swig::Director(self) {
+  SWIG_DIRECTOR_RGTR((Strigi::StreamEndAnalyzer *)this, this); 
+}
+
+
+
+
+SwigDirector_StreamEndAnalyzer::~SwigDirector_StreamEndAnalyzer() {
+}
+
+bool SwigDirector_StreamEndAnalyzer::checkHeader(char const *header, int32_t headersize) const {
+  bool c_result;
+  SWIG_PYTHON_THREAD_BEGIN_BLOCK;
+  {
+    swig::SwigVar_PyObject obj0;
+    
+    obj0 = Py_BuildValue("s#", header, headersize);
+    
+    if (!swig_get_self()) {
+      Swig::DirectorException::raise("'self' uninitialized, maybe you forgot to call StreamEndAnalyzer.__init__.");
+    }
+#if defined(SWIG_PYTHON_DIRECTOR_VTABLE)
+    const size_t swig_method_index = 0;
+    const char * const swig_method_name = "checkHeader";
+    PyObject* method = swig_get_method(swig_method_index, swig_method_name);
+    swig::SwigVar_PyObject result = PyObject_CallFunction(method, (char *)"(O)" ,(PyObject *)obj0);
+#else
+    swig::SwigVar_PyObject result = PyObject_CallMethod(swig_get_self(), (char *)"checkHeader", (char *)"(O)" ,(PyObject *)obj0);
+#endif
+    if (result == NULL) {
+      PyObject *error = PyErr_Occurred();
+      {
+        if (error != NULL) throw Swig::DirectorMethodException();
+      }
+    }
+    bool swig_val;
+    int swig_res = SWIG_AsVal_bool(result, &swig_val);
+    if (!SWIG_IsOK(swig_res)) {
+      Swig::DirectorTypeMismatchException::raise(SWIG_ErrorType(SWIG_ArgError(swig_res)), "in output value of type '""bool""'");
+    }
+    c_result = static_cast< bool >(swig_val);
+  }
+  SWIG_PYTHON_THREAD_END_BLOCK;
+  return (bool) c_result;
+}
+
+
+signed char SwigDirector_StreamEndAnalyzer::analyze(Strigi::AnalysisResult &idx, Strigi::InputStream *in) {
+  signed char c_result;
+  SWIG_PYTHON_THREAD_BEGIN_BLOCK;
+  {
+    swig::SwigVar_PyObject obj0;
+    obj0 = SWIG_NewPointerObj(SWIG_as_voidptr(&idx), SWIGTYPE_p_Strigi__AnalysisResult,  0 );
+    swig::SwigVar_PyObject obj1;
+    obj1 = SWIG_NewPointerObj(SWIG_as_voidptr(in), SWIGTYPE_p_Strigi__StreamBaseT_char_t,  0 );
+    if (!swig_get_self()) {
+      Swig::DirectorException::raise("'self' uninitialized, maybe you forgot to call StreamEndAnalyzer.__init__.");
+    }
+#if defined(SWIG_PYTHON_DIRECTOR_VTABLE)
+    const size_t swig_method_index = 1;
+    const char * const swig_method_name = "analyze";
+    PyObject* method = swig_get_method(swig_method_index, swig_method_name);
+    swig::SwigVar_PyObject result = PyObject_CallFunction(method, (char *)"(OO)" ,(PyObject *)obj0,(PyObject *)obj1);
+#else
+    swig::SwigVar_PyObject result = PyObject_CallMethod(swig_get_self(), (char *)"analyze", (char *)"(OO)" ,(PyObject *)obj0,(PyObject *)obj1);
+#endif
+    if (result == NULL) {
+      PyObject *error = PyErr_Occurred();
+      {
+        if (error != NULL) throw Swig::DirectorMethodException();
+      }
+    }
+    signed char swig_val;
+    int swig_res = SWIG_AsVal_signed_SS_char(result, &swig_val);
+    if (!SWIG_IsOK(swig_res)) {
+      Swig::DirectorTypeMismatchException::raise(SWIG_ErrorType(SWIG_ArgError(swig_res)), "in output value of type '""signed char""'");
+    }
+    c_result = static_cast< signed char >(swig_val);
+  }
+  SWIG_PYTHON_THREAD_END_BLOCK;
+  return (signed char) c_result;
+}
+
+
+char const *SwigDirector_StreamEndAnalyzer::name() const {
+  int res ;
+  char *buf = 0 ;
+  int alloc = SWIG_NEWOBJ ;
+  
+  char *c_result;
+  SWIG_PYTHON_THREAD_BEGIN_BLOCK;
+  {
+    if (!swig_get_self()) {
+      Swig::DirectorException::raise("'self' uninitialized, maybe you forgot to call StreamEndAnalyzer.__init__.");
+    }
+#if defined(SWIG_PYTHON_DIRECTOR_VTABLE)
+    const size_t swig_method_index = 2;
+    const char * const swig_method_name = "name";
+    PyObject* method = swig_get_method(swig_method_index, swig_method_name);
+    swig::SwigVar_PyObject result = PyObject_CallFunction(method, NULL, NULL);
+#else
+    swig::SwigVar_PyObject result = PyObject_CallMethod(swig_get_self(), (char *) "name", NULL);
+#endif
+    if (result == NULL) {
+      PyObject *error = PyErr_Occurred();
+      {
+        if (error != NULL) throw Swig::DirectorMethodException();
+      }
+    }
+    res = SWIG_AsCharPtrAndSize(result, &buf, NULL, &alloc);
+    if (!SWIG_IsOK(res)) {
+      Swig::DirectorTypeMismatchException::raise(SWIG_ErrorType(SWIG_ArgError(res)), "in output value of type '""char const *""'");
+    }
+    if (alloc == SWIG_NEWOBJ) {
+      swig_acquire_ownership_array(buf);
+    }
+    c_result = reinterpret_cast< char * >(buf);
+  }
+  SWIG_PYTHON_THREAD_END_BLOCK;
+  return (char const *) c_result;
+}
+
+
+SwigDirector_StreamEndAnalyzerFactory::SwigDirector_StreamEndAnalyzerFactory(PyObject *self): Strigi::StreamEndAnalyzerFactory(), Swig::Director(self) {
+  SWIG_DIRECTOR_RGTR((Strigi::StreamEndAnalyzerFactory *)this, this); 
+}
+
+
+
+
+SwigDirector_StreamEndAnalyzerFactory::~SwigDirector_StreamEndAnalyzerFactory() {
+}
+
+char const *SwigDirector_StreamEndAnalyzerFactory::name() const {
+  int res ;
+  char *buf = 0 ;
+  int alloc = SWIG_NEWOBJ ;
+  
+  char *c_result;
+  SWIG_PYTHON_THREAD_BEGIN_BLOCK;
+  {
+    if (!swig_get_self()) {
+      Swig::DirectorException::raise("'self' uninitialized, maybe you forgot to call StreamEndAnalyzerFactory.__init__.");
+    }
+#if defined(SWIG_PYTHON_DIRECTOR_VTABLE)
+    const size_t swig_method_index = 0;
+    const char * const swig_method_name = "name";
+    PyObject* method = swig_get_method(swig_method_index, swig_method_name);
+    swig::SwigVar_PyObject result = PyObject_CallFunction(method, NULL, NULL);
+#else
+    swig::SwigVar_PyObject result = PyObject_CallMethod(swig_get_self(), (char *) "name", NULL);
+#endif
+    if (result == NULL) {
+      PyObject *error = PyErr_Occurred();
+      {
+        if (error != NULL) throw Swig::DirectorMethodException();
+      }
+    }
+    res = SWIG_AsCharPtrAndSize(result, &buf, NULL, &alloc);
+    if (!SWIG_IsOK(res)) {
+      Swig::DirectorTypeMismatchException::raise(SWIG_ErrorType(SWIG_ArgError(res)), "in output value of type '""char const *""'");
+    }
+    if (alloc == SWIG_NEWOBJ) {
+      swig_acquire_ownership_array(buf);
+    }
+    c_result = reinterpret_cast< char * >(buf);
+  }
+  SWIG_PYTHON_THREAD_END_BLOCK;
+  return (char const *) c_result;
+}
+
+
+void SwigDirector_StreamEndAnalyzerFactory::registerFields(Strigi::FieldRegister &arg0) {
+  SWIG_PYTHON_THREAD_BEGIN_BLOCK;
+  {
+    swig::SwigVar_PyObject obj0;
+    obj0 = SWIG_NewPointerObj(SWIG_as_voidptr(&arg0), SWIGTYPE_p_Strigi__FieldRegister,  0 );
+    if (!swig_get_self()) {
+      Swig::DirectorException::raise("'self' uninitialized, maybe you forgot to call StreamEndAnalyzerFactory.__init__.");
+    }
+#if defined(SWIG_PYTHON_DIRECTOR_VTABLE)
+    const size_t swig_method_index = 1;
+    const char * const swig_method_name = "registerFields";
+    PyObject* method = swig_get_method(swig_method_index, swig_method_name);
+    swig::SwigVar_PyObject result = PyObject_CallFunction(method, (char *)"(O)" ,(PyObject *)obj0);
+#else
+    swig::SwigVar_PyObject result = PyObject_CallMethod(swig_get_self(), (char *)"registerFields", (char *)"(O)" ,(PyObject *)obj0);
+#endif
+    if (result == NULL) {
+      PyObject *error = PyErr_Occurred();
+      {
+        if (error != NULL) throw Swig::DirectorMethodException();
+      }
+    }
+  }
+  SWIG_PYTHON_THREAD_END_BLOCK;
+}
+
+
+Strigi::StreamEndAnalyzer *SwigDirector_StreamEndAnalyzerFactory::newInstance() const {
+  void *swig_argp ;
+  int swig_res ;
+  swig_owntype own ;
+  
+  Strigi::StreamEndAnalyzer *c_result;
+  SWIG_PYTHON_THREAD_BEGIN_BLOCK;
+  {
+    if (!swig_get_self()) {
+      Swig::DirectorException::raise("'self' uninitialized, maybe you forgot to call StreamEndAnalyzerFactory.__init__.");
+    }
+#if defined(SWIG_PYTHON_DIRECTOR_VTABLE)
+    const size_t swig_method_index = 2;
+    const char * const swig_method_name = "newInstance";
+    PyObject* method = swig_get_method(swig_method_index, swig_method_name);
+    swig::SwigVar_PyObject result = PyObject_CallFunction(method, NULL, NULL);
+#else
+    swig::SwigVar_PyObject result = PyObject_CallMethod(swig_get_self(), (char *) "newInstance", NULL);
+#endif
+    if (result == NULL) {
+      PyObject *error = PyErr_Occurred();
+      {
+        if (error != NULL) throw Swig::DirectorMethodException();
+      }
+    }
+    swig_res = SWIG_ConvertPtrAndOwn(result, &swig_argp, SWIGTYPE_p_Strigi__StreamEndAnalyzer,  0  | SWIG_POINTER_DISOWN, &own);
+    if (!SWIG_IsOK(swig_res)) {
+      Swig::DirectorTypeMismatchException::raise(SWIG_ErrorType(SWIG_ArgError(swig_res)), "in output value of type '""Strigi::StreamEndAnalyzer *""'");
+    }
+    c_result = reinterpret_cast< Strigi::StreamEndAnalyzer * >(swig_argp);
+    swig_acquire_ownership_obj(SWIG_as_voidptr(c_result), own /* & TODO: SWIG_POINTER_OWN */);
+  }
+  SWIG_PYTHON_THREAD_END_BLOCK;
+  return (Strigi::StreamEndAnalyzer *) c_result;
+}
+
+
+bool SwigDirector_StreamEndAnalyzerFactory::analyzesSubStreams() const {
+  return Strigi::StreamEndAnalyzerFactory::analyzesSubStreams();
+}
+
+
+SwigDirector_StreamEventAnalyzer::SwigDirector_StreamEventAnalyzer(PyObject *self): Strigi::StreamEventAnalyzer(), Swig::Director(self) {
+  SWIG_DIRECTOR_RGTR((Strigi::StreamEventAnalyzer *)this, this); 
+}
+
+
+
+
+SwigDirector_StreamEventAnalyzer::~SwigDirector_StreamEventAnalyzer() {
+}
+
+char const *SwigDirector_StreamEventAnalyzer::name() const {
+  int res ;
+  char *buf = 0 ;
+  int alloc = SWIG_NEWOBJ ;
+  
+  char *c_result;
+  SWIG_PYTHON_THREAD_BEGIN_BLOCK;
+  {
+    if (!swig_get_self()) {
+      Swig::DirectorException::raise("'self' uninitialized, maybe you forgot to call StreamEventAnalyzer.__init__.");
+    }
+#if defined(SWIG_PYTHON_DIRECTOR_VTABLE)
+    const size_t swig_method_index = 0;
+    const char * const swig_method_name = "name";
+    PyObject* method = swig_get_method(swig_method_index, swig_method_name);
+    swig::SwigVar_PyObject result = PyObject_CallFunction(method, NULL, NULL);
+#else
+    swig::SwigVar_PyObject result = PyObject_CallMethod(swig_get_self(), (char *) "name", NULL);
+#endif
+    if (result == NULL) {
+      PyObject *error = PyErr_Occurred();
+      {
+        if (error != NULL) throw Swig::DirectorMethodException();
+      }
+    }
+    res = SWIG_AsCharPtrAndSize(result, &buf, NULL, &alloc);
+    if (!SWIG_IsOK(res)) {
+      Swig::DirectorTypeMismatchException::raise(SWIG_ErrorType(SWIG_ArgError(res)), "in output value of type '""char const *""'");
+    }
+    if (alloc == SWIG_NEWOBJ) {
+      swig_acquire_ownership_array(buf);
+    }
+    c_result = reinterpret_cast< char * >(buf);
+  }
+  SWIG_PYTHON_THREAD_END_BLOCK;
+  return (char const *) c_result;
+}
+
+
+void SwigDirector_StreamEventAnalyzer::startAnalysis(Strigi::AnalysisResult *arg0) {
+  SWIG_PYTHON_THREAD_BEGIN_BLOCK;
+  {
+    swig::SwigVar_PyObject obj0;
+    obj0 = SWIG_NewPointerObj(SWIG_as_voidptr(arg0), SWIGTYPE_p_Strigi__AnalysisResult,  0 );
+    if (!swig_get_self()) {
+      Swig::DirectorException::raise("'self' uninitialized, maybe you forgot to call StreamEventAnalyzer.__init__.");
+    }
+#if defined(SWIG_PYTHON_DIRECTOR_VTABLE)
+    const size_t swig_method_index = 1;
+    const char * const swig_method_name = "startAnalysis";
+    PyObject* method = swig_get_method(swig_method_index, swig_method_name);
+    swig::SwigVar_PyObject result = PyObject_CallFunction(method, (char *)"(O)" ,(PyObject *)obj0);
+#else
+    swig::SwigVar_PyObject result = PyObject_CallMethod(swig_get_self(), (char *)"startAnalysis", (char *)"(O)" ,(PyObject *)obj0);
+#endif
+    if (result == NULL) {
+      PyObject *error = PyErr_Occurred();
+      {
+        if (error != NULL) throw Swig::DirectorMethodException();
+      }
+    }
+  }
+  SWIG_PYTHON_THREAD_END_BLOCK;
+}
+
+
+void SwigDirector_StreamEventAnalyzer::endAnalysis(bool complete) {
+  SWIG_PYTHON_THREAD_BEGIN_BLOCK;
+  {
+    swig::SwigVar_PyObject obj0;
+    obj0 = SWIG_From_bool(static_cast< bool >(complete));
+    if (!swig_get_self()) {
+      Swig::DirectorException::raise("'self' uninitialized, maybe you forgot to call StreamEventAnalyzer.__init__.");
+    }
+#if defined(SWIG_PYTHON_DIRECTOR_VTABLE)
+    const size_t swig_method_index = 2;
+    const char * const swig_method_name = "endAnalysis";
+    PyObject* method = swig_get_method(swig_method_index, swig_method_name);
+    swig::SwigVar_PyObject result = PyObject_CallFunction(method, (char *)"(O)" ,(PyObject *)obj0);
+#else
+    swig::SwigVar_PyObject result = PyObject_CallMethod(swig_get_self(), (char *)"endAnalysis", (char *)"(O)" ,(PyObject *)obj0);
+#endif
+    if (result == NULL) {
+      PyObject *error = PyErr_Occurred();
+      {
+        if (error != NULL) throw Swig::DirectorMethodException();
+      }
+    }
+  }
+  SWIG_PYTHON_THREAD_END_BLOCK;
+}
+
+
+void SwigDirector_StreamEventAnalyzer::handleData(char const *data, uint32_t length) {
+  SWIG_PYTHON_THREAD_BEGIN_BLOCK;
+  {
+    swig::SwigVar_PyObject obj0;
+    
+    obj0 = Py_BuildValue("s#", data, length);
+    
+    if (!swig_get_self()) {
+      Swig::DirectorException::raise("'self' uninitialized, maybe you forgot to call StreamEventAnalyzer.__init__.");
+    }
+#if defined(SWIG_PYTHON_DIRECTOR_VTABLE)
+    const size_t swig_method_index = 3;
+    const char * const swig_method_name = "handleData";
+    PyObject* method = swig_get_method(swig_method_index, swig_method_name);
+    swig::SwigVar_PyObject result = PyObject_CallFunction(method, (char *)"(O)" ,(PyObject *)obj0);
+#else
+    swig::SwigVar_PyObject result = PyObject_CallMethod(swig_get_self(), (char *)"handleData", (char *)"(O)" ,(PyObject *)obj0);
+#endif
+    if (result == NULL) {
+      PyObject *error = PyErr_Occurred();
+      {
+        if (error != NULL) throw Swig::DirectorMethodException();
+      }
+    }
+  }
+  SWIG_PYTHON_THREAD_END_BLOCK;
+}
+
+
+bool SwigDirector_StreamEventAnalyzer::isReadyWithStream() {
+  bool c_result;
+  SWIG_PYTHON_THREAD_BEGIN_BLOCK;
+  {
+    if (!swig_get_self()) {
+      Swig::DirectorException::raise("'self' uninitialized, maybe you forgot to call StreamEventAnalyzer.__init__.");
+    }
+#if defined(SWIG_PYTHON_DIRECTOR_VTABLE)
+    const size_t swig_method_index = 4;
+    const char * const swig_method_name = "isReadyWithStream";
+    PyObject* method = swig_get_method(swig_method_index, swig_method_name);
+    swig::SwigVar_PyObject result = PyObject_CallFunction(method, NULL, NULL);
+#else
+    swig::SwigVar_PyObject result = PyObject_CallMethod(swig_get_self(), (char *) "isReadyWithStream", NULL);
+#endif
+    if (result == NULL) {
+      PyObject *error = PyErr_Occurred();
+      {
+        if (error != NULL) throw Swig::DirectorMethodException();
+      }
+    }
+    bool swig_val;
+    int swig_res = SWIG_AsVal_bool(result, &swig_val);
+    if (!SWIG_IsOK(swig_res)) {
+      Swig::DirectorTypeMismatchException::raise(SWIG_ErrorType(SWIG_ArgError(swig_res)), "in output value of type '""bool""'");
+    }
+    c_result = static_cast< bool >(swig_val);
+  }
+  SWIG_PYTHON_THREAD_END_BLOCK;
+  return (bool) c_result;
+}
+
+
+SwigDirector_StreamEventAnalyzerFactory::SwigDirector_StreamEventAnalyzerFactory(PyObject *self): Strigi::StreamEventAnalyzerFactory(), Swig::Director(self) {
+  SWIG_DIRECTOR_RGTR((Strigi::StreamEventAnalyzerFactory *)this, this); 
+}
+
+
+
+
+SwigDirector_StreamEventAnalyzerFactory::~SwigDirector_StreamEventAnalyzerFactory() {
+}
+
+char const *SwigDirector_StreamEventAnalyzerFactory::name() const {
+  int res ;
+  char *buf = 0 ;
+  int alloc = SWIG_NEWOBJ ;
+  
+  char *c_result;
+  SWIG_PYTHON_THREAD_BEGIN_BLOCK;
+  {
+    if (!swig_get_self()) {
+      Swig::DirectorException::raise("'self' uninitialized, maybe you forgot to call StreamEventAnalyzerFactory.__init__.");
+    }
+#if defined(SWIG_PYTHON_DIRECTOR_VTABLE)
+    const size_t swig_method_index = 0;
+    const char * const swig_method_name = "name";
+    PyObject* method = swig_get_method(swig_method_index, swig_method_name);
+    swig::SwigVar_PyObject result = PyObject_CallFunction(method, NULL, NULL);
+#else
+    swig::SwigVar_PyObject result = PyObject_CallMethod(swig_get_self(), (char *) "name", NULL);
+#endif
+    if (result == NULL) {
+      PyObject *error = PyErr_Occurred();
+      {
+        if (error != NULL) throw Swig::DirectorMethodException();
+      }
+    }
+    res = SWIG_AsCharPtrAndSize(result, &buf, NULL, &alloc);
+    if (!SWIG_IsOK(res)) {
+      Swig::DirectorTypeMismatchException::raise(SWIG_ErrorType(SWIG_ArgError(res)), "in output value of type '""char const *""'");
+    }
+    if (alloc == SWIG_NEWOBJ) {
+      swig_acquire_ownership_array(buf);
+    }
+    c_result = reinterpret_cast< char * >(buf);
+  }
+  SWIG_PYTHON_THREAD_END_BLOCK;
+  return (char const *) c_result;
+}
+
+
+void SwigDirector_StreamEventAnalyzerFactory::registerFields(Strigi::FieldRegister &arg0) {
+  SWIG_PYTHON_THREAD_BEGIN_BLOCK;
+  {
+    swig::SwigVar_PyObject obj0;
+    obj0 = SWIG_NewPointerObj(SWIG_as_voidptr(&arg0), SWIGTYPE_p_Strigi__FieldRegister,  0 );
+    if (!swig_get_self()) {
+      Swig::DirectorException::raise("'self' uninitialized, maybe you forgot to call StreamEventAnalyzerFactory.__init__.");
+    }
+#if defined(SWIG_PYTHON_DIRECTOR_VTABLE)
+    const size_t swig_method_index = 1;
+    const char * const swig_method_name = "registerFields";
+    PyObject* method = swig_get_method(swig_method_index, swig_method_name);
+    swig::SwigVar_PyObject result = PyObject_CallFunction(method, (char *)"(O)" ,(PyObject *)obj0);
+#else
+    swig::SwigVar_PyObject result = PyObject_CallMethod(swig_get_self(), (char *)"registerFields", (char *)"(O)" ,(PyObject *)obj0);
+#endif
+    if (result == NULL) {
+      PyObject *error = PyErr_Occurred();
+      {
+        if (error != NULL) throw Swig::DirectorMethodException();
+      }
+    }
+  }
+  SWIG_PYTHON_THREAD_END_BLOCK;
+}
+
+
+Strigi::StreamEventAnalyzer *SwigDirector_StreamEventAnalyzerFactory::newInstance() const {
+  void *swig_argp ;
+  int swig_res ;
+  swig_owntype own ;
+  
+  Strigi::StreamEventAnalyzer *c_result;
+  SWIG_PYTHON_THREAD_BEGIN_BLOCK;
+  {
+    if (!swig_get_self()) {
+      Swig::DirectorException::raise("'self' uninitialized, maybe you forgot to call StreamEventAnalyzerFactory.__init__.");
+    }
+#if defined(SWIG_PYTHON_DIRECTOR_VTABLE)
+    const size_t swig_method_index = 2;
+    const char * const swig_method_name = "newInstance";
+    PyObject* method = swig_get_method(swig_method_index, swig_method_name);
+    swig::SwigVar_PyObject result = PyObject_CallFunction(method, NULL, NULL);
+#else
+    swig::SwigVar_PyObject result = PyObject_CallMethod(swig_get_self(), (char *) "newInstance", NULL);
+#endif
+    if (result == NULL) {
+      PyObject *error = PyErr_Occurred();
+      {
+        if (error != NULL) throw Swig::DirectorMethodException();
+      }
+    }
+    swig_res = SWIG_ConvertPtrAndOwn(result, &swig_argp, SWIGTYPE_p_Strigi__StreamEventAnalyzer,  0  | SWIG_POINTER_DISOWN, &own);
+    if (!SWIG_IsOK(swig_res)) {
+      Swig::DirectorTypeMismatchException::raise(SWIG_ErrorType(SWIG_ArgError(swig_res)), "in output value of type '""Strigi::StreamEventAnalyzer *""'");
+    }
+    c_result = reinterpret_cast< Strigi::StreamEventAnalyzer * >(swig_argp);
+    swig_acquire_ownership_obj(SWIG_as_voidptr(c_result), own /* & TODO: SWIG_POINTER_OWN */);
+  }
+  SWIG_PYTHON_THREAD_END_BLOCK;
+  return (Strigi::StreamEventAnalyzer *) c_result;
+}
+
+
+SwigDirector_StreamLineAnalyzer::SwigDirector_StreamLineAnalyzer(PyObject *self): Strigi::StreamLineAnalyzer(), Swig::Director(self) {
+  SWIG_DIRECTOR_RGTR((Strigi::StreamLineAnalyzer *)this, this); 
+}
+
+
+
+
+SwigDirector_StreamLineAnalyzer::~SwigDirector_StreamLineAnalyzer() {
+}
+
+char const *SwigDirector_StreamLineAnalyzer::name() const {
+  int res ;
+  char *buf = 0 ;
+  int alloc = SWIG_NEWOBJ ;
+  
+  char *c_result;
+  SWIG_PYTHON_THREAD_BEGIN_BLOCK;
+  {
+    if (!swig_get_self()) {
+      Swig::DirectorException::raise("'self' uninitialized, maybe you forgot to call StreamLineAnalyzer.__init__.");
+    }
+#if defined(SWIG_PYTHON_DIRECTOR_VTABLE)
+    const size_t swig_method_index = 0;
+    const char * const swig_method_name = "name";
+    PyObject* method = swig_get_method(swig_method_index, swig_method_name);
+    swig::SwigVar_PyObject result = PyObject_CallFunction(method, NULL, NULL);
+#else
+    swig::SwigVar_PyObject result = PyObject_CallMethod(swig_get_self(), (char *) "name", NULL);
+#endif
+    if (result == NULL) {
+      PyObject *error = PyErr_Occurred();
+      {
+        if (error != NULL) throw Swig::DirectorMethodException();
+      }
+    }
+    res = SWIG_AsCharPtrAndSize(result, &buf, NULL, &alloc);
+    if (!SWIG_IsOK(res)) {
+      Swig::DirectorTypeMismatchException::raise(SWIG_ErrorType(SWIG_ArgError(res)), "in output value of type '""char const *""'");
+    }
+    if (alloc == SWIG_NEWOBJ) {
+      swig_acquire_ownership_array(buf);
+    }
+    c_result = reinterpret_cast< char * >(buf);
+  }
+  SWIG_PYTHON_THREAD_END_BLOCK;
+  return (char const *) c_result;
+}
+
+
+void SwigDirector_StreamLineAnalyzer::startAnalysis(Strigi::AnalysisResult *result) {
+  SWIG_PYTHON_THREAD_BEGIN_BLOCK;
+  {
+    swig::SwigVar_PyObject obj0;
+    obj0 = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_Strigi__AnalysisResult,  0 );
+    if (!swig_get_self()) {
+      Swig::DirectorException::raise("'self' uninitialized, maybe you forgot to call StreamLineAnalyzer.__init__.");
+    }
+#if defined(SWIG_PYTHON_DIRECTOR_VTABLE)
+    const size_t swig_method_index = 1;
+    const char * const swig_method_name = "startAnalysis";
+    PyObject* method = swig_get_method(swig_method_index, swig_method_name);
+    swig::SwigVar_PyObject result = PyObject_CallFunction(method, (char *)"(O)" ,(PyObject *)obj0);
+#else
+    swig::SwigVar_PyObject result = PyObject_CallMethod(swig_get_self(), (char *)"startAnalysis", (char *)"(O)" ,(PyObject *)obj0);
+#endif
+    if (result == NULL) {
+      PyObject *error = PyErr_Occurred();
+      {
+        if (error != NULL) throw Swig::DirectorMethodException();
+      }
+    }
+  }
+  SWIG_PYTHON_THREAD_END_BLOCK;
+}
+
+
+void SwigDirector_StreamLineAnalyzer::endAnalysis(bool complete) {
+  SWIG_PYTHON_THREAD_BEGIN_BLOCK;
+  {
+    swig::SwigVar_PyObject obj0;
+    obj0 = SWIG_From_bool(static_cast< bool >(complete));
+    if (!swig_get_self()) {
+      Swig::DirectorException::raise("'self' uninitialized, maybe you forgot to call StreamLineAnalyzer.__init__.");
+    }
+#if defined(SWIG_PYTHON_DIRECTOR_VTABLE)
+    const size_t swig_method_index = 2;
+    const char * const swig_method_name = "endAnalysis";
+    PyObject* method = swig_get_method(swig_method_index, swig_method_name);
+    swig::SwigVar_PyObject result = PyObject_CallFunction(method, (char *)"(O)" ,(PyObject *)obj0);
+#else
+    swig::SwigVar_PyObject result = PyObject_CallMethod(swig_get_self(), (char *)"endAnalysis", (char *)"(O)" ,(PyObject *)obj0);
+#endif
+    if (result == NULL) {
+      PyObject *error = PyErr_Occurred();
+      {
+        if (error != NULL) throw Swig::DirectorMethodException();
+      }
+    }
+  }
+  SWIG_PYTHON_THREAD_END_BLOCK;
+}
+
+
+void SwigDirector_StreamLineAnalyzer::handleLine(char const *data, uint32_t length) {
+  SWIG_PYTHON_THREAD_BEGIN_BLOCK;
+  {
+    swig::SwigVar_PyObject obj0;
+    
+    obj0 = Py_BuildValue("s#", data, length);
+    
+    if (!swig_get_self()) {
+      Swig::DirectorException::raise("'self' uninitialized, maybe you forgot to call StreamLineAnalyzer.__init__.");
+    }
+#if defined(SWIG_PYTHON_DIRECTOR_VTABLE)
+    const size_t swig_method_index = 3;
+    const char * const swig_method_name = "handleLine";
+    PyObject* method = swig_get_method(swig_method_index, swig_method_name);
+    swig::SwigVar_PyObject result = PyObject_CallFunction(method, (char *)"(O)" ,(PyObject *)obj0);
+#else
+    swig::SwigVar_PyObject result = PyObject_CallMethod(swig_get_self(), (char *)"handleLine", (char *)"(O)" ,(PyObject *)obj0);
+#endif
+    if (result == NULL) {
+      PyObject *error = PyErr_Occurred();
+      {
+        if (error != NULL) throw Swig::DirectorMethodException();
+      }
+    }
+  }
+  SWIG_PYTHON_THREAD_END_BLOCK;
+}
+
+
+bool SwigDirector_StreamLineAnalyzer::isReadyWithStream() {
+  bool c_result;
+  SWIG_PYTHON_THREAD_BEGIN_BLOCK;
+  {
+    if (!swig_get_self()) {
+      Swig::DirectorException::raise("'self' uninitialized, maybe you forgot to call StreamLineAnalyzer.__init__.");
+    }
+#if defined(SWIG_PYTHON_DIRECTOR_VTABLE)
+    const size_t swig_method_index = 4;
+    const char * const swig_method_name = "isReadyWithStream";
+    PyObject* method = swig_get_method(swig_method_index, swig_method_name);
+    swig::SwigVar_PyObject result = PyObject_CallFunction(method, NULL, NULL);
+#else
+    swig::SwigVar_PyObject result = PyObject_CallMethod(swig_get_self(), (char *) "isReadyWithStream", NULL);
+#endif
+    if (result == NULL) {
+      PyObject *error = PyErr_Occurred();
+      {
+        if (error != NULL) throw Swig::DirectorMethodException();
+      }
+    }
+    bool swig_val;
+    int swig_res = SWIG_AsVal_bool(result, &swig_val);
+    if (!SWIG_IsOK(swig_res)) {
+      Swig::DirectorTypeMismatchException::raise(SWIG_ErrorType(SWIG_ArgError(swig_res)), "in output value of type '""bool""'");
+    }
+    c_result = static_cast< bool >(swig_val);
+  }
+  SWIG_PYTHON_THREAD_END_BLOCK;
+  return (bool) c_result;
+}
+
+
+SwigDirector_StreamLineAnalyzerFactory::SwigDirector_StreamLineAnalyzerFactory(PyObject *self): Strigi::StreamLineAnalyzerFactory(), Swig::Director(self) {
+  SWIG_DIRECTOR_RGTR((Strigi::StreamLineAnalyzerFactory *)this, this); 
+}
+
+
+
+
+SwigDirector_StreamLineAnalyzerFactory::~SwigDirector_StreamLineAnalyzerFactory() {
+}
+
+char const *SwigDirector_StreamLineAnalyzerFactory::name() const {
+  int res ;
+  char *buf = 0 ;
+  int alloc = SWIG_NEWOBJ ;
+  
+  char *c_result;
+  SWIG_PYTHON_THREAD_BEGIN_BLOCK;
+  {
+    if (!swig_get_self()) {
+      Swig::DirectorException::raise("'self' uninitialized, maybe you forgot to call StreamLineAnalyzerFactory.__init__.");
+    }
+#if defined(SWIG_PYTHON_DIRECTOR_VTABLE)
+    const size_t swig_method_index = 0;
+    const char * const swig_method_name = "name";
+    PyObject* method = swig_get_method(swig_method_index, swig_method_name);
+    swig::SwigVar_PyObject result = PyObject_CallFunction(method, NULL, NULL);
+#else
+    swig::SwigVar_PyObject result = PyObject_CallMethod(swig_get_self(), (char *) "name", NULL);
+#endif
+    if (result == NULL) {
+      PyObject *error = PyErr_Occurred();
+      {
+        if (error != NULL) throw Swig::DirectorMethodException();
+      }
+    }
+    res = SWIG_AsCharPtrAndSize(result, &buf, NULL, &alloc);
+    if (!SWIG_IsOK(res)) {
+      Swig::DirectorTypeMismatchException::raise(SWIG_ErrorType(SWIG_ArgError(res)), "in output value of type '""char const *""'");
+    }
+    if (alloc == SWIG_NEWOBJ) {
+      swig_acquire_ownership_array(buf);
+    }
+    c_result = reinterpret_cast< char * >(buf);
+  }
+  SWIG_PYTHON_THREAD_END_BLOCK;
+  return (char const *) c_result;
+}
+
+
+void SwigDirector_StreamLineAnalyzerFactory::registerFields(Strigi::FieldRegister &arg0) {
+  SWIG_PYTHON_THREAD_BEGIN_BLOCK;
+  {
+    swig::SwigVar_PyObject obj0;
+    obj0 = SWIG_NewPointerObj(SWIG_as_voidptr(&arg0), SWIGTYPE_p_Strigi__FieldRegister,  0 );
+    if (!swig_get_self()) {
+      Swig::DirectorException::raise("'self' uninitialized, maybe you forgot to call StreamLineAnalyzerFactory.__init__.");
+    }
+#if defined(SWIG_PYTHON_DIRECTOR_VTABLE)
+    const size_t swig_method_index = 1;
+    const char * const swig_method_name = "registerFields";
+    PyObject* method = swig_get_method(swig_method_index, swig_method_name);
+    swig::SwigVar_PyObject result = PyObject_CallFunction(method, (char *)"(O)" ,(PyObject *)obj0);
+#else
+    swig::SwigVar_PyObject result = PyObject_CallMethod(swig_get_self(), (char *)"registerFields", (char *)"(O)" ,(PyObject *)obj0);
+#endif
+    if (result == NULL) {
+      PyObject *error = PyErr_Occurred();
+      {
+        if (error != NULL) throw Swig::DirectorMethodException();
+      }
+    }
+  }
+  SWIG_PYTHON_THREAD_END_BLOCK;
+}
+
+
+Strigi::StreamLineAnalyzer *SwigDirector_StreamLineAnalyzerFactory::newInstance() const {
+  void *swig_argp ;
+  int swig_res ;
+  swig_owntype own ;
+  
+  Strigi::StreamLineAnalyzer *c_result;
+  SWIG_PYTHON_THREAD_BEGIN_BLOCK;
+  {
+    if (!swig_get_self()) {
+      Swig::DirectorException::raise("'self' uninitialized, maybe you forgot to call StreamLineAnalyzerFactory.__init__.");
+    }
+#if defined(SWIG_PYTHON_DIRECTOR_VTABLE)
+    const size_t swig_method_index = 2;
+    const char * const swig_method_name = "newInstance";
+    PyObject* method = swig_get_method(swig_method_index, swig_method_name);
+    swig::SwigVar_PyObject result = PyObject_CallFunction(method, NULL, NULL);
+#else
+    swig::SwigVar_PyObject result = PyObject_CallMethod(swig_get_self(), (char *) "newInstance", NULL);
+#endif
+    if (result == NULL) {
+      PyObject *error = PyErr_Occurred();
+      {
+        if (error != NULL) throw Swig::DirectorMethodException();
+      }
+    }
+    swig_res = SWIG_ConvertPtrAndOwn(result, &swig_argp, SWIGTYPE_p_Strigi__StreamLineAnalyzer,  0  | SWIG_POINTER_DISOWN, &own);
+    if (!SWIG_IsOK(swig_res)) {
+      Swig::DirectorTypeMismatchException::raise(SWIG_ErrorType(SWIG_ArgError(swig_res)), "in output value of type '""Strigi::StreamLineAnalyzer *""'");
+    }
+    c_result = reinterpret_cast< Strigi::StreamLineAnalyzer * >(swig_argp);
+    swig_acquire_ownership_obj(SWIG_as_voidptr(c_result), own /* & TODO: SWIG_POINTER_OWN */);
+  }
+  SWIG_PYTHON_THREAD_END_BLOCK;
+  return (Strigi::StreamLineAnalyzer *) c_result;
+}
+
+
+SwigDirector_StreamSaxAnalyzer::SwigDirector_StreamSaxAnalyzer(PyObject *self): Strigi::StreamSaxAnalyzer(), Swig::Director(self) {
+  SWIG_DIRECTOR_RGTR((Strigi::StreamSaxAnalyzer *)this, this); 
+}
+
+
+
+
+SwigDirector_StreamSaxAnalyzer::~SwigDirector_StreamSaxAnalyzer() {
+}
+
+char const *SwigDirector_StreamSaxAnalyzer::name() const {
+  int res ;
+  char *buf = 0 ;
+  int alloc = SWIG_NEWOBJ ;
+  
+  char *c_result;
+  SWIG_PYTHON_THREAD_BEGIN_BLOCK;
+  {
+    if (!swig_get_self()) {
+      Swig::DirectorException::raise("'self' uninitialized, maybe you forgot to call StreamSaxAnalyzer.__init__.");
+    }
+#if defined(SWIG_PYTHON_DIRECTOR_VTABLE)
+    const size_t swig_method_index = 0;
+    const char * const swig_method_name = "name";
+    PyObject* method = swig_get_method(swig_method_index, swig_method_name);
+    swig::SwigVar_PyObject result = PyObject_CallFunction(method, NULL, NULL);
+#else
+    swig::SwigVar_PyObject result = PyObject_CallMethod(swig_get_self(), (char *) "name", NULL);
+#endif
+    if (result == NULL) {
+      PyObject *error = PyErr_Occurred();
+      {
+        if (error != NULL) throw Swig::DirectorMethodException();
+      }
+    }
+    res = SWIG_AsCharPtrAndSize(result, &buf, NULL, &alloc);
+    if (!SWIG_IsOK(res)) {
+      Swig::DirectorTypeMismatchException::raise(SWIG_ErrorType(SWIG_ArgError(res)), "in output value of type '""char const *""'");
+    }
+    if (alloc == SWIG_NEWOBJ) {
+      swig_acquire_ownership_array(buf);
+    }
+    c_result = reinterpret_cast< char * >(buf);
+  }
+  SWIG_PYTHON_THREAD_END_BLOCK;
+  return (char const *) c_result;
+}
+
+
+void SwigDirector_StreamSaxAnalyzer::startAnalysis(Strigi::AnalysisResult *arg0) {
+  SWIG_PYTHON_THREAD_BEGIN_BLOCK;
+  {
+    swig::SwigVar_PyObject obj0;
+    obj0 = SWIG_NewPointerObj(SWIG_as_voidptr(arg0), SWIGTYPE_p_Strigi__AnalysisResult,  0 );
+    if (!swig_get_self()) {
+      Swig::DirectorException::raise("'self' uninitialized, maybe you forgot to call StreamSaxAnalyzer.__init__.");
+    }
+#if defined(SWIG_PYTHON_DIRECTOR_VTABLE)
+    const size_t swig_method_index = 1;
+    const char * const swig_method_name = "startAnalysis";
+    PyObject* method = swig_get_method(swig_method_index, swig_method_name);
+    swig::SwigVar_PyObject result = PyObject_CallFunction(method, (char *)"(O)" ,(PyObject *)obj0);
+#else
+    swig::SwigVar_PyObject result = PyObject_CallMethod(swig_get_self(), (char *)"startAnalysis", (char *)"(O)" ,(PyObject *)obj0);
+#endif
+    if (result == NULL) {
+      PyObject *error = PyErr_Occurred();
+      {
+        if (error != NULL) throw Swig::DirectorMethodException();
+      }
+    }
+  }
+  SWIG_PYTHON_THREAD_END_BLOCK;
+}
+
+
+void SwigDirector_StreamSaxAnalyzer::endAnalysis(bool complete) {
+  SWIG_PYTHON_THREAD_BEGIN_BLOCK;
+  {
+    swig::SwigVar_PyObject obj0;
+    obj0 = SWIG_From_bool(static_cast< bool >(complete));
+    if (!swig_get_self()) {
+      Swig::DirectorException::raise("'self' uninitialized, maybe you forgot to call StreamSaxAnalyzer.__init__.");
+    }
+#if defined(SWIG_PYTHON_DIRECTOR_VTABLE)
+    const size_t swig_method_index = 2;
+    const char * const swig_method_name = "endAnalysis";
+    PyObject* method = swig_get_method(swig_method_index, swig_method_name);
+    swig::SwigVar_PyObject result = PyObject_CallFunction(method, (char *)"(O)" ,(PyObject *)obj0);
+#else
+    swig::SwigVar_PyObject result = PyObject_CallMethod(swig_get_self(), (char *)"endAnalysis", (char *)"(O)" ,(PyObject *)obj0);
+#endif
+    if (result == NULL) {
+      PyObject *error = PyErr_Occurred();
+      {
+        if (error != NULL) throw Swig::DirectorMethodException();
+      }
+    }
+  }
+  SWIG_PYTHON_THREAD_END_BLOCK;
+}
+
+
+void SwigDirector_StreamSaxAnalyzer::startElement(char const *localname, char const *prefix, char const *uri, int nb_namespaces, char const **namespaces, int nb_attributes, int nb_defaulted, char const **attributes) {
+  SWIG_PYTHON_THREAD_BEGIN_BLOCK;
+  {
+    swig::SwigVar_PyObject obj0;
+    obj0 = SWIG_FromCharPtr((const char *)localname);
+    swig::SwigVar_PyObject obj1;
+    obj1 = SWIG_FromCharPtr((const char *)prefix);
+    swig::SwigVar_PyObject obj2;
+    obj2 = SWIG_FromCharPtr((const char *)uri);
+    swig::SwigVar_PyObject obj3;
+    
+    obj3 = PyTuple_New(nb_namespaces);
+    for ( int i=0;i<nb_namespaces;i++ ) PyTuple_SetItem(obj3,i,Py_BuildValue("{s:s}", namespaces[i*2], namespaces[i*2+1]));
+    
+    swig::SwigVar_PyObject obj4;
+    
+    obj4 = PyTuple_New(nb_attributes);
+    for ( int i=0;i<nb_attributes;i++ ){
+      PyObject* obj4_tmp = PyDict_New();
+      
+      PyDict_SetItemString(obj4_tmp, "localName", Py_BuildValue("s", attributes[i * 5 + 0]));
+      PyDict_SetItemString(obj4_tmp, "prefix", Py_BuildValue("s", attributes[i * 5 + 1]));
+      PyDict_SetItemString(obj4_tmp, "uri", Py_BuildValue("s", attributes[i * 5 + 2]));
+      PyDict_SetItemString(obj4_tmp, "value", Py_BuildValue("s#", attributes[i * 5 + 3], attributes[i * 5 + 4]-attributes[i * 5 + 3]));
+      
+      PyTuple_SetItem(obj4,i, obj4_tmp);
+      //Py_DECREF(obj4_tmp);
+    }
+    //printf("DEFAULTED: %d ATTRIBS: %d\n", nb_defaulted, nb_attributes);
+    
+    if (!swig_get_self()) {
+      Swig::DirectorException::raise("'self' uninitialized, maybe you forgot to call StreamSaxAnalyzer.__init__.");
+    }
+#if defined(SWIG_PYTHON_DIRECTOR_VTABLE)
+    const size_t swig_method_index = 3;
+    const char * const swig_method_name = "startElement";
+    PyObject* method = swig_get_method(swig_method_index, swig_method_name);
+    swig::SwigVar_PyObject result = PyObject_CallFunction(method, (char *)"(OOOOO)" ,(PyObject *)obj0,(PyObject *)obj1,(PyObject *)obj2,(PyObject *)obj3,(PyObject *)obj4);
+#else
+    swig::SwigVar_PyObject result = PyObject_CallMethod(swig_get_self(), (char *)"startElement", (char *)"(OOOOO)" ,(PyObject *)obj0,(PyObject *)obj1,(PyObject *)obj2,(PyObject *)obj3,(PyObject *)obj4);
+#endif
+    if (result == NULL) {
+      PyObject *error = PyErr_Occurred();
+      {
+        if (error != NULL) throw Swig::DirectorMethodException();
+      }
+    }
+  }
+  SWIG_PYTHON_THREAD_END_BLOCK;
+}
+
+
+void SwigDirector_StreamSaxAnalyzer::endElement(char const *localname, char const *prefix, char const *uri) {
+  SWIG_PYTHON_THREAD_BEGIN_BLOCK;
+  {
+    swig::SwigVar_PyObject obj0;
+    obj0 = SWIG_FromCharPtr((const char *)localname);
+    swig::SwigVar_PyObject obj1;
+    obj1 = SWIG_FromCharPtr((const char *)prefix);
+    swig::SwigVar_PyObject obj2;
+    obj2 = SWIG_FromCharPtr((const char *)uri);
+    if (!swig_get_self()) {
+      Swig::DirectorException::raise("'self' uninitialized, maybe you forgot to call StreamSaxAnalyzer.__init__.");
+    }
+#if defined(SWIG_PYTHON_DIRECTOR_VTABLE)
+    const size_t swig_method_index = 4;
+    const char * const swig_method_name = "endElement";
+    PyObject* method = swig_get_method(swig_method_index, swig_method_name);
+    swig::SwigVar_PyObject result = PyObject_CallFunction(method, (char *)"(OOO)" ,(PyObject *)obj0,(PyObject *)obj1,(PyObject *)obj2);
+#else
+    swig::SwigVar_PyObject result = PyObject_CallMethod(swig_get_self(), (char *)"endElement", (char *)"(OOO)" ,(PyObject *)obj0,(PyObject *)obj1,(PyObject *)obj2);
+#endif
+    if (result == NULL) {
+      PyObject *error = PyErr_Occurred();
+      {
+        if (error != NULL) throw Swig::DirectorMethodException();
+      }
+    }
+  }
+  SWIG_PYTHON_THREAD_END_BLOCK;
+}
+
+
+void SwigDirector_StreamSaxAnalyzer::characters(char const *data, uint32_t length) {
+  SWIG_PYTHON_THREAD_BEGIN_BLOCK;
+  {
+    swig::SwigVar_PyObject obj0;
+    
+    obj0 = Py_BuildValue("s#", data, length);
+    
+    if (!swig_get_self()) {
+      Swig::DirectorException::raise("'self' uninitialized, maybe you forgot to call StreamSaxAnalyzer.__init__.");
+    }
+#if defined(SWIG_PYTHON_DIRECTOR_VTABLE)
+    const size_t swig_method_index = 5;
+    const char * const swig_method_name = "characters";
+    PyObject* method = swig_get_method(swig_method_index, swig_method_name);
+    swig::SwigVar_PyObject result = PyObject_CallFunction(method, (char *)"(O)" ,(PyObject *)obj0);
+#else
+    swig::SwigVar_PyObject result = PyObject_CallMethod(swig_get_self(), (char *)"characters", (char *)"(O)" ,(PyObject *)obj0);
+#endif
+    if (result == NULL) {
+      PyObject *error = PyErr_Occurred();
+      {
+        if (error != NULL) throw Swig::DirectorMethodException();
+      }
+    }
+  }
+  SWIG_PYTHON_THREAD_END_BLOCK;
+}
+
+
+bool SwigDirector_StreamSaxAnalyzer::isReadyWithStream() {
+  bool c_result;
+  SWIG_PYTHON_THREAD_BEGIN_BLOCK;
+  {
+    if (!swig_get_self()) {
+      Swig::DirectorException::raise("'self' uninitialized, maybe you forgot to call StreamSaxAnalyzer.__init__.");
+    }
+#if defined(SWIG_PYTHON_DIRECTOR_VTABLE)
+    const size_t swig_method_index = 6;
+    const char * const swig_method_name = "isReadyWithStream";
+    PyObject* method = swig_get_method(swig_method_index, swig_method_name);
+    swig::SwigVar_PyObject result = PyObject_CallFunction(method, NULL, NULL);
+#else
+    swig::SwigVar_PyObject result = PyObject_CallMethod(swig_get_self(), (char *) "isReadyWithStream", NULL);
+#endif
+    if (result == NULL) {
+      PyObject *error = PyErr_Occurred();
+      {
+        if (error != NULL) throw Swig::DirectorMethodException();
+      }
+    }
+    bool swig_val;
+    int swig_res = SWIG_AsVal_bool(result, &swig_val);
+    if (!SWIG_IsOK(swig_res)) {
+      Swig::DirectorTypeMismatchException::raise(SWIG_ErrorType(SWIG_ArgError(swig_res)), "in output value of type '""bool""'");
+    }
+    c_result = static_cast< bool >(swig_val);
+  }
+  SWIG_PYTHON_THREAD_END_BLOCK;
+  return (bool) c_result;
+}
+
+
+SwigDirector_StreamSaxAnalyzerFactory::SwigDirector_StreamSaxAnalyzerFactory(PyObject *self): Strigi::StreamSaxAnalyzerFactory(), Swig::Director(self) {
+  SWIG_DIRECTOR_RGTR((Strigi::StreamSaxAnalyzerFactory *)this, this); 
+}
+
+
+
+
+SwigDirector_StreamSaxAnalyzerFactory::~SwigDirector_StreamSaxAnalyzerFactory() {
+}
+
+char const *SwigDirector_StreamSaxAnalyzerFactory::name() const {
+  int res ;
+  char *buf = 0 ;
+  int alloc = SWIG_NEWOBJ ;
+  
+  char *c_result;
+  SWIG_PYTHON_THREAD_BEGIN_BLOCK;
+  {
+    if (!swig_get_self()) {
+      Swig::DirectorException::raise("'self' uninitialized, maybe you forgot to call StreamSaxAnalyzerFactory.__init__.");
+    }
+#if defined(SWIG_PYTHON_DIRECTOR_VTABLE)
+    const size_t swig_method_index = 0;
+    const char * const swig_method_name = "name";
+    PyObject* method = swig_get_method(swig_method_index, swig_method_name);
+    swig::SwigVar_PyObject result = PyObject_CallFunction(method, NULL, NULL);
+#else
+    swig::SwigVar_PyObject result = PyObject_CallMethod(swig_get_self(), (char *) "name", NULL);
+#endif
+    if (result == NULL) {
+      PyObject *error = PyErr_Occurred();
+      {
+        if (error != NULL) throw Swig::DirectorMethodException();
+      }
+    }
+    res = SWIG_AsCharPtrAndSize(result, &buf, NULL, &alloc);
+    if (!SWIG_IsOK(res)) {
+      Swig::DirectorTypeMismatchException::raise(SWIG_ErrorType(SWIG_ArgError(res)), "in output value of type '""char const *""'");
+    }
+    if (alloc == SWIG_NEWOBJ) {
+      swig_acquire_ownership_array(buf);
+    }
+    c_result = reinterpret_cast< char * >(buf);
+  }
+  SWIG_PYTHON_THREAD_END_BLOCK;
+  return (char const *) c_result;
+}
+
+
+void SwigDirector_StreamSaxAnalyzerFactory::registerFields(Strigi::FieldRegister &arg0) {
+  SWIG_PYTHON_THREAD_BEGIN_BLOCK;
+  {
+    swig::SwigVar_PyObject obj0;
+    obj0 = SWIG_NewPointerObj(SWIG_as_voidptr(&arg0), SWIGTYPE_p_Strigi__FieldRegister,  0 );
+    if (!swig_get_self()) {
+      Swig::DirectorException::raise("'self' uninitialized, maybe you forgot to call StreamSaxAnalyzerFactory.__init__.");
+    }
+#if defined(SWIG_PYTHON_DIRECTOR_VTABLE)
+    const size_t swig_method_index = 1;
+    const char * const swig_method_name = "registerFields";
+    PyObject* method = swig_get_method(swig_method_index, swig_method_name);
+    swig::SwigVar_PyObject result = PyObject_CallFunction(method, (char *)"(O)" ,(PyObject *)obj0);
+#else
+    swig::SwigVar_PyObject result = PyObject_CallMethod(swig_get_self(), (char *)"registerFields", (char *)"(O)" ,(PyObject *)obj0);
+#endif
+    if (result == NULL) {
+      PyObject *error = PyErr_Occurred();
+      {
+        if (error != NULL) throw Swig::DirectorMethodException();
+      }
+    }
+  }
+  SWIG_PYTHON_THREAD_END_BLOCK;
+}
+
+
+Strigi::StreamSaxAnalyzer *SwigDirector_StreamSaxAnalyzerFactory::newInstance() const {
+  void *swig_argp ;
+  int swig_res ;
+  swig_owntype own ;
+  
+  Strigi::StreamSaxAnalyzer *c_result;
+  SWIG_PYTHON_THREAD_BEGIN_BLOCK;
+  {
+    if (!swig_get_self()) {
+      Swig::DirectorException::raise("'self' uninitialized, maybe you forgot to call StreamSaxAnalyzerFactory.__init__.");
+    }
+#if defined(SWIG_PYTHON_DIRECTOR_VTABLE)
+    const size_t swig_method_index = 2;
+    const char * const swig_method_name = "newInstance";
+    PyObject* method = swig_get_method(swig_method_index, swig_method_name);
+    swig::SwigVar_PyObject result = PyObject_CallFunction(method, NULL, NULL);
+#else
+    swig::SwigVar_PyObject result = PyObject_CallMethod(swig_get_self(), (char *) "newInstance", NULL);
+#endif
+    if (result == NULL) {
+      PyObject *error = PyErr_Occurred();
+      {
+        if (error != NULL) throw Swig::DirectorMethodException();
+      }
+    }
+    swig_res = SWIG_ConvertPtrAndOwn(result, &swig_argp, SWIGTYPE_p_Strigi__StreamSaxAnalyzer,  0  | SWIG_POINTER_DISOWN, &own);
+    if (!SWIG_IsOK(swig_res)) {
+      Swig::DirectorTypeMismatchException::raise(SWIG_ErrorType(SWIG_ArgError(swig_res)), "in output value of type '""Strigi::StreamSaxAnalyzer *""'");
+    }
+    c_result = reinterpret_cast< Strigi::StreamSaxAnalyzer * >(swig_argp);
+    swig_acquire_ownership_obj(SWIG_as_voidptr(c_result), own /* & TODO: SWIG_POINTER_OWN */);
+  }
+  SWIG_PYTHON_THREAD_END_BLOCK;
+  return (Strigi::StreamSaxAnalyzer *) c_result;
+}
+
+
+SwigDirector_StreamThroughAnalyzer::SwigDirector_StreamThroughAnalyzer(PyObject *self): Strigi::StreamThroughAnalyzer(), Swig::Director(self) {
+  SWIG_DIRECTOR_RGTR((Strigi::StreamThroughAnalyzer *)this, this); 
+}
+
+
+
+
+SwigDirector_StreamThroughAnalyzer::~SwigDirector_StreamThroughAnalyzer() {
+}
+
+void SwigDirector_StreamThroughAnalyzer::setIndexable(Strigi::AnalysisResult *arg0) {
+  SWIG_PYTHON_THREAD_BEGIN_BLOCK;
+  {
+    swig::SwigVar_PyObject obj0;
+    obj0 = SWIG_NewPointerObj(SWIG_as_voidptr(arg0), SWIGTYPE_p_Strigi__AnalysisResult,  0 );
+    if (!swig_get_self()) {
+      Swig::DirectorException::raise("'self' uninitialized, maybe you forgot to call StreamThroughAnalyzer.__init__.");
+    }
+#if defined(SWIG_PYTHON_DIRECTOR_VTABLE)
+    const size_t swig_method_index = 0;
+    const char * const swig_method_name = "setIndexable";
+    PyObject* method = swig_get_method(swig_method_index, swig_method_name);
+    swig::SwigVar_PyObject result = PyObject_CallFunction(method, (char *)"(O)" ,(PyObject *)obj0);
+#else
+    swig::SwigVar_PyObject result = PyObject_CallMethod(swig_get_self(), (char *)"setIndexable", (char *)"(O)" ,(PyObject *)obj0);
+#endif
+    if (result == NULL) {
+      PyObject *error = PyErr_Occurred();
+      {
+        if (error != NULL) throw Swig::DirectorMethodException();
+      }
+    }
+  }
+  SWIG_PYTHON_THREAD_END_BLOCK;
+}
+
+
+Strigi::InputStream *SwigDirector_StreamThroughAnalyzer::connectInputStream(Strigi::InputStream *in) {
+  void *swig_argp ;
+  int swig_res ;
+  swig_owntype own ;
+  
+  Strigi::InputStream *c_result;
+  SWIG_PYTHON_THREAD_BEGIN_BLOCK;
+  {
+    swig::SwigVar_PyObject obj0;
+    obj0 = SWIG_NewPointerObj(SWIG_as_voidptr(in), SWIGTYPE_p_Strigi__StreamBaseT_char_t,  0 );
+    if (!swig_get_self()) {
+      Swig::DirectorException::raise("'self' uninitialized, maybe you forgot to call StreamThroughAnalyzer.__init__.");
+    }
+#if defined(SWIG_PYTHON_DIRECTOR_VTABLE)
+    const size_t swig_method_index = 1;
+    const char * const swig_method_name = "connectInputStream";
+    PyObject* method = swig_get_method(swig_method_index, swig_method_name);
+    swig::SwigVar_PyObject result = PyObject_CallFunction(method, (char *)"(O)" ,(PyObject *)obj0);
+#else
+    swig::SwigVar_PyObject result = PyObject_CallMethod(swig_get_self(), (char *)"connectInputStream", (char *)"(O)" ,(PyObject *)obj0);
+#endif
+    if (result == NULL) {
+      PyObject *error = PyErr_Occurred();
+      {
+        if (error != NULL) throw Swig::DirectorMethodException();
+      }
+    }
+    swig_res = SWIG_ConvertPtrAndOwn(result, &swig_argp, SWIGTYPE_p_Strigi__StreamBaseT_char_t,  0  | SWIG_POINTER_DISOWN, &own);
+    if (!SWIG_IsOK(swig_res)) {
+      Swig::DirectorTypeMismatchException::raise(SWIG_ErrorType(SWIG_ArgError(swig_res)), "in output value of type '""Strigi::InputStream *""'");
+    }
+    c_result = reinterpret_cast< Strigi::InputStream * >(swig_argp);
+    swig_acquire_ownership_obj(SWIG_as_voidptr(c_result), own /* & TODO: SWIG_POINTER_OWN */);
+  }
+  SWIG_PYTHON_THREAD_END_BLOCK;
+  return (Strigi::InputStream *) c_result;
+}
+
+
+bool SwigDirector_StreamThroughAnalyzer::isReadyWithStream() {
+  bool c_result;
+  SWIG_PYTHON_THREAD_BEGIN_BLOCK;
+  {
+    if (!swig_get_self()) {
+      Swig::DirectorException::raise("'self' uninitialized, maybe you forgot to call StreamThroughAnalyzer.__init__.");
+    }
+#if defined(SWIG_PYTHON_DIRECTOR_VTABLE)
+    const size_t swig_method_index = 2;
+    const char * const swig_method_name = "isReadyWithStream";
+    PyObject* method = swig_get_method(swig_method_index, swig_method_name);
+    swig::SwigVar_PyObject result = PyObject_CallFunction(method, NULL, NULL);
+#else
+    swig::SwigVar_PyObject result = PyObject_CallMethod(swig_get_self(), (char *) "isReadyWithStream", NULL);
+#endif
+    if (result == NULL) {
+      PyObject *error = PyErr_Occurred();
+      {
+        if (error != NULL) throw Swig::DirectorMethodException();
+      }
+    }
+    bool swig_val;
+    int swig_res = SWIG_AsVal_bool(result, &swig_val);
+    if (!SWIG_IsOK(swig_res)) {
+      Swig::DirectorTypeMismatchException::raise(SWIG_ErrorType(SWIG_ArgError(swig_res)), "in output value of type '""bool""'");
+    }
+    c_result = static_cast< bool >(swig_val);
+  }
+  SWIG_PYTHON_THREAD_END_BLOCK;
+  return (bool) c_result;
+}
+
+
+char const *SwigDirector_StreamThroughAnalyzer::name() const {
+  int res ;
+  char *buf = 0 ;
+  int alloc = SWIG_NEWOBJ ;
+  
+  char *c_result;
+  SWIG_PYTHON_THREAD_BEGIN_BLOCK;
+  {
+    if (!swig_get_self()) {
+      Swig::DirectorException::raise("'self' uninitialized, maybe you forgot to call StreamThroughAnalyzer.__init__.");
+    }
+#if defined(SWIG_PYTHON_DIRECTOR_VTABLE)
+    const size_t swig_method_index = 3;
+    const char * const swig_method_name = "name";
+    PyObject* method = swig_get_method(swig_method_index, swig_method_name);
+    swig::SwigVar_PyObject result = PyObject_CallFunction(method, NULL, NULL);
+#else
+    swig::SwigVar_PyObject result = PyObject_CallMethod(swig_get_self(), (char *) "name", NULL);
+#endif
+    if (result == NULL) {
+      PyObject *error = PyErr_Occurred();
+      {
+        if (error != NULL) throw Swig::DirectorMethodException();
+      }
+    }
+    res = SWIG_AsCharPtrAndSize(result, &buf, NULL, &alloc);
+    if (!SWIG_IsOK(res)) {
+      Swig::DirectorTypeMismatchException::raise(SWIG_ErrorType(SWIG_ArgError(res)), "in output value of type '""char const *""'");
+    }
+    if (alloc == SWIG_NEWOBJ) {
+      swig_acquire_ownership_array(buf);
+    }
+    c_result = reinterpret_cast< char * >(buf);
+  }
+  SWIG_PYTHON_THREAD_END_BLOCK;
+  return (char const *) c_result;
+}
+
+
+SwigDirector_StreamThroughAnalyzerFactory::SwigDirector_StreamThroughAnalyzerFactory(PyObject *self): Strigi::StreamThroughAnalyzerFactory(), Swig::Director(self) {
+  SWIG_DIRECTOR_RGTR((Strigi::StreamThroughAnalyzerFactory *)this, this); 
+}
+
+
+
+
+SwigDirector_StreamThroughAnalyzerFactory::~SwigDirector_StreamThroughAnalyzerFactory() {
+}
+
+char const *SwigDirector_StreamThroughAnalyzerFactory::name() const {
+  int res ;
+  char *buf = 0 ;
+  int alloc = SWIG_NEWOBJ ;
+  
+  char *c_result;
+  SWIG_PYTHON_THREAD_BEGIN_BLOCK;
+  {
+    if (!swig_get_self()) {
+      Swig::DirectorException::raise("'self' uninitialized, maybe you forgot to call StreamThroughAnalyzerFactory.__init__.");
+    }
+#if defined(SWIG_PYTHON_DIRECTOR_VTABLE)
+    const size_t swig_method_index = 0;
+    const char * const swig_method_name = "name";
+    PyObject* method = swig_get_method(swig_method_index, swig_method_name);
+    swig::SwigVar_PyObject result = PyObject_CallFunction(method, NULL, NULL);
+#else
+    swig::SwigVar_PyObject result = PyObject_CallMethod(swig_get_self(), (char *) "name", NULL);
+#endif
+    if (result == NULL) {
+      PyObject *error = PyErr_Occurred();
+      {
+        if (error != NULL) throw Swig::DirectorMethodException();
+      }
+    }
+    res = SWIG_AsCharPtrAndSize(result, &buf, NULL, &alloc);
+    if (!SWIG_IsOK(res)) {
+      Swig::DirectorTypeMismatchException::raise(SWIG_ErrorType(SWIG_ArgError(res)), "in output value of type '""char const *""'");
+    }
+    if (alloc == SWIG_NEWOBJ) {
+      swig_acquire_ownership_array(buf);
+    }
+    c_result = reinterpret_cast< char * >(buf);
+  }
+  SWIG_PYTHON_THREAD_END_BLOCK;
+  return (char const *) c_result;
+}
+
+
+void SwigDirector_StreamThroughAnalyzerFactory::registerFields(Strigi::FieldRegister &arg0) {
+  SWIG_PYTHON_THREAD_BEGIN_BLOCK;
+  {
+    swig::SwigVar_PyObject obj0;
+    obj0 = SWIG_NewPointerObj(SWIG_as_voidptr(&arg0), SWIGTYPE_p_Strigi__FieldRegister,  0 );
+    if (!swig_get_self()) {
+      Swig::DirectorException::raise("'self' uninitialized, maybe you forgot to call StreamThroughAnalyzerFactory.__init__.");
+    }
+#if defined(SWIG_PYTHON_DIRECTOR_VTABLE)
+    const size_t swig_method_index = 1;
+    const char * const swig_method_name = "registerFields";
+    PyObject* method = swig_get_method(swig_method_index, swig_method_name);
+    swig::SwigVar_PyObject result = PyObject_CallFunction(method, (char *)"(O)" ,(PyObject *)obj0);
+#else
+    swig::SwigVar_PyObject result = PyObject_CallMethod(swig_get_self(), (char *)"registerFields", (char *)"(O)" ,(PyObject *)obj0);
+#endif
+    if (result == NULL) {
+      PyObject *error = PyErr_Occurred();
+      {
+        if (error != NULL) throw Swig::DirectorMethodException();
+      }
+    }
+  }
+  SWIG_PYTHON_THREAD_END_BLOCK;
+}
+
+
+Strigi::StreamThroughAnalyzer *SwigDirector_StreamThroughAnalyzerFactory::newInstance() const {
+  void *swig_argp ;
+  int swig_res ;
+  swig_owntype own ;
+  
+  Strigi::StreamThroughAnalyzer *c_result;
+  SWIG_PYTHON_THREAD_BEGIN_BLOCK;
+  {
+    if (!swig_get_self()) {
+      Swig::DirectorException::raise("'self' uninitialized, maybe you forgot to call StreamThroughAnalyzerFactory.__init__.");
+    }
+#if defined(SWIG_PYTHON_DIRECTOR_VTABLE)
+    const size_t swig_method_index = 2;
+    const char * const swig_method_name = "newInstance";
+    PyObject* method = swig_get_method(swig_method_index, swig_method_name);
+    swig::SwigVar_PyObject result = PyObject_CallFunction(method, NULL, NULL);
+#else
+    swig::SwigVar_PyObject result = PyObject_CallMethod(swig_get_self(), (char *) "newInstance", NULL);
+#endif
+    if (result == NULL) {
+      PyObject *error = PyErr_Occurred();
+      {
+        if (error != NULL) throw Swig::DirectorMethodException();
+      }
+    }
+    swig_res = SWIG_ConvertPtrAndOwn(result, &swig_argp, SWIGTYPE_p_Strigi__StreamThroughAnalyzer,  0  | SWIG_POINTER_DISOWN, &own);
+    if (!SWIG_IsOK(swig_res)) {
+      Swig::DirectorTypeMismatchException::raise(SWIG_ErrorType(SWIG_ArgError(swig_res)), "in output value of type '""Strigi::StreamThroughAnalyzer *""'");
+    }
+    c_result = reinterpret_cast< Strigi::StreamThroughAnalyzer * >(swig_argp);
+    swig_acquire_ownership_obj(SWIG_as_voidptr(c_result), own /* & TODO: SWIG_POINTER_OWN */);
+  }
+  SWIG_PYTHON_THREAD_END_BLOCK;
+  return (Strigi::StreamThroughAnalyzer *) c_result;
+}
+
 
 SwigDirector_AnalyzerConfiguration::SwigDirector_AnalyzerConfiguration(PyObject *self): Strigi::AnalyzerConfiguration(), Swig::Director(self) {
   SWIG_DIRECTOR_RGTR((Strigi::AnalyzerConfiguration *)this, this); 
@@ -8793,66 +10386,6 @@ fail:
 }
 
 
-SWIGINTERN PyObject *_wrap_InputStream_read(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
-  PyObject *resultobj = 0;
-  Strigi::StreamBase< char > *arg1 = (Strigi::StreamBase< char > *) 0 ;
-  char **arg2 = 0 ;
-  int32_t arg3 ;
-  int32_t arg4 ;
-  void *argp1 = 0 ;
-  int res1 = 0 ;
-  int res2 ;
-  char *buf2 = 0 ;
-  int alloc2 = 0 ;
-  int val3 ;
-  int ecode3 = 0 ;
-  int val4 ;
-  int ecode4 = 0 ;
-  PyObject * obj0 = 0 ;
-  PyObject * obj1 = 0 ;
-  PyObject * obj2 = 0 ;
-  PyObject * obj3 = 0 ;
-  int32_t result;
-  
-  if (!PyArg_ParseTuple(args,(char *)"OOOO:InputStream_read",&obj0,&obj1,&obj2,&obj3)) SWIG_fail;
-  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_Strigi__StreamBaseT_char_t, 0 |  0 );
-  if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "InputStream_read" "', argument " "1"" of type '" "Strigi::StreamBase< char > *""'"); 
-  }
-  arg1 = reinterpret_cast< Strigi::StreamBase< char > * >(argp1);
-  res2 = SWIG_AsCharPtrAndSize(obj1, &buf2, NULL, &alloc2);
-  if (!SWIG_IsOK(res2)) {
-    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "InputStream_read" "', argument " "2"" of type '" "char const *&""'");
-  }
-  arg2 = &buf2;
-  ecode3 = SWIG_AsVal_int(obj2, &val3);
-  if (!SWIG_IsOK(ecode3)) {
-    SWIG_exception_fail(SWIG_ArgError(ecode3), "in method '" "InputStream_read" "', argument " "3"" of type '" "int32_t""'");
-  } 
-  arg3 = static_cast< int32_t >(val3);
-  ecode4 = SWIG_AsVal_int(obj3, &val4);
-  if (!SWIG_IsOK(ecode4)) {
-    SWIG_exception_fail(SWIG_ArgError(ecode4), "in method '" "InputStream_read" "', argument " "4"" of type '" "int32_t""'");
-  } 
-  arg4 = static_cast< int32_t >(val4);
-  {
-    try {
-      {
-        SWIG_PYTHON_THREAD_BEGIN_ALLOW;
-        result = (int32_t)(arg1)->read((char const *&)*arg2,arg3,arg4);
-        SWIG_PYTHON_THREAD_END_ALLOW;
-      }
-    }_CATCHALL();
-  }
-  resultobj = SWIG_From_int(static_cast< int >(result));
-  if (alloc2 == SWIG_NEWOBJ) delete[] buf2;
-  return resultobj;
-fail:
-  if (alloc2 == SWIG_NEWOBJ) delete[] buf2;
-  return NULL;
-}
-
-
 SWIGINTERN PyObject *_wrap_InputStream_skip(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
   PyObject *resultobj = 0;
   Strigi::StreamBase< char > *arg1 = (Strigi::StreamBase< char > *) 0 ;
@@ -8931,6 +10464,87 @@ fail:
 }
 
 
+SWIGINTERN PyObject *_wrap_InputStream_openFile(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  char *arg1 = (char *) 0 ;
+  int res1 ;
+  char *buf1 = 0 ;
+  int alloc1 = 0 ;
+  PyObject * obj0 = 0 ;
+  Strigi::InputStream *result = 0 ;
+  
+  if (!PyArg_ParseTuple(args,(char *)"O:InputStream_openFile",&obj0)) SWIG_fail;
+  res1 = SWIG_AsCharPtrAndSize(obj0, &buf1, NULL, &alloc1);
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "InputStream_openFile" "', argument " "1"" of type '" "char const *""'");
+  }
+  arg1 = reinterpret_cast< char * >(buf1);
+  {
+    try {
+      {
+        SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+        result = (Strigi::InputStream *)Strigi_StreamBase_Sl_char_Sg__openFile((char const *)arg1);
+        SWIG_PYTHON_THREAD_END_ALLOW;
+      }
+    }_CATCHALL();
+  }
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_Strigi__StreamBaseT_char_t, SWIG_POINTER_OWN |  0 );
+  if (alloc1 == SWIG_NEWOBJ) delete[] buf1;
+  return resultobj;
+fail:
+  if (alloc1 == SWIG_NEWOBJ) delete[] buf1;
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_InputStream_read(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  Strigi::StreamBase< char > *arg1 = (Strigi::StreamBase< char > *) 0 ;
+  int32_t arg2 ;
+  int32_t arg3 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int val2 ;
+  int ecode2 = 0 ;
+  int val3 ;
+  int ecode3 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  PyObject * obj2 = 0 ;
+  PyObject *result = 0 ;
+  
+  if (!PyArg_ParseTuple(args,(char *)"OOO:InputStream_read",&obj0,&obj1,&obj2)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_Strigi__StreamBaseT_char_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "InputStream_read" "', argument " "1"" of type '" "Strigi::StreamBase< char > *""'"); 
+  }
+  arg1 = reinterpret_cast< Strigi::StreamBase< char > * >(argp1);
+  ecode2 = SWIG_AsVal_int(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "InputStream_read" "', argument " "2"" of type '" "int32_t""'");
+  } 
+  arg2 = static_cast< int32_t >(val2);
+  ecode3 = SWIG_AsVal_int(obj2, &val3);
+  if (!SWIG_IsOK(ecode3)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode3), "in method '" "InputStream_read" "', argument " "3"" of type '" "int32_t""'");
+  } 
+  arg3 = static_cast< int32_t >(val3);
+  {
+    try {
+      {
+        SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+        result = (PyObject *)Strigi_StreamBase_Sl_char_Sg__read(arg1,arg2,arg3);
+        SWIG_PYTHON_THREAD_END_ALLOW;
+      }
+    }_CATCHALL();
+  }
+  resultobj = result;
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
 SWIGINTERN PyObject *InputStream_swigregister(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
   PyObject *obj;
   if (!PyArg_ParseTuple(args,(char*)"O:swigregister", &obj)) return NULL;
@@ -8961,66 +10575,6 @@ SWIGINTERN PyObject *_wrap_delete_Reader(PyObject *SWIGUNUSEDPARM(self), PyObjec
     }_CATCHALL();
   }
   resultobj = SWIG_Py_Void();
-  return resultobj;
-fail:
-  return NULL;
-}
-
-
-SWIGINTERN PyObject *_wrap_Reader_read(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
-  PyObject *resultobj = 0;
-  Strigi::StreamBase< wchar_t > *arg1 = (Strigi::StreamBase< wchar_t > *) 0 ;
-  wchar_t **arg2 = 0 ;
-  int32_t arg3 ;
-  int32_t arg4 ;
-  void *argp1 = 0 ;
-  int res1 = 0 ;
-  void *argp2 = 0 ;
-  int res2 = 0 ;
-  int val3 ;
-  int ecode3 = 0 ;
-  int val4 ;
-  int ecode4 = 0 ;
-  PyObject * obj0 = 0 ;
-  PyObject * obj1 = 0 ;
-  PyObject * obj2 = 0 ;
-  PyObject * obj3 = 0 ;
-  int32_t result;
-  
-  if (!PyArg_ParseTuple(args,(char *)"OOOO:Reader_read",&obj0,&obj1,&obj2,&obj3)) SWIG_fail;
-  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_Strigi__StreamBaseT_wchar_t_t, 0 |  0 );
-  if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "Reader_read" "', argument " "1"" of type '" "Strigi::StreamBase< wchar_t > *""'"); 
-  }
-  arg1 = reinterpret_cast< Strigi::StreamBase< wchar_t > * >(argp1);
-  res2 = SWIG_ConvertPtr(obj1, &argp2, SWIGTYPE_p_p_wchar_t,  0 );
-  if (!SWIG_IsOK(res2)) {
-    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "Reader_read" "', argument " "2"" of type '" "wchar_t const *&""'"); 
-  }
-  if (!argp2) {
-    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "Reader_read" "', argument " "2"" of type '" "wchar_t const *&""'"); 
-  }
-  arg2 = reinterpret_cast< wchar_t ** >(argp2);
-  ecode3 = SWIG_AsVal_int(obj2, &val3);
-  if (!SWIG_IsOK(ecode3)) {
-    SWIG_exception_fail(SWIG_ArgError(ecode3), "in method '" "Reader_read" "', argument " "3"" of type '" "int32_t""'");
-  } 
-  arg3 = static_cast< int32_t >(val3);
-  ecode4 = SWIG_AsVal_int(obj3, &val4);
-  if (!SWIG_IsOK(ecode4)) {
-    SWIG_exception_fail(SWIG_ArgError(ecode4), "in method '" "Reader_read" "', argument " "4"" of type '" "int32_t""'");
-  } 
-  arg4 = static_cast< int32_t >(val4);
-  {
-    try {
-      {
-        SWIG_PYTHON_THREAD_BEGIN_ALLOW;
-        result = (int32_t)(arg1)->read((wchar_t const *&)*arg2,arg3,arg4);
-        SWIG_PYTHON_THREAD_END_ALLOW;
-      }
-    }_CATCHALL();
-  }
-  resultobj = SWIG_From_int(static_cast< int >(result));
   return resultobj;
 fail:
   return NULL;
@@ -9751,6 +11305,1148 @@ SWIGINTERN PyObject *RegisteredField_swigregister(PyObject *SWIGUNUSEDPARM(self)
   PyObject *obj;
   if (!PyArg_ParseTuple(args,(char*)"O:swigregister", &obj)) return NULL;
   SWIG_TypeNewClientData(SWIGTYPE_p_Strigi__RegisteredField, SWIG_NewClientData(obj));
+  return SWIG_Py_Void();
+}
+
+SWIGINTERN PyObject *_wrap_new_FieldRegister(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  Strigi::FieldRegister *result = 0 ;
+  
+  if (!PyArg_ParseTuple(args,(char *)":new_FieldRegister")) SWIG_fail;
+  {
+    try {
+      {
+        SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+        result = (Strigi::FieldRegister *)new Strigi::FieldRegister();
+        SWIG_PYTHON_THREAD_END_ALLOW;
+      }
+    }_CATCHALL();
+  }
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_Strigi__FieldRegister, SWIG_POINTER_NEW |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_delete_FieldRegister(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  Strigi::FieldRegister *arg1 = (Strigi::FieldRegister *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  
+  if (!PyArg_ParseTuple(args,(char *)"O:delete_FieldRegister",&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_Strigi__FieldRegister, SWIG_POINTER_DISOWN |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "delete_FieldRegister" "', argument " "1"" of type '" "Strigi::FieldRegister *""'"); 
+  }
+  arg1 = reinterpret_cast< Strigi::FieldRegister * >(argp1);
+  {
+    try {
+      {
+        SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+        delete arg1;
+        SWIG_PYTHON_THREAD_END_ALLOW;
+      }
+    }_CATCHALL();
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_FieldRegister_registerField__SWIG_0(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  Strigi::FieldRegister *arg1 = (Strigi::FieldRegister *) 0 ;
+  std::string *arg2 = 0 ;
+  std::string *arg3 = 0 ;
+  int arg4 ;
+  Strigi::RegisteredField *arg5 = (Strigi::RegisteredField *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int res2 = SWIG_OLDOBJ ;
+  int res3 = SWIG_OLDOBJ ;
+  int val4 ;
+  int ecode4 = 0 ;
+  void *argp5 = 0 ;
+  int res5 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  PyObject * obj2 = 0 ;
+  PyObject * obj3 = 0 ;
+  PyObject * obj4 = 0 ;
+  Strigi::RegisteredField *result = 0 ;
+  
+  if (!PyArg_ParseTuple(args,(char *)"OOOOO:FieldRegister_registerField",&obj0,&obj1,&obj2,&obj3,&obj4)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_Strigi__FieldRegister, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "FieldRegister_registerField" "', argument " "1"" of type '" "Strigi::FieldRegister *""'"); 
+  }
+  arg1 = reinterpret_cast< Strigi::FieldRegister * >(argp1);
+  {
+    std::string *ptr = (std::string *)0;
+    res2 = SWIG_AsPtr_std_string(obj1, &ptr);
+    if (!SWIG_IsOK(res2)) {
+      SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "FieldRegister_registerField" "', argument " "2"" of type '" "std::string const &""'"); 
+    }
+    if (!ptr) {
+      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "FieldRegister_registerField" "', argument " "2"" of type '" "std::string const &""'"); 
+    }
+    arg2 = ptr;
+  }
+  {
+    std::string *ptr = (std::string *)0;
+    res3 = SWIG_AsPtr_std_string(obj2, &ptr);
+    if (!SWIG_IsOK(res3)) {
+      SWIG_exception_fail(SWIG_ArgError(res3), "in method '" "FieldRegister_registerField" "', argument " "3"" of type '" "std::string const &""'"); 
+    }
+    if (!ptr) {
+      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "FieldRegister_registerField" "', argument " "3"" of type '" "std::string const &""'"); 
+    }
+    arg3 = ptr;
+  }
+  ecode4 = SWIG_AsVal_int(obj3, &val4);
+  if (!SWIG_IsOK(ecode4)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode4), "in method '" "FieldRegister_registerField" "', argument " "4"" of type '" "int""'");
+  } 
+  arg4 = static_cast< int >(val4);
+  res5 = SWIG_ConvertPtr(obj4, &argp5,SWIGTYPE_p_Strigi__RegisteredField, 0 |  0 );
+  if (!SWIG_IsOK(res5)) {
+    SWIG_exception_fail(SWIG_ArgError(res5), "in method '" "FieldRegister_registerField" "', argument " "5"" of type '" "Strigi::RegisteredField const *""'"); 
+  }
+  arg5 = reinterpret_cast< Strigi::RegisteredField * >(argp5);
+  {
+    try {
+      {
+        SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+        result = (Strigi::RegisteredField *)(arg1)->registerField((std::string const &)*arg2,(std::string const &)*arg3,arg4,(Strigi::RegisteredField const *)arg5);
+        SWIG_PYTHON_THREAD_END_ALLOW;
+      }
+    }_CATCHALL();
+  }
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_Strigi__RegisteredField, 0 |  0 );
+  if (SWIG_IsNewObj(res2)) delete arg2;
+  if (SWIG_IsNewObj(res3)) delete arg3;
+  return resultobj;
+fail:
+  if (SWIG_IsNewObj(res2)) delete arg2;
+  if (SWIG_IsNewObj(res3)) delete arg3;
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_FieldRegister_registerField__SWIG_1(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  Strigi::FieldRegister *arg1 = (Strigi::FieldRegister *) 0 ;
+  std::string *arg2 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int res2 = SWIG_OLDOBJ ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  Strigi::RegisteredField *result = 0 ;
+  
+  if (!PyArg_ParseTuple(args,(char *)"OO:FieldRegister_registerField",&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_Strigi__FieldRegister, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "FieldRegister_registerField" "', argument " "1"" of type '" "Strigi::FieldRegister *""'"); 
+  }
+  arg1 = reinterpret_cast< Strigi::FieldRegister * >(argp1);
+  {
+    std::string *ptr = (std::string *)0;
+    res2 = SWIG_AsPtr_std_string(obj1, &ptr);
+    if (!SWIG_IsOK(res2)) {
+      SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "FieldRegister_registerField" "', argument " "2"" of type '" "std::string const &""'"); 
+    }
+    if (!ptr) {
+      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "FieldRegister_registerField" "', argument " "2"" of type '" "std::string const &""'"); 
+    }
+    arg2 = ptr;
+  }
+  {
+    try {
+      {
+        SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+        result = (Strigi::RegisteredField *)(arg1)->registerField((std::string const &)*arg2);
+        SWIG_PYTHON_THREAD_END_ALLOW;
+      }
+    }_CATCHALL();
+  }
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_Strigi__RegisteredField, 0 |  0 );
+  if (SWIG_IsNewObj(res2)) delete arg2;
+  return resultobj;
+fail:
+  if (SWIG_IsNewObj(res2)) delete arg2;
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_FieldRegister_registerField(PyObject *self, PyObject *args) {
+  int argc;
+  PyObject *argv[6];
+  int ii;
+  
+  if (!PyTuple_Check(args)) SWIG_fail;
+  argc = (int)PyObject_Length(args);
+  for (ii = 0; (ii < argc) && (ii < 5); ii++) {
+    argv[ii] = PyTuple_GET_ITEM(args,ii);
+  }
+  if (argc == 2) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_Strigi__FieldRegister, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      int res = SWIG_AsPtr_std_string(argv[1], (std::string**)(0));
+      _v = SWIG_CheckState(res);
+      if (_v) {
+        return _wrap_FieldRegister_registerField__SWIG_1(self, args);
+      }
+    }
+  }
+  if (argc == 5) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_Strigi__FieldRegister, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      int res = SWIG_AsPtr_std_string(argv[1], (std::string**)(0));
+      _v = SWIG_CheckState(res);
+      if (_v) {
+        int res = SWIG_AsPtr_std_string(argv[2], (std::string**)(0));
+        _v = SWIG_CheckState(res);
+        if (_v) {
+          {
+            int res = SWIG_AsVal_int(argv[3], NULL);
+            _v = SWIG_CheckState(res);
+          }
+          if (_v) {
+            void *vptr = 0;
+            int res = SWIG_ConvertPtr(argv[4], &vptr, SWIGTYPE_p_Strigi__RegisteredField, 0);
+            _v = SWIG_CheckState(res);
+            if (_v) {
+              return _wrap_FieldRegister_registerField__SWIG_0(self, args);
+            }
+          }
+        }
+      }
+    }
+  }
+  
+fail:
+  SWIG_SetErrorMsg(PyExc_NotImplementedError,"Wrong number of arguments for overloaded function 'FieldRegister_registerField'.\n"
+    "  Possible C/C++ prototypes are:\n"
+    "    registerField(Strigi::FieldRegister *,std::string const &,std::string const &,int,Strigi::RegisteredField const *)\n"
+    "    registerField(Strigi::FieldRegister *,std::string const &)\n");
+  return NULL;
+}
+
+
+SWIGINTERN int Swig_var_FieldRegister_floatType_set(PyObject *) {
+  SWIG_Error(SWIG_AttributeError,"Variable FieldRegister_floatType is read-only.");
+  return 1;
+}
+
+
+SWIGINTERN PyObject *Swig_var_FieldRegister_floatType_get(void) {
+  PyObject *pyobj = 0;
+  
+  pyobj = SWIG_From_std_string(static_cast< std::string >(Strigi::FieldRegister::floatType));
+  return pyobj;
+}
+
+
+SWIGINTERN int Swig_var_FieldRegister_integerType_set(PyObject *) {
+  SWIG_Error(SWIG_AttributeError,"Variable FieldRegister_integerType is read-only.");
+  return 1;
+}
+
+
+SWIGINTERN PyObject *Swig_var_FieldRegister_integerType_get(void) {
+  PyObject *pyobj = 0;
+  
+  pyobj = SWIG_From_std_string(static_cast< std::string >(Strigi::FieldRegister::integerType));
+  return pyobj;
+}
+
+
+SWIGINTERN int Swig_var_FieldRegister_binaryType_set(PyObject *) {
+  SWIG_Error(SWIG_AttributeError,"Variable FieldRegister_binaryType is read-only.");
+  return 1;
+}
+
+
+SWIGINTERN PyObject *Swig_var_FieldRegister_binaryType_get(void) {
+  PyObject *pyobj = 0;
+  
+  pyobj = SWIG_From_std_string(static_cast< std::string >(Strigi::FieldRegister::binaryType));
+  return pyobj;
+}
+
+
+SWIGINTERN int Swig_var_FieldRegister_stringType_set(PyObject *) {
+  SWIG_Error(SWIG_AttributeError,"Variable FieldRegister_stringType is read-only.");
+  return 1;
+}
+
+
+SWIGINTERN PyObject *Swig_var_FieldRegister_stringType_get(void) {
+  PyObject *pyobj = 0;
+  
+  pyobj = SWIG_From_std_string(static_cast< std::string >(Strigi::FieldRegister::stringType));
+  return pyobj;
+}
+
+
+SWIGINTERN int Swig_var_FieldRegister_datetimeType_set(PyObject *) {
+  SWIG_Error(SWIG_AttributeError,"Variable FieldRegister_datetimeType is read-only.");
+  return 1;
+}
+
+
+SWIGINTERN PyObject *Swig_var_FieldRegister_datetimeType_get(void) {
+  PyObject *pyobj = 0;
+  
+  pyobj = SWIG_From_std_string(static_cast< std::string >(Strigi::FieldRegister::datetimeType));
+  return pyobj;
+}
+
+
+SWIGINTERN int Swig_var_FieldRegister_pathFieldName_set(PyObject *) {
+  SWIG_Error(SWIG_AttributeError,"Variable FieldRegister_pathFieldName is read-only.");
+  return 1;
+}
+
+
+SWIGINTERN PyObject *Swig_var_FieldRegister_pathFieldName_get(void) {
+  PyObject *pyobj = 0;
+  
+  pyobj = SWIG_From_std_string(static_cast< std::string >(Strigi::FieldRegister::pathFieldName));
+  return pyobj;
+}
+
+
+SWIGINTERN int Swig_var_FieldRegister_parentLocationFieldName_set(PyObject *) {
+  SWIG_Error(SWIG_AttributeError,"Variable FieldRegister_parentLocationFieldName is read-only.");
+  return 1;
+}
+
+
+SWIGINTERN PyObject *Swig_var_FieldRegister_parentLocationFieldName_get(void) {
+  PyObject *pyobj = 0;
+  
+  pyobj = SWIG_From_std_string(static_cast< std::string >(Strigi::FieldRegister::parentLocationFieldName));
+  return pyobj;
+}
+
+
+SWIGINTERN int Swig_var_FieldRegister_encodingFieldName_set(PyObject *) {
+  SWIG_Error(SWIG_AttributeError,"Variable FieldRegister_encodingFieldName is read-only.");
+  return 1;
+}
+
+
+SWIGINTERN PyObject *Swig_var_FieldRegister_encodingFieldName_get(void) {
+  PyObject *pyobj = 0;
+  
+  pyobj = SWIG_From_std_string(static_cast< std::string >(Strigi::FieldRegister::encodingFieldName));
+  return pyobj;
+}
+
+
+SWIGINTERN int Swig_var_FieldRegister_mimetypeFieldName_set(PyObject *) {
+  SWIG_Error(SWIG_AttributeError,"Variable FieldRegister_mimetypeFieldName is read-only.");
+  return 1;
+}
+
+
+SWIGINTERN PyObject *Swig_var_FieldRegister_mimetypeFieldName_get(void) {
+  PyObject *pyobj = 0;
+  
+  pyobj = SWIG_From_std_string(static_cast< std::string >(Strigi::FieldRegister::mimetypeFieldName));
+  return pyobj;
+}
+
+
+SWIGINTERN int Swig_var_FieldRegister_filenameFieldName_set(PyObject *) {
+  SWIG_Error(SWIG_AttributeError,"Variable FieldRegister_filenameFieldName is read-only.");
+  return 1;
+}
+
+
+SWIGINTERN PyObject *Swig_var_FieldRegister_filenameFieldName_get(void) {
+  PyObject *pyobj = 0;
+  
+  pyobj = SWIG_From_std_string(static_cast< std::string >(Strigi::FieldRegister::filenameFieldName));
+  return pyobj;
+}
+
+
+SWIGINTERN int Swig_var_FieldRegister_contentFieldName_set(PyObject *) {
+  SWIG_Error(SWIG_AttributeError,"Variable FieldRegister_contentFieldName is read-only.");
+  return 1;
+}
+
+
+SWIGINTERN PyObject *Swig_var_FieldRegister_contentFieldName_get(void) {
+  PyObject *pyobj = 0;
+  
+  pyobj = SWIG_From_std_string(static_cast< std::string >(Strigi::FieldRegister::contentFieldName));
+  return pyobj;
+}
+
+
+SWIGINTERN int Swig_var_FieldRegister_extensionFieldName_set(PyObject *) {
+  SWIG_Error(SWIG_AttributeError,"Variable FieldRegister_extensionFieldName is read-only.");
+  return 1;
+}
+
+
+SWIGINTERN PyObject *Swig_var_FieldRegister_extensionFieldName_get(void) {
+  PyObject *pyobj = 0;
+  
+  pyobj = SWIG_From_std_string(static_cast< std::string >(Strigi::FieldRegister::extensionFieldName));
+  return pyobj;
+}
+
+
+SWIGINTERN int Swig_var_FieldRegister_embeddepthFieldName_set(PyObject *) {
+  SWIG_Error(SWIG_AttributeError,"Variable FieldRegister_embeddepthFieldName is read-only.");
+  return 1;
+}
+
+
+SWIGINTERN PyObject *Swig_var_FieldRegister_embeddepthFieldName_get(void) {
+  PyObject *pyobj = 0;
+  
+  pyobj = SWIG_From_std_string(static_cast< std::string >(Strigi::FieldRegister::embeddepthFieldName));
+  return pyobj;
+}
+
+
+SWIGINTERN int Swig_var_FieldRegister_mtimeFieldName_set(PyObject *) {
+  SWIG_Error(SWIG_AttributeError,"Variable FieldRegister_mtimeFieldName is read-only.");
+  return 1;
+}
+
+
+SWIGINTERN PyObject *Swig_var_FieldRegister_mtimeFieldName_get(void) {
+  PyObject *pyobj = 0;
+  
+  pyobj = SWIG_From_std_string(static_cast< std::string >(Strigi::FieldRegister::mtimeFieldName));
+  return pyobj;
+}
+
+
+SWIGINTERN int Swig_var_FieldRegister_sizeFieldName_set(PyObject *) {
+  SWIG_Error(SWIG_AttributeError,"Variable FieldRegister_sizeFieldName is read-only.");
+  return 1;
+}
+
+
+SWIGINTERN PyObject *Swig_var_FieldRegister_sizeFieldName_get(void) {
+  PyObject *pyobj = 0;
+  
+  pyobj = SWIG_From_std_string(static_cast< std::string >(Strigi::FieldRegister::sizeFieldName));
+  return pyobj;
+}
+
+
+SWIGINTERN int Swig_var_FieldRegister_typeFieldName_set(PyObject *) {
+  SWIG_Error(SWIG_AttributeError,"Variable FieldRegister_typeFieldName is read-only.");
+  return 1;
+}
+
+
+SWIGINTERN PyObject *Swig_var_FieldRegister_typeFieldName_get(void) {
+  PyObject *pyobj = 0;
+  
+  pyobj = SWIG_From_std_string(static_cast< std::string >(Strigi::FieldRegister::typeFieldName));
+  return pyobj;
+}
+
+
+SWIGINTERN int Swig_var_FieldRegister_defaultNamespace_set(PyObject *) {
+  SWIG_Error(SWIG_AttributeError,"Variable FieldRegister_defaultNamespace is read-only.");
+  return 1;
+}
+
+
+SWIGINTERN PyObject *Swig_var_FieldRegister_defaultNamespace_get(void) {
+  PyObject *pyobj = 0;
+  
+  pyobj = SWIG_From_std_string(static_cast< std::string >(Strigi::FieldRegister::defaultNamespace));
+  return pyobj;
+}
+
+
+SWIGINTERN PyObject *_wrap_FieldRegister_pathField_set(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  Strigi::FieldRegister *arg1 = (Strigi::FieldRegister *) 0 ;
+  Strigi::RegisteredField *arg2 = (Strigi::RegisteredField *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  
+  if (!PyArg_ParseTuple(args,(char *)"OO:FieldRegister_pathField_set",&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_Strigi__FieldRegister, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "FieldRegister_pathField_set" "', argument " "1"" of type '" "Strigi::FieldRegister *""'"); 
+  }
+  arg1 = reinterpret_cast< Strigi::FieldRegister * >(argp1);
+  res2 = SWIG_ConvertPtr(obj1, &argp2,SWIGTYPE_p_Strigi__RegisteredField, SWIG_POINTER_DISOWN |  0 );
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "FieldRegister_pathField_set" "', argument " "2"" of type '" "Strigi::RegisteredField const *""'"); 
+  }
+  arg2 = reinterpret_cast< Strigi::RegisteredField * >(argp2);
+  {
+    SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+    if (arg1) (arg1)->pathField = (Strigi::RegisteredField const *)arg2;
+    SWIG_PYTHON_THREAD_END_ALLOW;
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_FieldRegister_pathField_get(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  Strigi::FieldRegister *arg1 = (Strigi::FieldRegister *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  Strigi::RegisteredField *result = 0 ;
+  
+  if (!PyArg_ParseTuple(args,(char *)"O:FieldRegister_pathField_get",&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_Strigi__FieldRegister, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "FieldRegister_pathField_get" "', argument " "1"" of type '" "Strigi::FieldRegister *""'"); 
+  }
+  arg1 = reinterpret_cast< Strigi::FieldRegister * >(argp1);
+  {
+    SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+    result = (Strigi::RegisteredField *) ((arg1)->pathField);
+    SWIG_PYTHON_THREAD_END_ALLOW;
+  }
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_Strigi__RegisteredField, 0 |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_FieldRegister_parentLocationField_set(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  Strigi::FieldRegister *arg1 = (Strigi::FieldRegister *) 0 ;
+  Strigi::RegisteredField *arg2 = (Strigi::RegisteredField *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  
+  if (!PyArg_ParseTuple(args,(char *)"OO:FieldRegister_parentLocationField_set",&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_Strigi__FieldRegister, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "FieldRegister_parentLocationField_set" "', argument " "1"" of type '" "Strigi::FieldRegister *""'"); 
+  }
+  arg1 = reinterpret_cast< Strigi::FieldRegister * >(argp1);
+  res2 = SWIG_ConvertPtr(obj1, &argp2,SWIGTYPE_p_Strigi__RegisteredField, SWIG_POINTER_DISOWN |  0 );
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "FieldRegister_parentLocationField_set" "', argument " "2"" of type '" "Strigi::RegisteredField const *""'"); 
+  }
+  arg2 = reinterpret_cast< Strigi::RegisteredField * >(argp2);
+  {
+    SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+    if (arg1) (arg1)->parentLocationField = (Strigi::RegisteredField const *)arg2;
+    SWIG_PYTHON_THREAD_END_ALLOW;
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_FieldRegister_parentLocationField_get(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  Strigi::FieldRegister *arg1 = (Strigi::FieldRegister *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  Strigi::RegisteredField *result = 0 ;
+  
+  if (!PyArg_ParseTuple(args,(char *)"O:FieldRegister_parentLocationField_get",&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_Strigi__FieldRegister, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "FieldRegister_parentLocationField_get" "', argument " "1"" of type '" "Strigi::FieldRegister *""'"); 
+  }
+  arg1 = reinterpret_cast< Strigi::FieldRegister * >(argp1);
+  {
+    SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+    result = (Strigi::RegisteredField *) ((arg1)->parentLocationField);
+    SWIG_PYTHON_THREAD_END_ALLOW;
+  }
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_Strigi__RegisteredField, 0 |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_FieldRegister_encodingField_set(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  Strigi::FieldRegister *arg1 = (Strigi::FieldRegister *) 0 ;
+  Strigi::RegisteredField *arg2 = (Strigi::RegisteredField *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  
+  if (!PyArg_ParseTuple(args,(char *)"OO:FieldRegister_encodingField_set",&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_Strigi__FieldRegister, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "FieldRegister_encodingField_set" "', argument " "1"" of type '" "Strigi::FieldRegister *""'"); 
+  }
+  arg1 = reinterpret_cast< Strigi::FieldRegister * >(argp1);
+  res2 = SWIG_ConvertPtr(obj1, &argp2,SWIGTYPE_p_Strigi__RegisteredField, SWIG_POINTER_DISOWN |  0 );
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "FieldRegister_encodingField_set" "', argument " "2"" of type '" "Strigi::RegisteredField const *""'"); 
+  }
+  arg2 = reinterpret_cast< Strigi::RegisteredField * >(argp2);
+  {
+    SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+    if (arg1) (arg1)->encodingField = (Strigi::RegisteredField const *)arg2;
+    SWIG_PYTHON_THREAD_END_ALLOW;
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_FieldRegister_encodingField_get(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  Strigi::FieldRegister *arg1 = (Strigi::FieldRegister *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  Strigi::RegisteredField *result = 0 ;
+  
+  if (!PyArg_ParseTuple(args,(char *)"O:FieldRegister_encodingField_get",&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_Strigi__FieldRegister, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "FieldRegister_encodingField_get" "', argument " "1"" of type '" "Strigi::FieldRegister *""'"); 
+  }
+  arg1 = reinterpret_cast< Strigi::FieldRegister * >(argp1);
+  {
+    SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+    result = (Strigi::RegisteredField *) ((arg1)->encodingField);
+    SWIG_PYTHON_THREAD_END_ALLOW;
+  }
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_Strigi__RegisteredField, 0 |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_FieldRegister_mimetypeField_set(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  Strigi::FieldRegister *arg1 = (Strigi::FieldRegister *) 0 ;
+  Strigi::RegisteredField *arg2 = (Strigi::RegisteredField *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  
+  if (!PyArg_ParseTuple(args,(char *)"OO:FieldRegister_mimetypeField_set",&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_Strigi__FieldRegister, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "FieldRegister_mimetypeField_set" "', argument " "1"" of type '" "Strigi::FieldRegister *""'"); 
+  }
+  arg1 = reinterpret_cast< Strigi::FieldRegister * >(argp1);
+  res2 = SWIG_ConvertPtr(obj1, &argp2,SWIGTYPE_p_Strigi__RegisteredField, SWIG_POINTER_DISOWN |  0 );
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "FieldRegister_mimetypeField_set" "', argument " "2"" of type '" "Strigi::RegisteredField const *""'"); 
+  }
+  arg2 = reinterpret_cast< Strigi::RegisteredField * >(argp2);
+  {
+    SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+    if (arg1) (arg1)->mimetypeField = (Strigi::RegisteredField const *)arg2;
+    SWIG_PYTHON_THREAD_END_ALLOW;
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_FieldRegister_mimetypeField_get(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  Strigi::FieldRegister *arg1 = (Strigi::FieldRegister *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  Strigi::RegisteredField *result = 0 ;
+  
+  if (!PyArg_ParseTuple(args,(char *)"O:FieldRegister_mimetypeField_get",&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_Strigi__FieldRegister, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "FieldRegister_mimetypeField_get" "', argument " "1"" of type '" "Strigi::FieldRegister *""'"); 
+  }
+  arg1 = reinterpret_cast< Strigi::FieldRegister * >(argp1);
+  {
+    SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+    result = (Strigi::RegisteredField *) ((arg1)->mimetypeField);
+    SWIG_PYTHON_THREAD_END_ALLOW;
+  }
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_Strigi__RegisteredField, 0 |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_FieldRegister_filenameField_set(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  Strigi::FieldRegister *arg1 = (Strigi::FieldRegister *) 0 ;
+  Strigi::RegisteredField *arg2 = (Strigi::RegisteredField *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  
+  if (!PyArg_ParseTuple(args,(char *)"OO:FieldRegister_filenameField_set",&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_Strigi__FieldRegister, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "FieldRegister_filenameField_set" "', argument " "1"" of type '" "Strigi::FieldRegister *""'"); 
+  }
+  arg1 = reinterpret_cast< Strigi::FieldRegister * >(argp1);
+  res2 = SWIG_ConvertPtr(obj1, &argp2,SWIGTYPE_p_Strigi__RegisteredField, SWIG_POINTER_DISOWN |  0 );
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "FieldRegister_filenameField_set" "', argument " "2"" of type '" "Strigi::RegisteredField const *""'"); 
+  }
+  arg2 = reinterpret_cast< Strigi::RegisteredField * >(argp2);
+  {
+    SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+    if (arg1) (arg1)->filenameField = (Strigi::RegisteredField const *)arg2;
+    SWIG_PYTHON_THREAD_END_ALLOW;
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_FieldRegister_filenameField_get(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  Strigi::FieldRegister *arg1 = (Strigi::FieldRegister *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  Strigi::RegisteredField *result = 0 ;
+  
+  if (!PyArg_ParseTuple(args,(char *)"O:FieldRegister_filenameField_get",&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_Strigi__FieldRegister, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "FieldRegister_filenameField_get" "', argument " "1"" of type '" "Strigi::FieldRegister *""'"); 
+  }
+  arg1 = reinterpret_cast< Strigi::FieldRegister * >(argp1);
+  {
+    SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+    result = (Strigi::RegisteredField *) ((arg1)->filenameField);
+    SWIG_PYTHON_THREAD_END_ALLOW;
+  }
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_Strigi__RegisteredField, 0 |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_FieldRegister_extensionField_set(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  Strigi::FieldRegister *arg1 = (Strigi::FieldRegister *) 0 ;
+  Strigi::RegisteredField *arg2 = (Strigi::RegisteredField *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  
+  if (!PyArg_ParseTuple(args,(char *)"OO:FieldRegister_extensionField_set",&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_Strigi__FieldRegister, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "FieldRegister_extensionField_set" "', argument " "1"" of type '" "Strigi::FieldRegister *""'"); 
+  }
+  arg1 = reinterpret_cast< Strigi::FieldRegister * >(argp1);
+  res2 = SWIG_ConvertPtr(obj1, &argp2,SWIGTYPE_p_Strigi__RegisteredField, SWIG_POINTER_DISOWN |  0 );
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "FieldRegister_extensionField_set" "', argument " "2"" of type '" "Strigi::RegisteredField const *""'"); 
+  }
+  arg2 = reinterpret_cast< Strigi::RegisteredField * >(argp2);
+  {
+    SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+    if (arg1) (arg1)->extensionField = (Strigi::RegisteredField const *)arg2;
+    SWIG_PYTHON_THREAD_END_ALLOW;
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_FieldRegister_extensionField_get(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  Strigi::FieldRegister *arg1 = (Strigi::FieldRegister *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  Strigi::RegisteredField *result = 0 ;
+  
+  if (!PyArg_ParseTuple(args,(char *)"O:FieldRegister_extensionField_get",&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_Strigi__FieldRegister, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "FieldRegister_extensionField_get" "', argument " "1"" of type '" "Strigi::FieldRegister *""'"); 
+  }
+  arg1 = reinterpret_cast< Strigi::FieldRegister * >(argp1);
+  {
+    SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+    result = (Strigi::RegisteredField *) ((arg1)->extensionField);
+    SWIG_PYTHON_THREAD_END_ALLOW;
+  }
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_Strigi__RegisteredField, 0 |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_FieldRegister_embeddepthField_set(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  Strigi::FieldRegister *arg1 = (Strigi::FieldRegister *) 0 ;
+  Strigi::RegisteredField *arg2 = (Strigi::RegisteredField *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  
+  if (!PyArg_ParseTuple(args,(char *)"OO:FieldRegister_embeddepthField_set",&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_Strigi__FieldRegister, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "FieldRegister_embeddepthField_set" "', argument " "1"" of type '" "Strigi::FieldRegister *""'"); 
+  }
+  arg1 = reinterpret_cast< Strigi::FieldRegister * >(argp1);
+  res2 = SWIG_ConvertPtr(obj1, &argp2,SWIGTYPE_p_Strigi__RegisteredField, SWIG_POINTER_DISOWN |  0 );
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "FieldRegister_embeddepthField_set" "', argument " "2"" of type '" "Strigi::RegisteredField const *""'"); 
+  }
+  arg2 = reinterpret_cast< Strigi::RegisteredField * >(argp2);
+  {
+    SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+    if (arg1) (arg1)->embeddepthField = (Strigi::RegisteredField const *)arg2;
+    SWIG_PYTHON_THREAD_END_ALLOW;
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_FieldRegister_embeddepthField_get(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  Strigi::FieldRegister *arg1 = (Strigi::FieldRegister *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  Strigi::RegisteredField *result = 0 ;
+  
+  if (!PyArg_ParseTuple(args,(char *)"O:FieldRegister_embeddepthField_get",&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_Strigi__FieldRegister, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "FieldRegister_embeddepthField_get" "', argument " "1"" of type '" "Strigi::FieldRegister *""'"); 
+  }
+  arg1 = reinterpret_cast< Strigi::FieldRegister * >(argp1);
+  {
+    SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+    result = (Strigi::RegisteredField *) ((arg1)->embeddepthField);
+    SWIG_PYTHON_THREAD_END_ALLOW;
+  }
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_Strigi__RegisteredField, 0 |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_FieldRegister_mtimeField_set(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  Strigi::FieldRegister *arg1 = (Strigi::FieldRegister *) 0 ;
+  Strigi::RegisteredField *arg2 = (Strigi::RegisteredField *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  
+  if (!PyArg_ParseTuple(args,(char *)"OO:FieldRegister_mtimeField_set",&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_Strigi__FieldRegister, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "FieldRegister_mtimeField_set" "', argument " "1"" of type '" "Strigi::FieldRegister *""'"); 
+  }
+  arg1 = reinterpret_cast< Strigi::FieldRegister * >(argp1);
+  res2 = SWIG_ConvertPtr(obj1, &argp2,SWIGTYPE_p_Strigi__RegisteredField, SWIG_POINTER_DISOWN |  0 );
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "FieldRegister_mtimeField_set" "', argument " "2"" of type '" "Strigi::RegisteredField const *""'"); 
+  }
+  arg2 = reinterpret_cast< Strigi::RegisteredField * >(argp2);
+  {
+    SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+    if (arg1) (arg1)->mtimeField = (Strigi::RegisteredField const *)arg2;
+    SWIG_PYTHON_THREAD_END_ALLOW;
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_FieldRegister_mtimeField_get(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  Strigi::FieldRegister *arg1 = (Strigi::FieldRegister *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  Strigi::RegisteredField *result = 0 ;
+  
+  if (!PyArg_ParseTuple(args,(char *)"O:FieldRegister_mtimeField_get",&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_Strigi__FieldRegister, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "FieldRegister_mtimeField_get" "', argument " "1"" of type '" "Strigi::FieldRegister *""'"); 
+  }
+  arg1 = reinterpret_cast< Strigi::FieldRegister * >(argp1);
+  {
+    SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+    result = (Strigi::RegisteredField *) ((arg1)->mtimeField);
+    SWIG_PYTHON_THREAD_END_ALLOW;
+  }
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_Strigi__RegisteredField, 0 |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_FieldRegister_sizeField_set(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  Strigi::FieldRegister *arg1 = (Strigi::FieldRegister *) 0 ;
+  Strigi::RegisteredField *arg2 = (Strigi::RegisteredField *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  
+  if (!PyArg_ParseTuple(args,(char *)"OO:FieldRegister_sizeField_set",&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_Strigi__FieldRegister, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "FieldRegister_sizeField_set" "', argument " "1"" of type '" "Strigi::FieldRegister *""'"); 
+  }
+  arg1 = reinterpret_cast< Strigi::FieldRegister * >(argp1);
+  res2 = SWIG_ConvertPtr(obj1, &argp2,SWIGTYPE_p_Strigi__RegisteredField, SWIG_POINTER_DISOWN |  0 );
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "FieldRegister_sizeField_set" "', argument " "2"" of type '" "Strigi::RegisteredField const *""'"); 
+  }
+  arg2 = reinterpret_cast< Strigi::RegisteredField * >(argp2);
+  {
+    SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+    if (arg1) (arg1)->sizeField = (Strigi::RegisteredField const *)arg2;
+    SWIG_PYTHON_THREAD_END_ALLOW;
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_FieldRegister_sizeField_get(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  Strigi::FieldRegister *arg1 = (Strigi::FieldRegister *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  Strigi::RegisteredField *result = 0 ;
+  
+  if (!PyArg_ParseTuple(args,(char *)"O:FieldRegister_sizeField_get",&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_Strigi__FieldRegister, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "FieldRegister_sizeField_get" "', argument " "1"" of type '" "Strigi::FieldRegister *""'"); 
+  }
+  arg1 = reinterpret_cast< Strigi::FieldRegister * >(argp1);
+  {
+    SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+    result = (Strigi::RegisteredField *) ((arg1)->sizeField);
+    SWIG_PYTHON_THREAD_END_ALLOW;
+  }
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_Strigi__RegisteredField, 0 |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_FieldRegister_typeField_set(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  Strigi::FieldRegister *arg1 = (Strigi::FieldRegister *) 0 ;
+  Strigi::RegisteredField *arg2 = (Strigi::RegisteredField *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  
+  if (!PyArg_ParseTuple(args,(char *)"OO:FieldRegister_typeField_set",&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_Strigi__FieldRegister, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "FieldRegister_typeField_set" "', argument " "1"" of type '" "Strigi::FieldRegister *""'"); 
+  }
+  arg1 = reinterpret_cast< Strigi::FieldRegister * >(argp1);
+  res2 = SWIG_ConvertPtr(obj1, &argp2,SWIGTYPE_p_Strigi__RegisteredField, SWIG_POINTER_DISOWN |  0 );
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "FieldRegister_typeField_set" "', argument " "2"" of type '" "Strigi::RegisteredField const *""'"); 
+  }
+  arg2 = reinterpret_cast< Strigi::RegisteredField * >(argp2);
+  {
+    SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+    if (arg1) (arg1)->typeField = (Strigi::RegisteredField const *)arg2;
+    SWIG_PYTHON_THREAD_END_ALLOW;
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_FieldRegister_typeField_get(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  Strigi::FieldRegister *arg1 = (Strigi::FieldRegister *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  Strigi::RegisteredField *result = 0 ;
+  
+  if (!PyArg_ParseTuple(args,(char *)"O:FieldRegister_typeField_get",&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_Strigi__FieldRegister, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "FieldRegister_typeField_get" "', argument " "1"" of type '" "Strigi::FieldRegister *""'"); 
+  }
+  arg1 = reinterpret_cast< Strigi::FieldRegister * >(argp1);
+  {
+    SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+    result = (Strigi::RegisteredField *) ((arg1)->typeField);
+    SWIG_PYTHON_THREAD_END_ALLOW;
+  }
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_Strigi__RegisteredField, 0 |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_FieldRegister_parseErrorField_set(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  Strigi::FieldRegister *arg1 = (Strigi::FieldRegister *) 0 ;
+  Strigi::RegisteredField *arg2 = (Strigi::RegisteredField *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  
+  if (!PyArg_ParseTuple(args,(char *)"OO:FieldRegister_parseErrorField_set",&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_Strigi__FieldRegister, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "FieldRegister_parseErrorField_set" "', argument " "1"" of type '" "Strigi::FieldRegister *""'"); 
+  }
+  arg1 = reinterpret_cast< Strigi::FieldRegister * >(argp1);
+  res2 = SWIG_ConvertPtr(obj1, &argp2,SWIGTYPE_p_Strigi__RegisteredField, SWIG_POINTER_DISOWN |  0 );
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "FieldRegister_parseErrorField_set" "', argument " "2"" of type '" "Strigi::RegisteredField const *""'"); 
+  }
+  arg2 = reinterpret_cast< Strigi::RegisteredField * >(argp2);
+  {
+    SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+    if (arg1) (arg1)->parseErrorField = (Strigi::RegisteredField const *)arg2;
+    SWIG_PYTHON_THREAD_END_ALLOW;
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_FieldRegister_parseErrorField_get(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  Strigi::FieldRegister *arg1 = (Strigi::FieldRegister *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  Strigi::RegisteredField *result = 0 ;
+  
+  if (!PyArg_ParseTuple(args,(char *)"O:FieldRegister_parseErrorField_get",&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_Strigi__FieldRegister, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "FieldRegister_parseErrorField_get" "', argument " "1"" of type '" "Strigi::FieldRegister *""'"); 
+  }
+  arg1 = reinterpret_cast< Strigi::FieldRegister * >(argp1);
+  {
+    SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+    result = (Strigi::RegisteredField *) ((arg1)->parseErrorField);
+    SWIG_PYTHON_THREAD_END_ALLOW;
+  }
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_Strigi__RegisteredField, 0 |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *FieldRegister_swigregister(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *obj;
+  if (!PyArg_ParseTuple(args,(char*)"O:swigregister", &obj)) return NULL;
+  SWIG_TypeNewClientData(SWIGTYPE_p_Strigi__FieldRegister, SWIG_NewClientData(obj));
   return SWIG_Py_Void();
 }
 
@@ -11783,6 +14479,116 @@ SWIGINTERN PyObject *RegisteredFieldVector_swigregister(PyObject *SWIGUNUSEDPARM
   return SWIG_Py_Void();
 }
 
+SWIGINTERN PyObject *_wrap_new_StreamAnalyzer(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  Strigi::AnalyzerConfiguration *arg1 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  Strigi::StreamAnalyzer *result = 0 ;
+  
+  if (!PyArg_ParseTuple(args,(char *)"O:new_StreamAnalyzer",&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1, SWIGTYPE_p_Strigi__AnalyzerConfiguration,  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "new_StreamAnalyzer" "', argument " "1"" of type '" "Strigi::AnalyzerConfiguration &""'"); 
+  }
+  if (!argp1) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "new_StreamAnalyzer" "', argument " "1"" of type '" "Strigi::AnalyzerConfiguration &""'"); 
+  }
+  arg1 = reinterpret_cast< Strigi::AnalyzerConfiguration * >(argp1);
+  {
+    try {
+      {
+        SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+        result = (Strigi::StreamAnalyzer *)new Strigi::StreamAnalyzer(*arg1);
+        SWIG_PYTHON_THREAD_END_ALLOW;
+      }
+    }_CATCHALL();
+  }
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_Strigi__StreamAnalyzer, SWIG_POINTER_NEW |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_delete_StreamAnalyzer(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  Strigi::StreamAnalyzer *arg1 = (Strigi::StreamAnalyzer *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  
+  if (!PyArg_ParseTuple(args,(char *)"O:delete_StreamAnalyzer",&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_Strigi__StreamAnalyzer, SWIG_POINTER_DISOWN |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "delete_StreamAnalyzer" "', argument " "1"" of type '" "Strigi::StreamAnalyzer *""'"); 
+  }
+  arg1 = reinterpret_cast< Strigi::StreamAnalyzer * >(argp1);
+  {
+    try {
+      {
+        SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+        delete arg1;
+        SWIG_PYTHON_THREAD_END_ALLOW;
+      }
+    }_CATCHALL();
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_StreamAnalyzer_setIndexWriter(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  Strigi::StreamAnalyzer *arg1 = (Strigi::StreamAnalyzer *) 0 ;
+  PythonIndexWriter *arg2 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  
+  if (!PyArg_ParseTuple(args,(char *)"OO:StreamAnalyzer_setIndexWriter",&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_Strigi__StreamAnalyzer, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "StreamAnalyzer_setIndexWriter" "', argument " "1"" of type '" "Strigi::StreamAnalyzer *""'"); 
+  }
+  arg1 = reinterpret_cast< Strigi::StreamAnalyzer * >(argp1);
+  res2 = SWIG_ConvertPtr(obj1, &argp2, SWIGTYPE_p_PythonIndexWriter,  0 );
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "StreamAnalyzer_setIndexWriter" "', argument " "2"" of type '" "PythonIndexWriter &""'"); 
+  }
+  if (!argp2) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "StreamAnalyzer_setIndexWriter" "', argument " "2"" of type '" "PythonIndexWriter &""'"); 
+  }
+  arg2 = reinterpret_cast< PythonIndexWriter * >(argp2);
+  {
+    try {
+      {
+        SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+        Strigi_StreamAnalyzer_setIndexWriter(arg1,*arg2);
+        SWIG_PYTHON_THREAD_END_ALLOW;
+      }
+    }_CATCHALL();
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *StreamAnalyzer_swigregister(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *obj;
+  if (!PyArg_ParseTuple(args,(char*)"O:swigregister", &obj)) return NULL;
+  SWIG_TypeNewClientData(SWIGTYPE_p_Strigi__StreamAnalyzer, SWIG_NewClientData(obj));
+  return SWIG_Py_Void();
+}
+
 SWIGINTERN PyObject *_wrap_delete_StreamAnalyzerFactory(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
   PyObject *resultobj = 0;
   Strigi::StreamAnalyzerFactory *arg1 = (Strigi::StreamAnalyzerFactory *) 0 ;
@@ -11842,6 +14648,85 @@ fail:
 }
 
 
+SWIGINTERN PyObject *_wrap_StreamAnalyzerFactory_registerFields(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  Strigi::StreamAnalyzerFactory *arg1 = (Strigi::StreamAnalyzerFactory *) 0 ;
+  Strigi::FieldRegister *arg2 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  
+  if (!PyArg_ParseTuple(args,(char *)"OO:StreamAnalyzerFactory_registerFields",&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_Strigi__StreamAnalyzerFactory, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "StreamAnalyzerFactory_registerFields" "', argument " "1"" of type '" "Strigi::StreamAnalyzerFactory *""'"); 
+  }
+  arg1 = reinterpret_cast< Strigi::StreamAnalyzerFactory * >(argp1);
+  res2 = SWIG_ConvertPtr(obj1, &argp2, SWIGTYPE_p_Strigi__FieldRegister,  0 );
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "StreamAnalyzerFactory_registerFields" "', argument " "2"" of type '" "Strigi::FieldRegister &""'"); 
+  }
+  if (!argp2) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "StreamAnalyzerFactory_registerFields" "', argument " "2"" of type '" "Strigi::FieldRegister &""'"); 
+  }
+  arg2 = reinterpret_cast< Strigi::FieldRegister * >(argp2);
+  {
+    try {
+      {
+        SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+        (arg1)->registerFields(*arg2);
+        SWIG_PYTHON_THREAD_END_ALLOW;
+      }
+    }_CATCHALL();
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_StreamAnalyzerFactory_addField(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  Strigi::StreamAnalyzerFactory *arg1 = (Strigi::StreamAnalyzerFactory *) 0 ;
+  Strigi::RegisteredField *arg2 = (Strigi::RegisteredField *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  
+  if (!PyArg_ParseTuple(args,(char *)"OO:StreamAnalyzerFactory_addField",&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_Strigi__StreamAnalyzerFactory, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "StreamAnalyzerFactory_addField" "', argument " "1"" of type '" "Strigi::StreamAnalyzerFactory *""'"); 
+  }
+  arg1 = reinterpret_cast< Strigi::StreamAnalyzerFactory * >(argp1);
+  res2 = SWIG_ConvertPtr(obj1, &argp2,SWIGTYPE_p_Strigi__RegisteredField, 0 |  0 );
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "StreamAnalyzerFactory_addField" "', argument " "2"" of type '" "Strigi::RegisteredField const *""'"); 
+  }
+  arg2 = reinterpret_cast< Strigi::RegisteredField * >(argp2);
+  {
+    try {
+      {
+        SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+        (arg1)->addField((Strigi::RegisteredField const *)arg2);
+        SWIG_PYTHON_THREAD_END_ALLOW;
+      }
+    }_CATCHALL();
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
 SWIGINTERN PyObject *_wrap_StreamAnalyzerFactory_registeredFields(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
   PyObject *resultobj = 0;
   Strigi::StreamAnalyzerFactory *arg1 = (Strigi::StreamAnalyzerFactory *) 0 ;
@@ -11879,30 +14764,363 @@ SWIGINTERN PyObject *StreamAnalyzerFactory_swigregister(PyObject *SWIGUNUSEDPARM
   return SWIG_Py_Void();
 }
 
-SWIGINTERN PyObject *_wrap_StreamEndAnalyzerFactory_analyzesSubStreams(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+SWIGINTERN PyObject *_wrap_delete_StreamEndAnalyzer(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  Strigi::StreamEndAnalyzer *arg1 = (Strigi::StreamEndAnalyzer *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  
+  if (!PyArg_ParseTuple(args,(char *)"O:delete_StreamEndAnalyzer",&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_Strigi__StreamEndAnalyzer, SWIG_POINTER_DISOWN |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "delete_StreamEndAnalyzer" "', argument " "1"" of type '" "Strigi::StreamEndAnalyzer *""'"); 
+  }
+  arg1 = reinterpret_cast< Strigi::StreamEndAnalyzer * >(argp1);
+  {
+    try {
+      {
+        SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+        delete arg1;
+        SWIG_PYTHON_THREAD_END_ALLOW;
+      }
+    }_CATCHALL();
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_StreamEndAnalyzer_checkHeader(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  Strigi::StreamEndAnalyzer *arg1 = (Strigi::StreamEndAnalyzer *) 0 ;
+  char *arg2 = (char *) 0 ;
+  int32_t arg3 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int res2 ;
+  char *buf2 = 0 ;
+  int alloc2 = 0 ;
+  int val3 ;
+  int ecode3 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  PyObject * obj2 = 0 ;
+  Swig::Director *director = 0;
+  bool upcall = false;
+  bool result;
+  
+  if (!PyArg_ParseTuple(args,(char *)"OOO:StreamEndAnalyzer_checkHeader",&obj0,&obj1,&obj2)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_Strigi__StreamEndAnalyzer, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "StreamEndAnalyzer_checkHeader" "', argument " "1"" of type '" "Strigi::StreamEndAnalyzer const *""'"); 
+  }
+  arg1 = reinterpret_cast< Strigi::StreamEndAnalyzer * >(argp1);
+  res2 = SWIG_AsCharPtrAndSize(obj1, &buf2, NULL, &alloc2);
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "StreamEndAnalyzer_checkHeader" "', argument " "2"" of type '" "char const *""'");
+  }
+  arg2 = reinterpret_cast< char * >(buf2);
+  ecode3 = SWIG_AsVal_int(obj2, &val3);
+  if (!SWIG_IsOK(ecode3)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode3), "in method '" "StreamEndAnalyzer_checkHeader" "', argument " "3"" of type '" "int32_t""'");
+  } 
+  arg3 = static_cast< int32_t >(val3);
+  director = SWIG_DIRECTOR_CAST(arg1);
+  upcall = (director && (director->swig_get_self()==obj0));
+  try {
+    {
+      try {
+        if (upcall) {
+          Swig::DirectorPureVirtualException::raise("Strigi::StreamEndAnalyzer::checkHeader");
+        } else {
+          result = (bool)((Strigi::StreamEndAnalyzer const *)arg1)->checkHeader((char const *)arg2,arg3);
+        }
+      }_CATCHALL();
+    }
+  } catch (Swig::DirectorException&) {
+    SWIG_fail;
+  }
+  resultobj = SWIG_From_bool(static_cast< bool >(result));
+  if (alloc2 == SWIG_NEWOBJ) delete[] buf2;
+  return resultobj;
+fail:
+  if (alloc2 == SWIG_NEWOBJ) delete[] buf2;
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_StreamEndAnalyzer_analyze(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  Strigi::StreamEndAnalyzer *arg1 = (Strigi::StreamEndAnalyzer *) 0 ;
+  Strigi::AnalysisResult *arg2 = 0 ;
+  Strigi::InputStream *arg3 = (Strigi::InputStream *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  void *argp3 = 0 ;
+  int res3 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  PyObject * obj2 = 0 ;
+  Swig::Director *director = 0;
+  bool upcall = false;
+  signed char result;
+  
+  if (!PyArg_ParseTuple(args,(char *)"OOO:StreamEndAnalyzer_analyze",&obj0,&obj1,&obj2)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_Strigi__StreamEndAnalyzer, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "StreamEndAnalyzer_analyze" "', argument " "1"" of type '" "Strigi::StreamEndAnalyzer *""'"); 
+  }
+  arg1 = reinterpret_cast< Strigi::StreamEndAnalyzer * >(argp1);
+  res2 = SWIG_ConvertPtr(obj1, &argp2, SWIGTYPE_p_Strigi__AnalysisResult,  0 );
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "StreamEndAnalyzer_analyze" "', argument " "2"" of type '" "Strigi::AnalysisResult &""'"); 
+  }
+  if (!argp2) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "StreamEndAnalyzer_analyze" "', argument " "2"" of type '" "Strigi::AnalysisResult &""'"); 
+  }
+  arg2 = reinterpret_cast< Strigi::AnalysisResult * >(argp2);
+  res3 = SWIG_ConvertPtr(obj2, &argp3,SWIGTYPE_p_Strigi__StreamBaseT_char_t, 0 |  0 );
+  if (!SWIG_IsOK(res3)) {
+    SWIG_exception_fail(SWIG_ArgError(res3), "in method '" "StreamEndAnalyzer_analyze" "', argument " "3"" of type '" "Strigi::InputStream *""'"); 
+  }
+  arg3 = reinterpret_cast< Strigi::InputStream * >(argp3);
+  director = SWIG_DIRECTOR_CAST(arg1);
+  upcall = (director && (director->swig_get_self()==obj0));
+  try {
+    {
+      try {
+        if (upcall) {
+          Swig::DirectorPureVirtualException::raise("Strigi::StreamEndAnalyzer::analyze");
+        } else {
+          result = (signed char)(arg1)->analyze(*arg2,arg3);
+        }
+      }_CATCHALL();
+    }
+  } catch (Swig::DirectorException&) {
+    SWIG_fail;
+  }
+  resultobj = SWIG_From_signed_SS_char(static_cast< signed char >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_StreamEndAnalyzer_error(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  Strigi::StreamEndAnalyzer *arg1 = (Strigi::StreamEndAnalyzer *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  std::string result;
+  
+  if (!PyArg_ParseTuple(args,(char *)"O:StreamEndAnalyzer_error",&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_Strigi__StreamEndAnalyzer, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "StreamEndAnalyzer_error" "', argument " "1"" of type '" "Strigi::StreamEndAnalyzer const *""'"); 
+  }
+  arg1 = reinterpret_cast< Strigi::StreamEndAnalyzer * >(argp1);
+  {
+    try {
+      {
+        SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+        result = ((Strigi::StreamEndAnalyzer const *)arg1)->error();
+        SWIG_PYTHON_THREAD_END_ALLOW;
+      }
+    }_CATCHALL();
+  }
+  resultobj = SWIG_From_std_string(static_cast< std::string >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_StreamEndAnalyzer_name(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  Strigi::StreamEndAnalyzer *arg1 = (Strigi::StreamEndAnalyzer *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  Swig::Director *director = 0;
+  bool upcall = false;
+  char *result = 0 ;
+  
+  if (!PyArg_ParseTuple(args,(char *)"O:StreamEndAnalyzer_name",&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_Strigi__StreamEndAnalyzer, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "StreamEndAnalyzer_name" "', argument " "1"" of type '" "Strigi::StreamEndAnalyzer const *""'"); 
+  }
+  arg1 = reinterpret_cast< Strigi::StreamEndAnalyzer * >(argp1);
+  director = SWIG_DIRECTOR_CAST(arg1);
+  upcall = (director && (director->swig_get_self()==obj0));
+  try {
+    {
+      try {
+        if (upcall) {
+          Swig::DirectorPureVirtualException::raise("Strigi::StreamEndAnalyzer::name");
+        } else {
+          result = (char *)((Strigi::StreamEndAnalyzer const *)arg1)->name();
+        }
+      }_CATCHALL();
+    }
+  } catch (Swig::DirectorException&) {
+    SWIG_fail;
+  }
+  resultobj = SWIG_FromCharPtr((const char *)result);
+  if (director) {
+    director->swig_release_ownership(SWIG_as_voidptr(result));
+  }
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_new_StreamEndAnalyzer(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  PyObject *arg1 = (PyObject *) 0 ;
+  PyObject * obj0 = 0 ;
+  Strigi::StreamEndAnalyzer *result = 0 ;
+  
+  if (!PyArg_ParseTuple(args,(char *)"O:new_StreamEndAnalyzer",&obj0)) SWIG_fail;
+  arg1 = obj0;
+  {
+    try {
+      {
+        SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+        if ( arg1 != Py_None ) {
+          /* subclassed */
+          result = (Strigi::StreamEndAnalyzer *)new SwigDirector_StreamEndAnalyzer(arg1); 
+        } else {
+          SWIG_SetErrorMsg(PyExc_RuntimeError,"accessing abstract class or protected constructor"); 
+          SWIG_fail;
+        }
+        
+        SWIG_PYTHON_THREAD_END_ALLOW;
+      }
+    }_CATCHALL();
+  }
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_Strigi__StreamEndAnalyzer, SWIG_POINTER_NEW |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_disown_StreamEndAnalyzer(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  Strigi::StreamEndAnalyzer *arg1 = (Strigi::StreamEndAnalyzer *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  
+  if (!PyArg_ParseTuple(args,(char *)"O:disown_StreamEndAnalyzer",&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_Strigi__StreamEndAnalyzer, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "disown_StreamEndAnalyzer" "', argument " "1"" of type '" "Strigi::StreamEndAnalyzer *""'"); 
+  }
+  arg1 = reinterpret_cast< Strigi::StreamEndAnalyzer * >(argp1);
+  {
+    SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+    {
+      Swig::Director *director = SWIG_DIRECTOR_CAST(arg1);
+      if (director) director->swig_disown();
+    }
+    
+    SWIG_PYTHON_THREAD_END_ALLOW;
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *StreamEndAnalyzer_swigregister(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *obj;
+  if (!PyArg_ParseTuple(args,(char*)"O:swigregister", &obj)) return NULL;
+  SWIG_TypeNewClientData(SWIGTYPE_p_Strigi__StreamEndAnalyzer, SWIG_NewClientData(obj));
+  return SWIG_Py_Void();
+}
+
+SWIGINTERN PyObject *_wrap_StreamEndAnalyzerFactory_newInstance(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
   PyObject *resultobj = 0;
   Strigi::StreamEndAnalyzerFactory *arg1 = (Strigi::StreamEndAnalyzerFactory *) 0 ;
   void *argp1 = 0 ;
   int res1 = 0 ;
   PyObject * obj0 = 0 ;
-  bool result;
+  Swig::Director *director = 0;
+  bool upcall = false;
+  Strigi::StreamEndAnalyzer *result = 0 ;
   
-  if (!PyArg_ParseTuple(args,(char *)"O:StreamEndAnalyzerFactory_analyzesSubStreams",&obj0)) SWIG_fail;
+  if (!PyArg_ParseTuple(args,(char *)"O:StreamEndAnalyzerFactory_newInstance",&obj0)) SWIG_fail;
   res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_Strigi__StreamEndAnalyzerFactory, 0 |  0 );
   if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "StreamEndAnalyzerFactory_analyzesSubStreams" "', argument " "1"" of type '" "Strigi::StreamEndAnalyzerFactory const *""'"); 
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "StreamEndAnalyzerFactory_newInstance" "', argument " "1"" of type '" "Strigi::StreamEndAnalyzerFactory const *""'"); 
   }
   arg1 = reinterpret_cast< Strigi::StreamEndAnalyzerFactory * >(argp1);
+  director = SWIG_DIRECTOR_CAST(arg1);
+  upcall = (director && (director->swig_get_self()==obj0));
+  try {
+    {
+      try {
+        if (upcall) {
+          Swig::DirectorPureVirtualException::raise("Strigi::StreamEndAnalyzerFactory::newInstance");
+        } else {
+          result = (Strigi::StreamEndAnalyzer *)((Strigi::StreamEndAnalyzerFactory const *)arg1)->newInstance();
+        }
+      }_CATCHALL();
+    }
+  } catch (Swig::DirectorException&) {
+    SWIG_fail;
+  }
+  director = SWIG_DIRECTOR_CAST(result);
+  if (director) {
+    resultobj = director->swig_get_self();
+    Py_INCREF(resultobj);
+  } else {
+    resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_Strigi__StreamEndAnalyzer, 0 |  0 );
+  }
+  if (director) {
+    SWIG_AcquirePtr(resultobj, director->swig_release_ownership(SWIG_as_voidptr(result)));
+  }
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_new_StreamEndAnalyzerFactory(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  PyObject *arg1 = (PyObject *) 0 ;
+  PyObject * obj0 = 0 ;
+  Strigi::StreamEndAnalyzerFactory *result = 0 ;
+  
+  if (!PyArg_ParseTuple(args,(char *)"O:new_StreamEndAnalyzerFactory",&obj0)) SWIG_fail;
+  arg1 = obj0;
   {
     try {
       {
         SWIG_PYTHON_THREAD_BEGIN_ALLOW;
-        result = (bool)((Strigi::StreamEndAnalyzerFactory const *)arg1)->analyzesSubStreams();
+        if ( arg1 != Py_None ) {
+          /* subclassed */
+          result = (Strigi::StreamEndAnalyzerFactory *)new SwigDirector_StreamEndAnalyzerFactory(arg1); 
+        } else {
+          SWIG_SetErrorMsg(PyExc_RuntimeError,"accessing abstract class or protected constructor"); 
+          SWIG_fail;
+        }
+        
         SWIG_PYTHON_THREAD_END_ALLOW;
       }
     }_CATCHALL();
   }
-  resultobj = SWIG_From_bool(static_cast< bool >(result));
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_Strigi__StreamEndAnalyzerFactory, SWIG_POINTER_NEW |  0 );
   return resultobj;
 fail:
   return NULL;
@@ -11938,12 +15156,444 @@ fail:
 }
 
 
+SWIGINTERN PyObject *_wrap_disown_StreamEndAnalyzerFactory(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  Strigi::StreamEndAnalyzerFactory *arg1 = (Strigi::StreamEndAnalyzerFactory *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  
+  if (!PyArg_ParseTuple(args,(char *)"O:disown_StreamEndAnalyzerFactory",&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_Strigi__StreamEndAnalyzerFactory, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "disown_StreamEndAnalyzerFactory" "', argument " "1"" of type '" "Strigi::StreamEndAnalyzerFactory *""'"); 
+  }
+  arg1 = reinterpret_cast< Strigi::StreamEndAnalyzerFactory * >(argp1);
+  {
+    SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+    {
+      Swig::Director *director = SWIG_DIRECTOR_CAST(arg1);
+      if (director) director->swig_disown();
+    }
+    
+    SWIG_PYTHON_THREAD_END_ALLOW;
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
 SWIGINTERN PyObject *StreamEndAnalyzerFactory_swigregister(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
   PyObject *obj;
   if (!PyArg_ParseTuple(args,(char*)"O:swigregister", &obj)) return NULL;
   SWIG_TypeNewClientData(SWIGTYPE_p_Strigi__StreamEndAnalyzerFactory, SWIG_NewClientData(obj));
   return SWIG_Py_Void();
 }
+
+SWIGINTERN PyObject *_wrap_delete_StreamEventAnalyzer(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  Strigi::StreamEventAnalyzer *arg1 = (Strigi::StreamEventAnalyzer *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  
+  if (!PyArg_ParseTuple(args,(char *)"O:delete_StreamEventAnalyzer",&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_Strigi__StreamEventAnalyzer, SWIG_POINTER_DISOWN |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "delete_StreamEventAnalyzer" "', argument " "1"" of type '" "Strigi::StreamEventAnalyzer *""'"); 
+  }
+  arg1 = reinterpret_cast< Strigi::StreamEventAnalyzer * >(argp1);
+  {
+    try {
+      {
+        SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+        delete arg1;
+        SWIG_PYTHON_THREAD_END_ALLOW;
+      }
+    }_CATCHALL();
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_StreamEventAnalyzer_name(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  Strigi::StreamEventAnalyzer *arg1 = (Strigi::StreamEventAnalyzer *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  Swig::Director *director = 0;
+  bool upcall = false;
+  char *result = 0 ;
+  
+  if (!PyArg_ParseTuple(args,(char *)"O:StreamEventAnalyzer_name",&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_Strigi__StreamEventAnalyzer, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "StreamEventAnalyzer_name" "', argument " "1"" of type '" "Strigi::StreamEventAnalyzer const *""'"); 
+  }
+  arg1 = reinterpret_cast< Strigi::StreamEventAnalyzer * >(argp1);
+  director = SWIG_DIRECTOR_CAST(arg1);
+  upcall = (director && (director->swig_get_self()==obj0));
+  try {
+    {
+      try {
+        if (upcall) {
+          Swig::DirectorPureVirtualException::raise("Strigi::StreamEventAnalyzer::name");
+        } else {
+          result = (char *)((Strigi::StreamEventAnalyzer const *)arg1)->name();
+        }
+      }_CATCHALL();
+    }
+  } catch (Swig::DirectorException&) {
+    SWIG_fail;
+  }
+  resultobj = SWIG_FromCharPtr((const char *)result);
+  if (director) {
+    director->swig_release_ownership(SWIG_as_voidptr(result));
+  }
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_StreamEventAnalyzer_startAnalysis(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  Strigi::StreamEventAnalyzer *arg1 = (Strigi::StreamEventAnalyzer *) 0 ;
+  Strigi::AnalysisResult *arg2 = (Strigi::AnalysisResult *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  Swig::Director *director = 0;
+  bool upcall = false;
+  
+  if (!PyArg_ParseTuple(args,(char *)"OO:StreamEventAnalyzer_startAnalysis",&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_Strigi__StreamEventAnalyzer, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "StreamEventAnalyzer_startAnalysis" "', argument " "1"" of type '" "Strigi::StreamEventAnalyzer *""'"); 
+  }
+  arg1 = reinterpret_cast< Strigi::StreamEventAnalyzer * >(argp1);
+  res2 = SWIG_ConvertPtr(obj1, &argp2,SWIGTYPE_p_Strigi__AnalysisResult, 0 |  0 );
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "StreamEventAnalyzer_startAnalysis" "', argument " "2"" of type '" "Strigi::AnalysisResult *""'"); 
+  }
+  arg2 = reinterpret_cast< Strigi::AnalysisResult * >(argp2);
+  director = SWIG_DIRECTOR_CAST(arg1);
+  upcall = (director && (director->swig_get_self()==obj0));
+  try {
+    {
+      try {
+        if (upcall) {
+          Swig::DirectorPureVirtualException::raise("Strigi::StreamEventAnalyzer::startAnalysis");
+        } else {
+          (arg1)->startAnalysis(arg2);
+        }
+      }_CATCHALL();
+    }
+  } catch (Swig::DirectorException&) {
+    SWIG_fail;
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_StreamEventAnalyzer_endAnalysis(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  Strigi::StreamEventAnalyzer *arg1 = (Strigi::StreamEventAnalyzer *) 0 ;
+  bool arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  bool val2 ;
+  int ecode2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  Swig::Director *director = 0;
+  bool upcall = false;
+  
+  if (!PyArg_ParseTuple(args,(char *)"OO:StreamEventAnalyzer_endAnalysis",&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_Strigi__StreamEventAnalyzer, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "StreamEventAnalyzer_endAnalysis" "', argument " "1"" of type '" "Strigi::StreamEventAnalyzer *""'"); 
+  }
+  arg1 = reinterpret_cast< Strigi::StreamEventAnalyzer * >(argp1);
+  ecode2 = SWIG_AsVal_bool(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "StreamEventAnalyzer_endAnalysis" "', argument " "2"" of type '" "bool""'");
+  } 
+  arg2 = static_cast< bool >(val2);
+  director = SWIG_DIRECTOR_CAST(arg1);
+  upcall = (director && (director->swig_get_self()==obj0));
+  try {
+    {
+      try {
+        if (upcall) {
+          Swig::DirectorPureVirtualException::raise("Strigi::StreamEventAnalyzer::endAnalysis");
+        } else {
+          (arg1)->endAnalysis(arg2);
+        }
+      }_CATCHALL();
+    }
+  } catch (Swig::DirectorException&) {
+    SWIG_fail;
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_StreamEventAnalyzer_handleData(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  Strigi::StreamEventAnalyzer *arg1 = (Strigi::StreamEventAnalyzer *) 0 ;
+  char *arg2 = (char *) 0 ;
+  uint32_t arg3 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int res2 ;
+  char *buf2 = 0 ;
+  int alloc2 = 0 ;
+  unsigned int val3 ;
+  int ecode3 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  PyObject * obj2 = 0 ;
+  Swig::Director *director = 0;
+  bool upcall = false;
+  
+  if (!PyArg_ParseTuple(args,(char *)"OOO:StreamEventAnalyzer_handleData",&obj0,&obj1,&obj2)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_Strigi__StreamEventAnalyzer, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "StreamEventAnalyzer_handleData" "', argument " "1"" of type '" "Strigi::StreamEventAnalyzer *""'"); 
+  }
+  arg1 = reinterpret_cast< Strigi::StreamEventAnalyzer * >(argp1);
+  res2 = SWIG_AsCharPtrAndSize(obj1, &buf2, NULL, &alloc2);
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "StreamEventAnalyzer_handleData" "', argument " "2"" of type '" "char const *""'");
+  }
+  arg2 = reinterpret_cast< char * >(buf2);
+  ecode3 = SWIG_AsVal_unsigned_SS_int(obj2, &val3);
+  if (!SWIG_IsOK(ecode3)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode3), "in method '" "StreamEventAnalyzer_handleData" "', argument " "3"" of type '" "uint32_t""'");
+  } 
+  arg3 = static_cast< uint32_t >(val3);
+  director = SWIG_DIRECTOR_CAST(arg1);
+  upcall = (director && (director->swig_get_self()==obj0));
+  try {
+    {
+      try {
+        if (upcall) {
+          Swig::DirectorPureVirtualException::raise("Strigi::StreamEventAnalyzer::handleData");
+        } else {
+          (arg1)->handleData((char const *)arg2,arg3);
+        }
+      }_CATCHALL();
+    }
+  } catch (Swig::DirectorException&) {
+    SWIG_fail;
+  }
+  resultobj = SWIG_Py_Void();
+  if (alloc2 == SWIG_NEWOBJ) delete[] buf2;
+  return resultobj;
+fail:
+  if (alloc2 == SWIG_NEWOBJ) delete[] buf2;
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_StreamEventAnalyzer_isReadyWithStream(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  Strigi::StreamEventAnalyzer *arg1 = (Strigi::StreamEventAnalyzer *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  Swig::Director *director = 0;
+  bool upcall = false;
+  bool result;
+  
+  if (!PyArg_ParseTuple(args,(char *)"O:StreamEventAnalyzer_isReadyWithStream",&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_Strigi__StreamEventAnalyzer, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "StreamEventAnalyzer_isReadyWithStream" "', argument " "1"" of type '" "Strigi::StreamEventAnalyzer *""'"); 
+  }
+  arg1 = reinterpret_cast< Strigi::StreamEventAnalyzer * >(argp1);
+  director = SWIG_DIRECTOR_CAST(arg1);
+  upcall = (director && (director->swig_get_self()==obj0));
+  try {
+    {
+      try {
+        if (upcall) {
+          Swig::DirectorPureVirtualException::raise("Strigi::StreamEventAnalyzer::isReadyWithStream");
+        } else {
+          result = (bool)(arg1)->isReadyWithStream();
+        }
+      }_CATCHALL();
+    }
+  } catch (Swig::DirectorException&) {
+    SWIG_fail;
+  }
+  resultobj = SWIG_From_bool(static_cast< bool >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_new_StreamEventAnalyzer(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  PyObject *arg1 = (PyObject *) 0 ;
+  PyObject * obj0 = 0 ;
+  Strigi::StreamEventAnalyzer *result = 0 ;
+  
+  if (!PyArg_ParseTuple(args,(char *)"O:new_StreamEventAnalyzer",&obj0)) SWIG_fail;
+  arg1 = obj0;
+  {
+    try {
+      {
+        SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+        if ( arg1 != Py_None ) {
+          /* subclassed */
+          result = (Strigi::StreamEventAnalyzer *)new SwigDirector_StreamEventAnalyzer(arg1); 
+        } else {
+          SWIG_SetErrorMsg(PyExc_RuntimeError,"accessing abstract class or protected constructor"); 
+          SWIG_fail;
+        }
+        
+        SWIG_PYTHON_THREAD_END_ALLOW;
+      }
+    }_CATCHALL();
+  }
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_Strigi__StreamEventAnalyzer, SWIG_POINTER_NEW |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_disown_StreamEventAnalyzer(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  Strigi::StreamEventAnalyzer *arg1 = (Strigi::StreamEventAnalyzer *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  
+  if (!PyArg_ParseTuple(args,(char *)"O:disown_StreamEventAnalyzer",&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_Strigi__StreamEventAnalyzer, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "disown_StreamEventAnalyzer" "', argument " "1"" of type '" "Strigi::StreamEventAnalyzer *""'"); 
+  }
+  arg1 = reinterpret_cast< Strigi::StreamEventAnalyzer * >(argp1);
+  {
+    SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+    {
+      Swig::Director *director = SWIG_DIRECTOR_CAST(arg1);
+      if (director) director->swig_disown();
+    }
+    
+    SWIG_PYTHON_THREAD_END_ALLOW;
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *StreamEventAnalyzer_swigregister(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *obj;
+  if (!PyArg_ParseTuple(args,(char*)"O:swigregister", &obj)) return NULL;
+  SWIG_TypeNewClientData(SWIGTYPE_p_Strigi__StreamEventAnalyzer, SWIG_NewClientData(obj));
+  return SWIG_Py_Void();
+}
+
+SWIGINTERN PyObject *_wrap_StreamEventAnalyzerFactory_newInstance(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  Strigi::StreamEventAnalyzerFactory *arg1 = (Strigi::StreamEventAnalyzerFactory *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  Swig::Director *director = 0;
+  bool upcall = false;
+  Strigi::StreamEventAnalyzer *result = 0 ;
+  
+  if (!PyArg_ParseTuple(args,(char *)"O:StreamEventAnalyzerFactory_newInstance",&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_Strigi__StreamEventAnalyzerFactory, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "StreamEventAnalyzerFactory_newInstance" "', argument " "1"" of type '" "Strigi::StreamEventAnalyzerFactory const *""'"); 
+  }
+  arg1 = reinterpret_cast< Strigi::StreamEventAnalyzerFactory * >(argp1);
+  director = SWIG_DIRECTOR_CAST(arg1);
+  upcall = (director && (director->swig_get_self()==obj0));
+  try {
+    {
+      try {
+        if (upcall) {
+          Swig::DirectorPureVirtualException::raise("Strigi::StreamEventAnalyzerFactory::newInstance");
+        } else {
+          result = (Strigi::StreamEventAnalyzer *)((Strigi::StreamEventAnalyzerFactory const *)arg1)->newInstance();
+        }
+      }_CATCHALL();
+    }
+  } catch (Swig::DirectorException&) {
+    SWIG_fail;
+  }
+  director = SWIG_DIRECTOR_CAST(result);
+  if (director) {
+    resultobj = director->swig_get_self();
+    Py_INCREF(resultobj);
+  } else {
+    resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_Strigi__StreamEventAnalyzer, 0 |  0 );
+  }
+  if (director) {
+    SWIG_AcquirePtr(resultobj, director->swig_release_ownership(SWIG_as_voidptr(result)));
+  }
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_new_StreamEventAnalyzerFactory(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  PyObject *arg1 = (PyObject *) 0 ;
+  PyObject * obj0 = 0 ;
+  Strigi::StreamEventAnalyzerFactory *result = 0 ;
+  
+  if (!PyArg_ParseTuple(args,(char *)"O:new_StreamEventAnalyzerFactory",&obj0)) SWIG_fail;
+  arg1 = obj0;
+  {
+    try {
+      {
+        SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+        if ( arg1 != Py_None ) {
+          /* subclassed */
+          result = (Strigi::StreamEventAnalyzerFactory *)new SwigDirector_StreamEventAnalyzerFactory(arg1); 
+        } else {
+          SWIG_SetErrorMsg(PyExc_RuntimeError,"accessing abstract class or protected constructor"); 
+          SWIG_fail;
+        }
+        
+        SWIG_PYTHON_THREAD_END_ALLOW;
+      }
+    }_CATCHALL();
+  }
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_Strigi__StreamEventAnalyzerFactory, SWIG_POINTER_NEW |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
 
 SWIGINTERN PyObject *_wrap_delete_StreamEventAnalyzerFactory(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
   PyObject *resultobj = 0;
@@ -11974,12 +15624,444 @@ fail:
 }
 
 
+SWIGINTERN PyObject *_wrap_disown_StreamEventAnalyzerFactory(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  Strigi::StreamEventAnalyzerFactory *arg1 = (Strigi::StreamEventAnalyzerFactory *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  
+  if (!PyArg_ParseTuple(args,(char *)"O:disown_StreamEventAnalyzerFactory",&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_Strigi__StreamEventAnalyzerFactory, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "disown_StreamEventAnalyzerFactory" "', argument " "1"" of type '" "Strigi::StreamEventAnalyzerFactory *""'"); 
+  }
+  arg1 = reinterpret_cast< Strigi::StreamEventAnalyzerFactory * >(argp1);
+  {
+    SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+    {
+      Swig::Director *director = SWIG_DIRECTOR_CAST(arg1);
+      if (director) director->swig_disown();
+    }
+    
+    SWIG_PYTHON_THREAD_END_ALLOW;
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
 SWIGINTERN PyObject *StreamEventAnalyzerFactory_swigregister(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
   PyObject *obj;
   if (!PyArg_ParseTuple(args,(char*)"O:swigregister", &obj)) return NULL;
   SWIG_TypeNewClientData(SWIGTYPE_p_Strigi__StreamEventAnalyzerFactory, SWIG_NewClientData(obj));
   return SWIG_Py_Void();
 }
+
+SWIGINTERN PyObject *_wrap_delete_StreamLineAnalyzer(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  Strigi::StreamLineAnalyzer *arg1 = (Strigi::StreamLineAnalyzer *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  
+  if (!PyArg_ParseTuple(args,(char *)"O:delete_StreamLineAnalyzer",&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_Strigi__StreamLineAnalyzer, SWIG_POINTER_DISOWN |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "delete_StreamLineAnalyzer" "', argument " "1"" of type '" "Strigi::StreamLineAnalyzer *""'"); 
+  }
+  arg1 = reinterpret_cast< Strigi::StreamLineAnalyzer * >(argp1);
+  {
+    try {
+      {
+        SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+        delete arg1;
+        SWIG_PYTHON_THREAD_END_ALLOW;
+      }
+    }_CATCHALL();
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_StreamLineAnalyzer_name(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  Strigi::StreamLineAnalyzer *arg1 = (Strigi::StreamLineAnalyzer *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  Swig::Director *director = 0;
+  bool upcall = false;
+  char *result = 0 ;
+  
+  if (!PyArg_ParseTuple(args,(char *)"O:StreamLineAnalyzer_name",&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_Strigi__StreamLineAnalyzer, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "StreamLineAnalyzer_name" "', argument " "1"" of type '" "Strigi::StreamLineAnalyzer const *""'"); 
+  }
+  arg1 = reinterpret_cast< Strigi::StreamLineAnalyzer * >(argp1);
+  director = SWIG_DIRECTOR_CAST(arg1);
+  upcall = (director && (director->swig_get_self()==obj0));
+  try {
+    {
+      try {
+        if (upcall) {
+          Swig::DirectorPureVirtualException::raise("Strigi::StreamLineAnalyzer::name");
+        } else {
+          result = (char *)((Strigi::StreamLineAnalyzer const *)arg1)->name();
+        }
+      }_CATCHALL();
+    }
+  } catch (Swig::DirectorException&) {
+    SWIG_fail;
+  }
+  resultobj = SWIG_FromCharPtr((const char *)result);
+  if (director) {
+    director->swig_release_ownership(SWIG_as_voidptr(result));
+  }
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_StreamLineAnalyzer_startAnalysis(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  Strigi::StreamLineAnalyzer *arg1 = (Strigi::StreamLineAnalyzer *) 0 ;
+  Strigi::AnalysisResult *arg2 = (Strigi::AnalysisResult *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  Swig::Director *director = 0;
+  bool upcall = false;
+  
+  if (!PyArg_ParseTuple(args,(char *)"OO:StreamLineAnalyzer_startAnalysis",&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_Strigi__StreamLineAnalyzer, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "StreamLineAnalyzer_startAnalysis" "', argument " "1"" of type '" "Strigi::StreamLineAnalyzer *""'"); 
+  }
+  arg1 = reinterpret_cast< Strigi::StreamLineAnalyzer * >(argp1);
+  res2 = SWIG_ConvertPtr(obj1, &argp2,SWIGTYPE_p_Strigi__AnalysisResult, 0 |  0 );
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "StreamLineAnalyzer_startAnalysis" "', argument " "2"" of type '" "Strigi::AnalysisResult *""'"); 
+  }
+  arg2 = reinterpret_cast< Strigi::AnalysisResult * >(argp2);
+  director = SWIG_DIRECTOR_CAST(arg1);
+  upcall = (director && (director->swig_get_self()==obj0));
+  try {
+    {
+      try {
+        if (upcall) {
+          Swig::DirectorPureVirtualException::raise("Strigi::StreamLineAnalyzer::startAnalysis");
+        } else {
+          (arg1)->startAnalysis(arg2);
+        }
+      }_CATCHALL();
+    }
+  } catch (Swig::DirectorException&) {
+    SWIG_fail;
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_StreamLineAnalyzer_endAnalysis(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  Strigi::StreamLineAnalyzer *arg1 = (Strigi::StreamLineAnalyzer *) 0 ;
+  bool arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  bool val2 ;
+  int ecode2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  Swig::Director *director = 0;
+  bool upcall = false;
+  
+  if (!PyArg_ParseTuple(args,(char *)"OO:StreamLineAnalyzer_endAnalysis",&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_Strigi__StreamLineAnalyzer, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "StreamLineAnalyzer_endAnalysis" "', argument " "1"" of type '" "Strigi::StreamLineAnalyzer *""'"); 
+  }
+  arg1 = reinterpret_cast< Strigi::StreamLineAnalyzer * >(argp1);
+  ecode2 = SWIG_AsVal_bool(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "StreamLineAnalyzer_endAnalysis" "', argument " "2"" of type '" "bool""'");
+  } 
+  arg2 = static_cast< bool >(val2);
+  director = SWIG_DIRECTOR_CAST(arg1);
+  upcall = (director && (director->swig_get_self()==obj0));
+  try {
+    {
+      try {
+        if (upcall) {
+          Swig::DirectorPureVirtualException::raise("Strigi::StreamLineAnalyzer::endAnalysis");
+        } else {
+          (arg1)->endAnalysis(arg2);
+        }
+      }_CATCHALL();
+    }
+  } catch (Swig::DirectorException&) {
+    SWIG_fail;
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_StreamLineAnalyzer_handleLine(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  Strigi::StreamLineAnalyzer *arg1 = (Strigi::StreamLineAnalyzer *) 0 ;
+  char *arg2 = (char *) 0 ;
+  uint32_t arg3 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int res2 ;
+  char *buf2 = 0 ;
+  int alloc2 = 0 ;
+  unsigned int val3 ;
+  int ecode3 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  PyObject * obj2 = 0 ;
+  Swig::Director *director = 0;
+  bool upcall = false;
+  
+  if (!PyArg_ParseTuple(args,(char *)"OOO:StreamLineAnalyzer_handleLine",&obj0,&obj1,&obj2)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_Strigi__StreamLineAnalyzer, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "StreamLineAnalyzer_handleLine" "', argument " "1"" of type '" "Strigi::StreamLineAnalyzer *""'"); 
+  }
+  arg1 = reinterpret_cast< Strigi::StreamLineAnalyzer * >(argp1);
+  res2 = SWIG_AsCharPtrAndSize(obj1, &buf2, NULL, &alloc2);
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "StreamLineAnalyzer_handleLine" "', argument " "2"" of type '" "char const *""'");
+  }
+  arg2 = reinterpret_cast< char * >(buf2);
+  ecode3 = SWIG_AsVal_unsigned_SS_int(obj2, &val3);
+  if (!SWIG_IsOK(ecode3)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode3), "in method '" "StreamLineAnalyzer_handleLine" "', argument " "3"" of type '" "uint32_t""'");
+  } 
+  arg3 = static_cast< uint32_t >(val3);
+  director = SWIG_DIRECTOR_CAST(arg1);
+  upcall = (director && (director->swig_get_self()==obj0));
+  try {
+    {
+      try {
+        if (upcall) {
+          Swig::DirectorPureVirtualException::raise("Strigi::StreamLineAnalyzer::handleLine");
+        } else {
+          (arg1)->handleLine((char const *)arg2,arg3);
+        }
+      }_CATCHALL();
+    }
+  } catch (Swig::DirectorException&) {
+    SWIG_fail;
+  }
+  resultobj = SWIG_Py_Void();
+  if (alloc2 == SWIG_NEWOBJ) delete[] buf2;
+  return resultobj;
+fail:
+  if (alloc2 == SWIG_NEWOBJ) delete[] buf2;
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_StreamLineAnalyzer_isReadyWithStream(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  Strigi::StreamLineAnalyzer *arg1 = (Strigi::StreamLineAnalyzer *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  Swig::Director *director = 0;
+  bool upcall = false;
+  bool result;
+  
+  if (!PyArg_ParseTuple(args,(char *)"O:StreamLineAnalyzer_isReadyWithStream",&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_Strigi__StreamLineAnalyzer, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "StreamLineAnalyzer_isReadyWithStream" "', argument " "1"" of type '" "Strigi::StreamLineAnalyzer *""'"); 
+  }
+  arg1 = reinterpret_cast< Strigi::StreamLineAnalyzer * >(argp1);
+  director = SWIG_DIRECTOR_CAST(arg1);
+  upcall = (director && (director->swig_get_self()==obj0));
+  try {
+    {
+      try {
+        if (upcall) {
+          Swig::DirectorPureVirtualException::raise("Strigi::StreamLineAnalyzer::isReadyWithStream");
+        } else {
+          result = (bool)(arg1)->isReadyWithStream();
+        }
+      }_CATCHALL();
+    }
+  } catch (Swig::DirectorException&) {
+    SWIG_fail;
+  }
+  resultobj = SWIG_From_bool(static_cast< bool >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_new_StreamLineAnalyzer(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  PyObject *arg1 = (PyObject *) 0 ;
+  PyObject * obj0 = 0 ;
+  Strigi::StreamLineAnalyzer *result = 0 ;
+  
+  if (!PyArg_ParseTuple(args,(char *)"O:new_StreamLineAnalyzer",&obj0)) SWIG_fail;
+  arg1 = obj0;
+  {
+    try {
+      {
+        SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+        if ( arg1 != Py_None ) {
+          /* subclassed */
+          result = (Strigi::StreamLineAnalyzer *)new SwigDirector_StreamLineAnalyzer(arg1); 
+        } else {
+          SWIG_SetErrorMsg(PyExc_RuntimeError,"accessing abstract class or protected constructor"); 
+          SWIG_fail;
+        }
+        
+        SWIG_PYTHON_THREAD_END_ALLOW;
+      }
+    }_CATCHALL();
+  }
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_Strigi__StreamLineAnalyzer, SWIG_POINTER_NEW |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_disown_StreamLineAnalyzer(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  Strigi::StreamLineAnalyzer *arg1 = (Strigi::StreamLineAnalyzer *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  
+  if (!PyArg_ParseTuple(args,(char *)"O:disown_StreamLineAnalyzer",&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_Strigi__StreamLineAnalyzer, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "disown_StreamLineAnalyzer" "', argument " "1"" of type '" "Strigi::StreamLineAnalyzer *""'"); 
+  }
+  arg1 = reinterpret_cast< Strigi::StreamLineAnalyzer * >(argp1);
+  {
+    SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+    {
+      Swig::Director *director = SWIG_DIRECTOR_CAST(arg1);
+      if (director) director->swig_disown();
+    }
+    
+    SWIG_PYTHON_THREAD_END_ALLOW;
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *StreamLineAnalyzer_swigregister(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *obj;
+  if (!PyArg_ParseTuple(args,(char*)"O:swigregister", &obj)) return NULL;
+  SWIG_TypeNewClientData(SWIGTYPE_p_Strigi__StreamLineAnalyzer, SWIG_NewClientData(obj));
+  return SWIG_Py_Void();
+}
+
+SWIGINTERN PyObject *_wrap_StreamLineAnalyzerFactory_newInstance(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  Strigi::StreamLineAnalyzerFactory *arg1 = (Strigi::StreamLineAnalyzerFactory *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  Swig::Director *director = 0;
+  bool upcall = false;
+  Strigi::StreamLineAnalyzer *result = 0 ;
+  
+  if (!PyArg_ParseTuple(args,(char *)"O:StreamLineAnalyzerFactory_newInstance",&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_Strigi__StreamLineAnalyzerFactory, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "StreamLineAnalyzerFactory_newInstance" "', argument " "1"" of type '" "Strigi::StreamLineAnalyzerFactory const *""'"); 
+  }
+  arg1 = reinterpret_cast< Strigi::StreamLineAnalyzerFactory * >(argp1);
+  director = SWIG_DIRECTOR_CAST(arg1);
+  upcall = (director && (director->swig_get_self()==obj0));
+  try {
+    {
+      try {
+        if (upcall) {
+          Swig::DirectorPureVirtualException::raise("Strigi::StreamLineAnalyzerFactory::newInstance");
+        } else {
+          result = (Strigi::StreamLineAnalyzer *)((Strigi::StreamLineAnalyzerFactory const *)arg1)->newInstance();
+        }
+      }_CATCHALL();
+    }
+  } catch (Swig::DirectorException&) {
+    SWIG_fail;
+  }
+  director = SWIG_DIRECTOR_CAST(result);
+  if (director) {
+    resultobj = director->swig_get_self();
+    Py_INCREF(resultobj);
+  } else {
+    resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_Strigi__StreamLineAnalyzer, 0 |  0 );
+  }
+  if (director) {
+    SWIG_AcquirePtr(resultobj, director->swig_release_ownership(SWIG_as_voidptr(result)));
+  }
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_new_StreamLineAnalyzerFactory(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  PyObject *arg1 = (PyObject *) 0 ;
+  PyObject * obj0 = 0 ;
+  Strigi::StreamLineAnalyzerFactory *result = 0 ;
+  
+  if (!PyArg_ParseTuple(args,(char *)"O:new_StreamLineAnalyzerFactory",&obj0)) SWIG_fail;
+  arg1 = obj0;
+  {
+    try {
+      {
+        SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+        if ( arg1 != Py_None ) {
+          /* subclassed */
+          result = (Strigi::StreamLineAnalyzerFactory *)new SwigDirector_StreamLineAnalyzerFactory(arg1); 
+        } else {
+          SWIG_SetErrorMsg(PyExc_RuntimeError,"accessing abstract class or protected constructor"); 
+          SWIG_fail;
+        }
+        
+        SWIG_PYTHON_THREAD_END_ALLOW;
+      }
+    }_CATCHALL();
+  }
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_Strigi__StreamLineAnalyzerFactory, SWIG_POINTER_NEW |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
 
 SWIGINTERN PyObject *_wrap_delete_StreamLineAnalyzerFactory(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
   PyObject *resultobj = 0;
@@ -12010,12 +16092,635 @@ fail:
 }
 
 
+SWIGINTERN PyObject *_wrap_disown_StreamLineAnalyzerFactory(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  Strigi::StreamLineAnalyzerFactory *arg1 = (Strigi::StreamLineAnalyzerFactory *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  
+  if (!PyArg_ParseTuple(args,(char *)"O:disown_StreamLineAnalyzerFactory",&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_Strigi__StreamLineAnalyzerFactory, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "disown_StreamLineAnalyzerFactory" "', argument " "1"" of type '" "Strigi::StreamLineAnalyzerFactory *""'"); 
+  }
+  arg1 = reinterpret_cast< Strigi::StreamLineAnalyzerFactory * >(argp1);
+  {
+    SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+    {
+      Swig::Director *director = SWIG_DIRECTOR_CAST(arg1);
+      if (director) director->swig_disown();
+    }
+    
+    SWIG_PYTHON_THREAD_END_ALLOW;
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
 SWIGINTERN PyObject *StreamLineAnalyzerFactory_swigregister(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
   PyObject *obj;
   if (!PyArg_ParseTuple(args,(char*)"O:swigregister", &obj)) return NULL;
   SWIG_TypeNewClientData(SWIGTYPE_p_Strigi__StreamLineAnalyzerFactory, SWIG_NewClientData(obj));
   return SWIG_Py_Void();
 }
+
+SWIGINTERN PyObject *_wrap_new_StreamSaxAnalyzer(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  PyObject *arg1 = (PyObject *) 0 ;
+  PyObject * obj0 = 0 ;
+  Strigi::StreamSaxAnalyzer *result = 0 ;
+  
+  if (!PyArg_ParseTuple(args,(char *)"O:new_StreamSaxAnalyzer",&obj0)) SWIG_fail;
+  arg1 = obj0;
+  {
+    try {
+      {
+        SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+        if ( arg1 != Py_None ) {
+          /* subclassed */
+          result = (Strigi::StreamSaxAnalyzer *)new SwigDirector_StreamSaxAnalyzer(arg1); 
+        } else {
+          SWIG_SetErrorMsg(PyExc_RuntimeError,"accessing abstract class or protected constructor"); 
+          SWIG_fail;
+        }
+        
+        SWIG_PYTHON_THREAD_END_ALLOW;
+      }
+    }_CATCHALL();
+  }
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_Strigi__StreamSaxAnalyzer, SWIG_POINTER_NEW |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_delete_StreamSaxAnalyzer(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  Strigi::StreamSaxAnalyzer *arg1 = (Strigi::StreamSaxAnalyzer *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  
+  if (!PyArg_ParseTuple(args,(char *)"O:delete_StreamSaxAnalyzer",&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_Strigi__StreamSaxAnalyzer, SWIG_POINTER_DISOWN |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "delete_StreamSaxAnalyzer" "', argument " "1"" of type '" "Strigi::StreamSaxAnalyzer *""'"); 
+  }
+  arg1 = reinterpret_cast< Strigi::StreamSaxAnalyzer * >(argp1);
+  {
+    try {
+      {
+        SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+        delete arg1;
+        SWIG_PYTHON_THREAD_END_ALLOW;
+      }
+    }_CATCHALL();
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_StreamSaxAnalyzer_name(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  Strigi::StreamSaxAnalyzer *arg1 = (Strigi::StreamSaxAnalyzer *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  Swig::Director *director = 0;
+  bool upcall = false;
+  char *result = 0 ;
+  
+  if (!PyArg_ParseTuple(args,(char *)"O:StreamSaxAnalyzer_name",&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_Strigi__StreamSaxAnalyzer, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "StreamSaxAnalyzer_name" "', argument " "1"" of type '" "Strigi::StreamSaxAnalyzer const *""'"); 
+  }
+  arg1 = reinterpret_cast< Strigi::StreamSaxAnalyzer * >(argp1);
+  director = SWIG_DIRECTOR_CAST(arg1);
+  upcall = (director && (director->swig_get_self()==obj0));
+  try {
+    {
+      try {
+        if (upcall) {
+          Swig::DirectorPureVirtualException::raise("Strigi::StreamSaxAnalyzer::name");
+        } else {
+          result = (char *)((Strigi::StreamSaxAnalyzer const *)arg1)->name();
+        }
+      }_CATCHALL();
+    }
+  } catch (Swig::DirectorException&) {
+    SWIG_fail;
+  }
+  resultobj = SWIG_FromCharPtr((const char *)result);
+  if (director) {
+    director->swig_release_ownership(SWIG_as_voidptr(result));
+  }
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_StreamSaxAnalyzer_startAnalysis(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  Strigi::StreamSaxAnalyzer *arg1 = (Strigi::StreamSaxAnalyzer *) 0 ;
+  Strigi::AnalysisResult *arg2 = (Strigi::AnalysisResult *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  Swig::Director *director = 0;
+  bool upcall = false;
+  
+  if (!PyArg_ParseTuple(args,(char *)"OO:StreamSaxAnalyzer_startAnalysis",&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_Strigi__StreamSaxAnalyzer, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "StreamSaxAnalyzer_startAnalysis" "', argument " "1"" of type '" "Strigi::StreamSaxAnalyzer *""'"); 
+  }
+  arg1 = reinterpret_cast< Strigi::StreamSaxAnalyzer * >(argp1);
+  res2 = SWIG_ConvertPtr(obj1, &argp2,SWIGTYPE_p_Strigi__AnalysisResult, 0 |  0 );
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "StreamSaxAnalyzer_startAnalysis" "', argument " "2"" of type '" "Strigi::AnalysisResult *""'"); 
+  }
+  arg2 = reinterpret_cast< Strigi::AnalysisResult * >(argp2);
+  director = SWIG_DIRECTOR_CAST(arg1);
+  upcall = (director && (director->swig_get_self()==obj0));
+  try {
+    {
+      try {
+        if (upcall) {
+          Swig::DirectorPureVirtualException::raise("Strigi::StreamSaxAnalyzer::startAnalysis");
+        } else {
+          (arg1)->startAnalysis(arg2);
+        }
+      }_CATCHALL();
+    }
+  } catch (Swig::DirectorException&) {
+    SWIG_fail;
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_StreamSaxAnalyzer_endAnalysis(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  Strigi::StreamSaxAnalyzer *arg1 = (Strigi::StreamSaxAnalyzer *) 0 ;
+  bool arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  bool val2 ;
+  int ecode2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  Swig::Director *director = 0;
+  bool upcall = false;
+  
+  if (!PyArg_ParseTuple(args,(char *)"OO:StreamSaxAnalyzer_endAnalysis",&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_Strigi__StreamSaxAnalyzer, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "StreamSaxAnalyzer_endAnalysis" "', argument " "1"" of type '" "Strigi::StreamSaxAnalyzer *""'"); 
+  }
+  arg1 = reinterpret_cast< Strigi::StreamSaxAnalyzer * >(argp1);
+  ecode2 = SWIG_AsVal_bool(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "StreamSaxAnalyzer_endAnalysis" "', argument " "2"" of type '" "bool""'");
+  } 
+  arg2 = static_cast< bool >(val2);
+  director = SWIG_DIRECTOR_CAST(arg1);
+  upcall = (director && (director->swig_get_self()==obj0));
+  try {
+    {
+      try {
+        if (upcall) {
+          Swig::DirectorPureVirtualException::raise("Strigi::StreamSaxAnalyzer::endAnalysis");
+        } else {
+          (arg1)->endAnalysis(arg2);
+        }
+      }_CATCHALL();
+    }
+  } catch (Swig::DirectorException&) {
+    SWIG_fail;
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_StreamSaxAnalyzer_startElement(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  Strigi::StreamSaxAnalyzer *arg1 = (Strigi::StreamSaxAnalyzer *) 0 ;
+  char *arg2 = (char *) 0 ;
+  char *arg3 = (char *) 0 ;
+  char *arg4 = (char *) 0 ;
+  int arg5 ;
+  char **arg6 = (char **) 0 ;
+  int arg7 ;
+  int arg8 ;
+  char **arg9 = (char **) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int res2 ;
+  char *buf2 = 0 ;
+  int alloc2 = 0 ;
+  int res3 ;
+  char *buf3 = 0 ;
+  int alloc3 = 0 ;
+  int res4 ;
+  char *buf4 = 0 ;
+  int alloc4 = 0 ;
+  int val5 ;
+  int ecode5 = 0 ;
+  void *argp6 = 0 ;
+  int res6 = 0 ;
+  int val7 ;
+  int ecode7 = 0 ;
+  int val8 ;
+  int ecode8 = 0 ;
+  void *argp9 = 0 ;
+  int res9 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  PyObject * obj2 = 0 ;
+  PyObject * obj3 = 0 ;
+  PyObject * obj4 = 0 ;
+  PyObject * obj5 = 0 ;
+  PyObject * obj6 = 0 ;
+  PyObject * obj7 = 0 ;
+  PyObject * obj8 = 0 ;
+  Swig::Director *director = 0;
+  bool upcall = false;
+  
+  if (!PyArg_ParseTuple(args,(char *)"OOOOOOOOO:StreamSaxAnalyzer_startElement",&obj0,&obj1,&obj2,&obj3,&obj4,&obj5,&obj6,&obj7,&obj8)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_Strigi__StreamSaxAnalyzer, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "StreamSaxAnalyzer_startElement" "', argument " "1"" of type '" "Strigi::StreamSaxAnalyzer *""'"); 
+  }
+  arg1 = reinterpret_cast< Strigi::StreamSaxAnalyzer * >(argp1);
+  res2 = SWIG_AsCharPtrAndSize(obj1, &buf2, NULL, &alloc2);
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "StreamSaxAnalyzer_startElement" "', argument " "2"" of type '" "char const *""'");
+  }
+  arg2 = reinterpret_cast< char * >(buf2);
+  res3 = SWIG_AsCharPtrAndSize(obj2, &buf3, NULL, &alloc3);
+  if (!SWIG_IsOK(res3)) {
+    SWIG_exception_fail(SWIG_ArgError(res3), "in method '" "StreamSaxAnalyzer_startElement" "', argument " "3"" of type '" "char const *""'");
+  }
+  arg3 = reinterpret_cast< char * >(buf3);
+  res4 = SWIG_AsCharPtrAndSize(obj3, &buf4, NULL, &alloc4);
+  if (!SWIG_IsOK(res4)) {
+    SWIG_exception_fail(SWIG_ArgError(res4), "in method '" "StreamSaxAnalyzer_startElement" "', argument " "4"" of type '" "char const *""'");
+  }
+  arg4 = reinterpret_cast< char * >(buf4);
+  ecode5 = SWIG_AsVal_int(obj4, &val5);
+  if (!SWIG_IsOK(ecode5)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode5), "in method '" "StreamSaxAnalyzer_startElement" "', argument " "5"" of type '" "int""'");
+  } 
+  arg5 = static_cast< int >(val5);
+  res6 = SWIG_ConvertPtr(obj5, &argp6,SWIGTYPE_p_p_char, 0 |  0 );
+  if (!SWIG_IsOK(res6)) {
+    SWIG_exception_fail(SWIG_ArgError(res6), "in method '" "StreamSaxAnalyzer_startElement" "', argument " "6"" of type '" "char const **""'"); 
+  }
+  arg6 = reinterpret_cast< char ** >(argp6);
+  ecode7 = SWIG_AsVal_int(obj6, &val7);
+  if (!SWIG_IsOK(ecode7)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode7), "in method '" "StreamSaxAnalyzer_startElement" "', argument " "7"" of type '" "int""'");
+  } 
+  arg7 = static_cast< int >(val7);
+  ecode8 = SWIG_AsVal_int(obj7, &val8);
+  if (!SWIG_IsOK(ecode8)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode8), "in method '" "StreamSaxAnalyzer_startElement" "', argument " "8"" of type '" "int""'");
+  } 
+  arg8 = static_cast< int >(val8);
+  res9 = SWIG_ConvertPtr(obj8, &argp9,SWIGTYPE_p_p_char, 0 |  0 );
+  if (!SWIG_IsOK(res9)) {
+    SWIG_exception_fail(SWIG_ArgError(res9), "in method '" "StreamSaxAnalyzer_startElement" "', argument " "9"" of type '" "char const **""'"); 
+  }
+  arg9 = reinterpret_cast< char ** >(argp9);
+  director = SWIG_DIRECTOR_CAST(arg1);
+  upcall = (director && (director->swig_get_self()==obj0));
+  try {
+    {
+      try {
+        if (upcall) {
+          (arg1)->Strigi::StreamSaxAnalyzer::startElement((char const *)arg2,(char const *)arg3,(char const *)arg4,arg5,(char const **)arg6,arg7,arg8,(char const **)arg9);
+        } else {
+          (arg1)->startElement((char const *)arg2,(char const *)arg3,(char const *)arg4,arg5,(char const **)arg6,arg7,arg8,(char const **)arg9);
+        }
+      }_CATCHALL();
+    }
+  } catch (Swig::DirectorException&) {
+    SWIG_fail;
+  }
+  resultobj = SWIG_Py_Void();
+  if (alloc2 == SWIG_NEWOBJ) delete[] buf2;
+  if (alloc3 == SWIG_NEWOBJ) delete[] buf3;
+  if (alloc4 == SWIG_NEWOBJ) delete[] buf4;
+  return resultobj;
+fail:
+  if (alloc2 == SWIG_NEWOBJ) delete[] buf2;
+  if (alloc3 == SWIG_NEWOBJ) delete[] buf3;
+  if (alloc4 == SWIG_NEWOBJ) delete[] buf4;
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_StreamSaxAnalyzer_endElement(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  Strigi::StreamSaxAnalyzer *arg1 = (Strigi::StreamSaxAnalyzer *) 0 ;
+  char *arg2 = (char *) 0 ;
+  char *arg3 = (char *) 0 ;
+  char *arg4 = (char *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int res2 ;
+  char *buf2 = 0 ;
+  int alloc2 = 0 ;
+  int res3 ;
+  char *buf3 = 0 ;
+  int alloc3 = 0 ;
+  int res4 ;
+  char *buf4 = 0 ;
+  int alloc4 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  PyObject * obj2 = 0 ;
+  PyObject * obj3 = 0 ;
+  Swig::Director *director = 0;
+  bool upcall = false;
+  
+  if (!PyArg_ParseTuple(args,(char *)"OOOO:StreamSaxAnalyzer_endElement",&obj0,&obj1,&obj2,&obj3)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_Strigi__StreamSaxAnalyzer, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "StreamSaxAnalyzer_endElement" "', argument " "1"" of type '" "Strigi::StreamSaxAnalyzer *""'"); 
+  }
+  arg1 = reinterpret_cast< Strigi::StreamSaxAnalyzer * >(argp1);
+  res2 = SWIG_AsCharPtrAndSize(obj1, &buf2, NULL, &alloc2);
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "StreamSaxAnalyzer_endElement" "', argument " "2"" of type '" "char const *""'");
+  }
+  arg2 = reinterpret_cast< char * >(buf2);
+  res3 = SWIG_AsCharPtrAndSize(obj2, &buf3, NULL, &alloc3);
+  if (!SWIG_IsOK(res3)) {
+    SWIG_exception_fail(SWIG_ArgError(res3), "in method '" "StreamSaxAnalyzer_endElement" "', argument " "3"" of type '" "char const *""'");
+  }
+  arg3 = reinterpret_cast< char * >(buf3);
+  res4 = SWIG_AsCharPtrAndSize(obj3, &buf4, NULL, &alloc4);
+  if (!SWIG_IsOK(res4)) {
+    SWIG_exception_fail(SWIG_ArgError(res4), "in method '" "StreamSaxAnalyzer_endElement" "', argument " "4"" of type '" "char const *""'");
+  }
+  arg4 = reinterpret_cast< char * >(buf4);
+  director = SWIG_DIRECTOR_CAST(arg1);
+  upcall = (director && (director->swig_get_self()==obj0));
+  try {
+    {
+      try {
+        if (upcall) {
+          (arg1)->Strigi::StreamSaxAnalyzer::endElement((char const *)arg2,(char const *)arg3,(char const *)arg4);
+        } else {
+          (arg1)->endElement((char const *)arg2,(char const *)arg3,(char const *)arg4);
+        }
+      }_CATCHALL();
+    }
+  } catch (Swig::DirectorException&) {
+    SWIG_fail;
+  }
+  resultobj = SWIG_Py_Void();
+  if (alloc2 == SWIG_NEWOBJ) delete[] buf2;
+  if (alloc3 == SWIG_NEWOBJ) delete[] buf3;
+  if (alloc4 == SWIG_NEWOBJ) delete[] buf4;
+  return resultobj;
+fail:
+  if (alloc2 == SWIG_NEWOBJ) delete[] buf2;
+  if (alloc3 == SWIG_NEWOBJ) delete[] buf3;
+  if (alloc4 == SWIG_NEWOBJ) delete[] buf4;
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_StreamSaxAnalyzer_characters(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  Strigi::StreamSaxAnalyzer *arg1 = (Strigi::StreamSaxAnalyzer *) 0 ;
+  char *arg2 = (char *) 0 ;
+  uint32_t arg3 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int res2 ;
+  char *buf2 = 0 ;
+  int alloc2 = 0 ;
+  unsigned int val3 ;
+  int ecode3 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  PyObject * obj2 = 0 ;
+  Swig::Director *director = 0;
+  bool upcall = false;
+  
+  if (!PyArg_ParseTuple(args,(char *)"OOO:StreamSaxAnalyzer_characters",&obj0,&obj1,&obj2)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_Strigi__StreamSaxAnalyzer, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "StreamSaxAnalyzer_characters" "', argument " "1"" of type '" "Strigi::StreamSaxAnalyzer *""'"); 
+  }
+  arg1 = reinterpret_cast< Strigi::StreamSaxAnalyzer * >(argp1);
+  res2 = SWIG_AsCharPtrAndSize(obj1, &buf2, NULL, &alloc2);
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "StreamSaxAnalyzer_characters" "', argument " "2"" of type '" "char const *""'");
+  }
+  arg2 = reinterpret_cast< char * >(buf2);
+  ecode3 = SWIG_AsVal_unsigned_SS_int(obj2, &val3);
+  if (!SWIG_IsOK(ecode3)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode3), "in method '" "StreamSaxAnalyzer_characters" "', argument " "3"" of type '" "uint32_t""'");
+  } 
+  arg3 = static_cast< uint32_t >(val3);
+  director = SWIG_DIRECTOR_CAST(arg1);
+  upcall = (director && (director->swig_get_self()==obj0));
+  try {
+    {
+      try {
+        if (upcall) {
+          (arg1)->Strigi::StreamSaxAnalyzer::characters((char const *)arg2,arg3);
+        } else {
+          (arg1)->characters((char const *)arg2,arg3);
+        }
+      }_CATCHALL();
+    }
+  } catch (Swig::DirectorException&) {
+    SWIG_fail;
+  }
+  resultobj = SWIG_Py_Void();
+  if (alloc2 == SWIG_NEWOBJ) delete[] buf2;
+  return resultobj;
+fail:
+  if (alloc2 == SWIG_NEWOBJ) delete[] buf2;
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_StreamSaxAnalyzer_isReadyWithStream(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  Strigi::StreamSaxAnalyzer *arg1 = (Strigi::StreamSaxAnalyzer *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  Swig::Director *director = 0;
+  bool upcall = false;
+  bool result;
+  
+  if (!PyArg_ParseTuple(args,(char *)"O:StreamSaxAnalyzer_isReadyWithStream",&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_Strigi__StreamSaxAnalyzer, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "StreamSaxAnalyzer_isReadyWithStream" "', argument " "1"" of type '" "Strigi::StreamSaxAnalyzer *""'"); 
+  }
+  arg1 = reinterpret_cast< Strigi::StreamSaxAnalyzer * >(argp1);
+  director = SWIG_DIRECTOR_CAST(arg1);
+  upcall = (director && (director->swig_get_self()==obj0));
+  try {
+    {
+      try {
+        if (upcall) {
+          Swig::DirectorPureVirtualException::raise("Strigi::StreamSaxAnalyzer::isReadyWithStream");
+        } else {
+          result = (bool)(arg1)->isReadyWithStream();
+        }
+      }_CATCHALL();
+    }
+  } catch (Swig::DirectorException&) {
+    SWIG_fail;
+  }
+  resultobj = SWIG_From_bool(static_cast< bool >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_disown_StreamSaxAnalyzer(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  Strigi::StreamSaxAnalyzer *arg1 = (Strigi::StreamSaxAnalyzer *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  
+  if (!PyArg_ParseTuple(args,(char *)"O:disown_StreamSaxAnalyzer",&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_Strigi__StreamSaxAnalyzer, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "disown_StreamSaxAnalyzer" "', argument " "1"" of type '" "Strigi::StreamSaxAnalyzer *""'"); 
+  }
+  arg1 = reinterpret_cast< Strigi::StreamSaxAnalyzer * >(argp1);
+  {
+    SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+    {
+      Swig::Director *director = SWIG_DIRECTOR_CAST(arg1);
+      if (director) director->swig_disown();
+    }
+    
+    SWIG_PYTHON_THREAD_END_ALLOW;
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *StreamSaxAnalyzer_swigregister(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *obj;
+  if (!PyArg_ParseTuple(args,(char*)"O:swigregister", &obj)) return NULL;
+  SWIG_TypeNewClientData(SWIGTYPE_p_Strigi__StreamSaxAnalyzer, SWIG_NewClientData(obj));
+  return SWIG_Py_Void();
+}
+
+SWIGINTERN PyObject *_wrap_StreamSaxAnalyzerFactory_newInstance(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  Strigi::StreamSaxAnalyzerFactory *arg1 = (Strigi::StreamSaxAnalyzerFactory *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  Swig::Director *director = 0;
+  bool upcall = false;
+  Strigi::StreamSaxAnalyzer *result = 0 ;
+  
+  if (!PyArg_ParseTuple(args,(char *)"O:StreamSaxAnalyzerFactory_newInstance",&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_Strigi__StreamSaxAnalyzerFactory, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "StreamSaxAnalyzerFactory_newInstance" "', argument " "1"" of type '" "Strigi::StreamSaxAnalyzerFactory const *""'"); 
+  }
+  arg1 = reinterpret_cast< Strigi::StreamSaxAnalyzerFactory * >(argp1);
+  director = SWIG_DIRECTOR_CAST(arg1);
+  upcall = (director && (director->swig_get_self()==obj0));
+  try {
+    {
+      try {
+        if (upcall) {
+          Swig::DirectorPureVirtualException::raise("Strigi::StreamSaxAnalyzerFactory::newInstance");
+        } else {
+          result = (Strigi::StreamSaxAnalyzer *)((Strigi::StreamSaxAnalyzerFactory const *)arg1)->newInstance();
+        }
+      }_CATCHALL();
+    }
+  } catch (Swig::DirectorException&) {
+    SWIG_fail;
+  }
+  director = SWIG_DIRECTOR_CAST(result);
+  if (director) {
+    resultobj = director->swig_get_self();
+    Py_INCREF(resultobj);
+  } else {
+    resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_Strigi__StreamSaxAnalyzer, 0 |  0 );
+  }
+  if (director) {
+    SWIG_AcquirePtr(resultobj, director->swig_release_ownership(SWIG_as_voidptr(result)));
+  }
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_new_StreamSaxAnalyzerFactory(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  PyObject *arg1 = (PyObject *) 0 ;
+  PyObject * obj0 = 0 ;
+  Strigi::StreamSaxAnalyzerFactory *result = 0 ;
+  
+  if (!PyArg_ParseTuple(args,(char *)"O:new_StreamSaxAnalyzerFactory",&obj0)) SWIG_fail;
+  arg1 = obj0;
+  {
+    try {
+      {
+        SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+        if ( arg1 != Py_None ) {
+          /* subclassed */
+          result = (Strigi::StreamSaxAnalyzerFactory *)new SwigDirector_StreamSaxAnalyzerFactory(arg1); 
+        } else {
+          SWIG_SetErrorMsg(PyExc_RuntimeError,"accessing abstract class or protected constructor"); 
+          SWIG_fail;
+        }
+        
+        SWIG_PYTHON_THREAD_END_ALLOW;
+      }
+    }_CATCHALL();
+  }
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_Strigi__StreamSaxAnalyzerFactory, SWIG_POINTER_NEW |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
 
 SWIGINTERN PyObject *_wrap_delete_StreamSaxAnalyzerFactory(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
   PyObject *resultobj = 0;
@@ -12046,12 +16751,390 @@ fail:
 }
 
 
+SWIGINTERN PyObject *_wrap_disown_StreamSaxAnalyzerFactory(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  Strigi::StreamSaxAnalyzerFactory *arg1 = (Strigi::StreamSaxAnalyzerFactory *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  
+  if (!PyArg_ParseTuple(args,(char *)"O:disown_StreamSaxAnalyzerFactory",&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_Strigi__StreamSaxAnalyzerFactory, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "disown_StreamSaxAnalyzerFactory" "', argument " "1"" of type '" "Strigi::StreamSaxAnalyzerFactory *""'"); 
+  }
+  arg1 = reinterpret_cast< Strigi::StreamSaxAnalyzerFactory * >(argp1);
+  {
+    SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+    {
+      Swig::Director *director = SWIG_DIRECTOR_CAST(arg1);
+      if (director) director->swig_disown();
+    }
+    
+    SWIG_PYTHON_THREAD_END_ALLOW;
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
 SWIGINTERN PyObject *StreamSaxAnalyzerFactory_swigregister(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
   PyObject *obj;
   if (!PyArg_ParseTuple(args,(char*)"O:swigregister", &obj)) return NULL;
   SWIG_TypeNewClientData(SWIGTYPE_p_Strigi__StreamSaxAnalyzerFactory, SWIG_NewClientData(obj));
   return SWIG_Py_Void();
 }
+
+SWIGINTERN PyObject *_wrap_delete_StreamThroughAnalyzer(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  Strigi::StreamThroughAnalyzer *arg1 = (Strigi::StreamThroughAnalyzer *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  
+  if (!PyArg_ParseTuple(args,(char *)"O:delete_StreamThroughAnalyzer",&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_Strigi__StreamThroughAnalyzer, SWIG_POINTER_DISOWN |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "delete_StreamThroughAnalyzer" "', argument " "1"" of type '" "Strigi::StreamThroughAnalyzer *""'"); 
+  }
+  arg1 = reinterpret_cast< Strigi::StreamThroughAnalyzer * >(argp1);
+  {
+    try {
+      {
+        SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+        delete arg1;
+        SWIG_PYTHON_THREAD_END_ALLOW;
+      }
+    }_CATCHALL();
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_StreamThroughAnalyzer_setIndexable(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  Strigi::StreamThroughAnalyzer *arg1 = (Strigi::StreamThroughAnalyzer *) 0 ;
+  Strigi::AnalysisResult *arg2 = (Strigi::AnalysisResult *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  Swig::Director *director = 0;
+  bool upcall = false;
+  
+  if (!PyArg_ParseTuple(args,(char *)"OO:StreamThroughAnalyzer_setIndexable",&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_Strigi__StreamThroughAnalyzer, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "StreamThroughAnalyzer_setIndexable" "', argument " "1"" of type '" "Strigi::StreamThroughAnalyzer *""'"); 
+  }
+  arg1 = reinterpret_cast< Strigi::StreamThroughAnalyzer * >(argp1);
+  res2 = SWIG_ConvertPtr(obj1, &argp2,SWIGTYPE_p_Strigi__AnalysisResult, 0 |  0 );
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "StreamThroughAnalyzer_setIndexable" "', argument " "2"" of type '" "Strigi::AnalysisResult *""'"); 
+  }
+  arg2 = reinterpret_cast< Strigi::AnalysisResult * >(argp2);
+  director = SWIG_DIRECTOR_CAST(arg1);
+  upcall = (director && (director->swig_get_self()==obj0));
+  try {
+    {
+      try {
+        if (upcall) {
+          Swig::DirectorPureVirtualException::raise("Strigi::StreamThroughAnalyzer::setIndexable");
+        } else {
+          (arg1)->setIndexable(arg2);
+        }
+      }_CATCHALL();
+    }
+  } catch (Swig::DirectorException&) {
+    SWIG_fail;
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_StreamThroughAnalyzer_connectInputStream(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  Strigi::StreamThroughAnalyzer *arg1 = (Strigi::StreamThroughAnalyzer *) 0 ;
+  Strigi::InputStream *arg2 = (Strigi::InputStream *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  Swig::Director *director = 0;
+  bool upcall = false;
+  Strigi::InputStream *result = 0 ;
+  
+  if (!PyArg_ParseTuple(args,(char *)"OO:StreamThroughAnalyzer_connectInputStream",&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_Strigi__StreamThroughAnalyzer, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "StreamThroughAnalyzer_connectInputStream" "', argument " "1"" of type '" "Strigi::StreamThroughAnalyzer *""'"); 
+  }
+  arg1 = reinterpret_cast< Strigi::StreamThroughAnalyzer * >(argp1);
+  res2 = SWIG_ConvertPtr(obj1, &argp2,SWIGTYPE_p_Strigi__StreamBaseT_char_t, 0 |  0 );
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "StreamThroughAnalyzer_connectInputStream" "', argument " "2"" of type '" "Strigi::InputStream *""'"); 
+  }
+  arg2 = reinterpret_cast< Strigi::InputStream * >(argp2);
+  director = SWIG_DIRECTOR_CAST(arg1);
+  upcall = (director && (director->swig_get_self()==obj0));
+  try {
+    {
+      try {
+        if (upcall) {
+          Swig::DirectorPureVirtualException::raise("Strigi::StreamThroughAnalyzer::connectInputStream");
+        } else {
+          result = (Strigi::InputStream *)(arg1)->connectInputStream(arg2);
+        }
+      }_CATCHALL();
+    }
+  } catch (Swig::DirectorException&) {
+    SWIG_fail;
+  }
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_Strigi__StreamBaseT_char_t, 0 |  0 );
+  if (director) {
+    SWIG_AcquirePtr(resultobj, director->swig_release_ownership(SWIG_as_voidptr(result)));
+  }
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_StreamThroughAnalyzer_isReadyWithStream(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  Strigi::StreamThroughAnalyzer *arg1 = (Strigi::StreamThroughAnalyzer *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  Swig::Director *director = 0;
+  bool upcall = false;
+  bool result;
+  
+  if (!PyArg_ParseTuple(args,(char *)"O:StreamThroughAnalyzer_isReadyWithStream",&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_Strigi__StreamThroughAnalyzer, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "StreamThroughAnalyzer_isReadyWithStream" "', argument " "1"" of type '" "Strigi::StreamThroughAnalyzer *""'"); 
+  }
+  arg1 = reinterpret_cast< Strigi::StreamThroughAnalyzer * >(argp1);
+  director = SWIG_DIRECTOR_CAST(arg1);
+  upcall = (director && (director->swig_get_self()==obj0));
+  try {
+    {
+      try {
+        if (upcall) {
+          Swig::DirectorPureVirtualException::raise("Strigi::StreamThroughAnalyzer::isReadyWithStream");
+        } else {
+          result = (bool)(arg1)->isReadyWithStream();
+        }
+      }_CATCHALL();
+    }
+  } catch (Swig::DirectorException&) {
+    SWIG_fail;
+  }
+  resultobj = SWIG_From_bool(static_cast< bool >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_StreamThroughAnalyzer_name(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  Strigi::StreamThroughAnalyzer *arg1 = (Strigi::StreamThroughAnalyzer *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  Swig::Director *director = 0;
+  bool upcall = false;
+  char *result = 0 ;
+  
+  if (!PyArg_ParseTuple(args,(char *)"O:StreamThroughAnalyzer_name",&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_Strigi__StreamThroughAnalyzer, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "StreamThroughAnalyzer_name" "', argument " "1"" of type '" "Strigi::StreamThroughAnalyzer const *""'"); 
+  }
+  arg1 = reinterpret_cast< Strigi::StreamThroughAnalyzer * >(argp1);
+  director = SWIG_DIRECTOR_CAST(arg1);
+  upcall = (director && (director->swig_get_self()==obj0));
+  try {
+    {
+      try {
+        if (upcall) {
+          Swig::DirectorPureVirtualException::raise("Strigi::StreamThroughAnalyzer::name");
+        } else {
+          result = (char *)((Strigi::StreamThroughAnalyzer const *)arg1)->name();
+        }
+      }_CATCHALL();
+    }
+  } catch (Swig::DirectorException&) {
+    SWIG_fail;
+  }
+  resultobj = SWIG_FromCharPtr((const char *)result);
+  if (director) {
+    director->swig_release_ownership(SWIG_as_voidptr(result));
+  }
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_new_StreamThroughAnalyzer(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  PyObject *arg1 = (PyObject *) 0 ;
+  PyObject * obj0 = 0 ;
+  Strigi::StreamThroughAnalyzer *result = 0 ;
+  
+  if (!PyArg_ParseTuple(args,(char *)"O:new_StreamThroughAnalyzer",&obj0)) SWIG_fail;
+  arg1 = obj0;
+  {
+    try {
+      {
+        SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+        if ( arg1 != Py_None ) {
+          /* subclassed */
+          result = (Strigi::StreamThroughAnalyzer *)new SwigDirector_StreamThroughAnalyzer(arg1); 
+        } else {
+          SWIG_SetErrorMsg(PyExc_RuntimeError,"accessing abstract class or protected constructor"); 
+          SWIG_fail;
+        }
+        
+        SWIG_PYTHON_THREAD_END_ALLOW;
+      }
+    }_CATCHALL();
+  }
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_Strigi__StreamThroughAnalyzer, SWIG_POINTER_NEW |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_disown_StreamThroughAnalyzer(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  Strigi::StreamThroughAnalyzer *arg1 = (Strigi::StreamThroughAnalyzer *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  
+  if (!PyArg_ParseTuple(args,(char *)"O:disown_StreamThroughAnalyzer",&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_Strigi__StreamThroughAnalyzer, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "disown_StreamThroughAnalyzer" "', argument " "1"" of type '" "Strigi::StreamThroughAnalyzer *""'"); 
+  }
+  arg1 = reinterpret_cast< Strigi::StreamThroughAnalyzer * >(argp1);
+  {
+    SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+    {
+      Swig::Director *director = SWIG_DIRECTOR_CAST(arg1);
+      if (director) director->swig_disown();
+    }
+    
+    SWIG_PYTHON_THREAD_END_ALLOW;
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *StreamThroughAnalyzer_swigregister(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *obj;
+  if (!PyArg_ParseTuple(args,(char*)"O:swigregister", &obj)) return NULL;
+  SWIG_TypeNewClientData(SWIGTYPE_p_Strigi__StreamThroughAnalyzer, SWIG_NewClientData(obj));
+  return SWIG_Py_Void();
+}
+
+SWIGINTERN PyObject *_wrap_StreamThroughAnalyzerFactory_newInstance(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  Strigi::StreamThroughAnalyzerFactory *arg1 = (Strigi::StreamThroughAnalyzerFactory *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  Swig::Director *director = 0;
+  bool upcall = false;
+  Strigi::StreamThroughAnalyzer *result = 0 ;
+  
+  if (!PyArg_ParseTuple(args,(char *)"O:StreamThroughAnalyzerFactory_newInstance",&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_Strigi__StreamThroughAnalyzerFactory, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "StreamThroughAnalyzerFactory_newInstance" "', argument " "1"" of type '" "Strigi::StreamThroughAnalyzerFactory const *""'"); 
+  }
+  arg1 = reinterpret_cast< Strigi::StreamThroughAnalyzerFactory * >(argp1);
+  director = SWIG_DIRECTOR_CAST(arg1);
+  upcall = (director && (director->swig_get_self()==obj0));
+  try {
+    {
+      try {
+        if (upcall) {
+          Swig::DirectorPureVirtualException::raise("Strigi::StreamThroughAnalyzerFactory::newInstance");
+        } else {
+          result = (Strigi::StreamThroughAnalyzer *)((Strigi::StreamThroughAnalyzerFactory const *)arg1)->newInstance();
+        }
+      }_CATCHALL();
+    }
+  } catch (Swig::DirectorException&) {
+    SWIG_fail;
+  }
+  director = SWIG_DIRECTOR_CAST(result);
+  if (director) {
+    resultobj = director->swig_get_self();
+    Py_INCREF(resultobj);
+  } else {
+    resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_Strigi__StreamThroughAnalyzer, 0 |  0 );
+  }
+  if (director) {
+    SWIG_AcquirePtr(resultobj, director->swig_release_ownership(SWIG_as_voidptr(result)));
+  }
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_new_StreamThroughAnalyzerFactory(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  PyObject *arg1 = (PyObject *) 0 ;
+  PyObject * obj0 = 0 ;
+  Strigi::StreamThroughAnalyzerFactory *result = 0 ;
+  
+  if (!PyArg_ParseTuple(args,(char *)"O:new_StreamThroughAnalyzerFactory",&obj0)) SWIG_fail;
+  arg1 = obj0;
+  {
+    try {
+      {
+        SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+        if ( arg1 != Py_None ) {
+          /* subclassed */
+          result = (Strigi::StreamThroughAnalyzerFactory *)new SwigDirector_StreamThroughAnalyzerFactory(arg1); 
+        } else {
+          SWIG_SetErrorMsg(PyExc_RuntimeError,"accessing abstract class or protected constructor"); 
+          SWIG_fail;
+        }
+        
+        SWIG_PYTHON_THREAD_END_ALLOW;
+      }
+    }_CATCHALL();
+  }
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_Strigi__StreamThroughAnalyzerFactory, SWIG_POINTER_NEW |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
 
 SWIGINTERN PyObject *_wrap_delete_StreamThroughAnalyzerFactory(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
   PyObject *resultobj = 0;
@@ -12074,6 +17157,35 @@ SWIGINTERN PyObject *_wrap_delete_StreamThroughAnalyzerFactory(PyObject *SWIGUNU
         SWIG_PYTHON_THREAD_END_ALLOW;
       }
     }_CATCHALL();
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_disown_StreamThroughAnalyzerFactory(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  Strigi::StreamThroughAnalyzerFactory *arg1 = (Strigi::StreamThroughAnalyzerFactory *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  
+  if (!PyArg_ParseTuple(args,(char *)"O:disown_StreamThroughAnalyzerFactory",&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_Strigi__StreamThroughAnalyzerFactory, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "disown_StreamThroughAnalyzerFactory" "', argument " "1"" of type '" "Strigi::StreamThroughAnalyzerFactory *""'"); 
+  }
+  arg1 = reinterpret_cast< Strigi::StreamThroughAnalyzerFactory * >(argp1);
+  {
+    SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+    {
+      Swig::Director *director = SWIG_DIRECTOR_CAST(arg1);
+      if (director) director->swig_disown();
+    }
+    
+    SWIG_PYTHON_THREAD_END_ALLOW;
   }
   resultobj = SWIG_Py_Void();
   return resultobj;
@@ -12118,6 +17230,45 @@ fail:
 }
 
 
+SWIGINTERN PyObject *_wrap_AnalysisResult_index(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  Strigi::AnalysisResult *arg1 = (Strigi::AnalysisResult *) 0 ;
+  Strigi::StreamBase< char > *arg2 = (Strigi::StreamBase< char > *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  signed char result;
+  
+  if (!PyArg_ParseTuple(args,(char *)"OO:AnalysisResult_index",&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_Strigi__AnalysisResult, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "AnalysisResult_index" "', argument " "1"" of type '" "Strigi::AnalysisResult *""'"); 
+  }
+  arg1 = reinterpret_cast< Strigi::AnalysisResult * >(argp1);
+  res2 = SWIG_ConvertPtr(obj1, &argp2,SWIGTYPE_p_Strigi__StreamBaseT_char_t, 0 |  0 );
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "AnalysisResult_index" "', argument " "2"" of type '" "Strigi::StreamBase< char > *""'"); 
+  }
+  arg2 = reinterpret_cast< Strigi::StreamBase< char > * >(argp2);
+  {
+    try {
+      {
+        SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+        result = (signed char)(arg1)->index(arg2);
+        SWIG_PYTHON_THREAD_END_ALLOW;
+      }
+    }_CATCHALL();
+  }
+  resultobj = SWIG_From_signed_SS_char(static_cast< signed char >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
 SWIGINTERN PyObject *_wrap_AnalysisResult_child(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
   PyObject *resultobj = 0;
   Strigi::AnalysisResult *arg1 = (Strigi::AnalysisResult *) 0 ;
@@ -12142,6 +17293,340 @@ SWIGINTERN PyObject *_wrap_AnalysisResult_child(PyObject *SWIGUNUSEDPARM(self), 
     }_CATCHALL();
   }
   resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_Strigi__AnalysisResult, 0 |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_AnalysisResult_addValue__SWIG_0(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  Strigi::AnalysisResult *arg1 = (Strigi::AnalysisResult *) 0 ;
+  Strigi::RegisteredField *arg2 = (Strigi::RegisteredField *) 0 ;
+  std::string *arg3 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  int res3 = SWIG_OLDOBJ ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  PyObject * obj2 = 0 ;
+  
+  if (!PyArg_ParseTuple(args,(char *)"OOO:AnalysisResult_addValue",&obj0,&obj1,&obj2)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_Strigi__AnalysisResult, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "AnalysisResult_addValue" "', argument " "1"" of type '" "Strigi::AnalysisResult *""'"); 
+  }
+  arg1 = reinterpret_cast< Strigi::AnalysisResult * >(argp1);
+  res2 = SWIG_ConvertPtr(obj1, &argp2,SWIGTYPE_p_Strigi__RegisteredField, 0 |  0 );
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "AnalysisResult_addValue" "', argument " "2"" of type '" "Strigi::RegisteredField const *""'"); 
+  }
+  arg2 = reinterpret_cast< Strigi::RegisteredField * >(argp2);
+  {
+    std::string *ptr = (std::string *)0;
+    res3 = SWIG_AsPtr_std_string(obj2, &ptr);
+    if (!SWIG_IsOK(res3)) {
+      SWIG_exception_fail(SWIG_ArgError(res3), "in method '" "AnalysisResult_addValue" "', argument " "3"" of type '" "std::string const &""'"); 
+    }
+    if (!ptr) {
+      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "AnalysisResult_addValue" "', argument " "3"" of type '" "std::string const &""'"); 
+    }
+    arg3 = ptr;
+  }
+  {
+    try {
+      {
+        SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+        (arg1)->addValue((Strigi::RegisteredField const *)arg2,(std::string const &)*arg3);
+        SWIG_PYTHON_THREAD_END_ALLOW;
+      }
+    }_CATCHALL();
+  }
+  resultobj = SWIG_Py_Void();
+  if (SWIG_IsNewObj(res3)) delete arg3;
+  return resultobj;
+fail:
+  if (SWIG_IsNewObj(res3)) delete arg3;
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_AnalysisResult_addValue__SWIG_1(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  Strigi::AnalysisResult *arg1 = (Strigi::AnalysisResult *) 0 ;
+  Strigi::RegisteredField *arg2 = (Strigi::RegisteredField *) 0 ;
+  int32_t arg3 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  int val3 ;
+  int ecode3 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  PyObject * obj2 = 0 ;
+  
+  if (!PyArg_ParseTuple(args,(char *)"OOO:AnalysisResult_addValue",&obj0,&obj1,&obj2)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_Strigi__AnalysisResult, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "AnalysisResult_addValue" "', argument " "1"" of type '" "Strigi::AnalysisResult *""'"); 
+  }
+  arg1 = reinterpret_cast< Strigi::AnalysisResult * >(argp1);
+  res2 = SWIG_ConvertPtr(obj1, &argp2,SWIGTYPE_p_Strigi__RegisteredField, 0 |  0 );
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "AnalysisResult_addValue" "', argument " "2"" of type '" "Strigi::RegisteredField const *""'"); 
+  }
+  arg2 = reinterpret_cast< Strigi::RegisteredField * >(argp2);
+  ecode3 = SWIG_AsVal_int(obj2, &val3);
+  if (!SWIG_IsOK(ecode3)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode3), "in method '" "AnalysisResult_addValue" "', argument " "3"" of type '" "int32_t""'");
+  } 
+  arg3 = static_cast< int32_t >(val3);
+  {
+    try {
+      {
+        SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+        (arg1)->addValue((Strigi::RegisteredField const *)arg2,arg3);
+        SWIG_PYTHON_THREAD_END_ALLOW;
+      }
+    }_CATCHALL();
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_AnalysisResult_addValue__SWIG_2(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  Strigi::AnalysisResult *arg1 = (Strigi::AnalysisResult *) 0 ;
+  Strigi::RegisteredField *arg2 = (Strigi::RegisteredField *) 0 ;
+  double arg3 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  double val3 ;
+  int ecode3 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  PyObject * obj2 = 0 ;
+  
+  if (!PyArg_ParseTuple(args,(char *)"OOO:AnalysisResult_addValue",&obj0,&obj1,&obj2)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_Strigi__AnalysisResult, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "AnalysisResult_addValue" "', argument " "1"" of type '" "Strigi::AnalysisResult *""'"); 
+  }
+  arg1 = reinterpret_cast< Strigi::AnalysisResult * >(argp1);
+  res2 = SWIG_ConvertPtr(obj1, &argp2,SWIGTYPE_p_Strigi__RegisteredField, 0 |  0 );
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "AnalysisResult_addValue" "', argument " "2"" of type '" "Strigi::RegisteredField const *""'"); 
+  }
+  arg2 = reinterpret_cast< Strigi::RegisteredField * >(argp2);
+  ecode3 = SWIG_AsVal_double(obj2, &val3);
+  if (!SWIG_IsOK(ecode3)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode3), "in method '" "AnalysisResult_addValue" "', argument " "3"" of type '" "double""'");
+  } 
+  arg3 = static_cast< double >(val3);
+  {
+    try {
+      {
+        SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+        (arg1)->addValue((Strigi::RegisteredField const *)arg2,arg3);
+        SWIG_PYTHON_THREAD_END_ALLOW;
+      }
+    }_CATCHALL();
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_AnalysisResult_addValue(PyObject *self, PyObject *args) {
+  int argc;
+  PyObject *argv[4];
+  int ii;
+  
+  if (!PyTuple_Check(args)) SWIG_fail;
+  argc = (int)PyObject_Length(args);
+  for (ii = 0; (ii < argc) && (ii < 3); ii++) {
+    argv[ii] = PyTuple_GET_ITEM(args,ii);
+  }
+  if (argc == 3) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_Strigi__AnalysisResult, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      void *vptr = 0;
+      int res = SWIG_ConvertPtr(argv[1], &vptr, SWIGTYPE_p_Strigi__RegisteredField, 0);
+      _v = SWIG_CheckState(res);
+      if (_v) {
+        {
+          int res = SWIG_AsVal_int(argv[2], NULL);
+          _v = SWIG_CheckState(res);
+        }
+        if (_v) {
+          return _wrap_AnalysisResult_addValue__SWIG_1(self, args);
+        }
+      }
+    }
+  }
+  if (argc == 3) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_Strigi__AnalysisResult, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      void *vptr = 0;
+      int res = SWIG_ConvertPtr(argv[1], &vptr, SWIGTYPE_p_Strigi__RegisteredField, 0);
+      _v = SWIG_CheckState(res);
+      if (_v) {
+        {
+          int res = SWIG_AsVal_double(argv[2], NULL);
+          _v = SWIG_CheckState(res);
+        }
+        if (_v) {
+          return _wrap_AnalysisResult_addValue__SWIG_2(self, args);
+        }
+      }
+    }
+  }
+  if (argc == 3) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_Strigi__AnalysisResult, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      void *vptr = 0;
+      int res = SWIG_ConvertPtr(argv[1], &vptr, SWIGTYPE_p_Strigi__RegisteredField, 0);
+      _v = SWIG_CheckState(res);
+      if (_v) {
+        int res = SWIG_AsPtr_std_string(argv[2], (std::string**)(0));
+        _v = SWIG_CheckState(res);
+        if (_v) {
+          return _wrap_AnalysisResult_addValue__SWIG_0(self, args);
+        }
+      }
+    }
+  }
+  
+fail:
+  SWIG_SetErrorMsg(PyExc_NotImplementedError,"Wrong number of arguments for overloaded function 'AnalysisResult_addValue'.\n"
+    "  Possible C/C++ prototypes are:\n"
+    "    addValue(Strigi::AnalysisResult *,Strigi::RegisteredField const *,std::string const &)\n"
+    "    addValue(Strigi::AnalysisResult *,Strigi::RegisteredField const *,int32_t)\n"
+    "    addValue(Strigi::AnalysisResult *,Strigi::RegisteredField const *,double)\n");
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_AnalysisResult_addTriplet(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  Strigi::AnalysisResult *arg1 = (Strigi::AnalysisResult *) 0 ;
+  std::string *arg2 = 0 ;
+  std::string *arg3 = 0 ;
+  std::string *arg4 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int res2 = SWIG_OLDOBJ ;
+  int res3 = SWIG_OLDOBJ ;
+  int res4 = SWIG_OLDOBJ ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  PyObject * obj2 = 0 ;
+  PyObject * obj3 = 0 ;
+  
+  if (!PyArg_ParseTuple(args,(char *)"OOOO:AnalysisResult_addTriplet",&obj0,&obj1,&obj2,&obj3)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_Strigi__AnalysisResult, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "AnalysisResult_addTriplet" "', argument " "1"" of type '" "Strigi::AnalysisResult *""'"); 
+  }
+  arg1 = reinterpret_cast< Strigi::AnalysisResult * >(argp1);
+  {
+    std::string *ptr = (std::string *)0;
+    res2 = SWIG_AsPtr_std_string(obj1, &ptr);
+    if (!SWIG_IsOK(res2)) {
+      SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "AnalysisResult_addTriplet" "', argument " "2"" of type '" "std::string const &""'"); 
+    }
+    if (!ptr) {
+      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "AnalysisResult_addTriplet" "', argument " "2"" of type '" "std::string const &""'"); 
+    }
+    arg2 = ptr;
+  }
+  {
+    std::string *ptr = (std::string *)0;
+    res3 = SWIG_AsPtr_std_string(obj2, &ptr);
+    if (!SWIG_IsOK(res3)) {
+      SWIG_exception_fail(SWIG_ArgError(res3), "in method '" "AnalysisResult_addTriplet" "', argument " "3"" of type '" "std::string const &""'"); 
+    }
+    if (!ptr) {
+      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "AnalysisResult_addTriplet" "', argument " "3"" of type '" "std::string const &""'"); 
+    }
+    arg3 = ptr;
+  }
+  {
+    std::string *ptr = (std::string *)0;
+    res4 = SWIG_AsPtr_std_string(obj3, &ptr);
+    if (!SWIG_IsOK(res4)) {
+      SWIG_exception_fail(SWIG_ArgError(res4), "in method '" "AnalysisResult_addTriplet" "', argument " "4"" of type '" "std::string const &""'"); 
+    }
+    if (!ptr) {
+      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "AnalysisResult_addTriplet" "', argument " "4"" of type '" "std::string const &""'"); 
+    }
+    arg4 = ptr;
+  }
+  {
+    try {
+      {
+        SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+        (arg1)->addTriplet((std::string const &)*arg2,(std::string const &)*arg3,(std::string const &)*arg4);
+        SWIG_PYTHON_THREAD_END_ALLOW;
+      }
+    }_CATCHALL();
+  }
+  resultobj = SWIG_Py_Void();
+  if (SWIG_IsNewObj(res2)) delete arg2;
+  if (SWIG_IsNewObj(res3)) delete arg3;
+  if (SWIG_IsNewObj(res4)) delete arg4;
+  return resultobj;
+fail:
+  if (SWIG_IsNewObj(res2)) delete arg2;
+  if (SWIG_IsNewObj(res3)) delete arg3;
+  if (SWIG_IsNewObj(res4)) delete arg4;
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_AnalysisResult_newAnonymousUri(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  Strigi::AnalysisResult *arg1 = (Strigi::AnalysisResult *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  std::string result;
+  
+  if (!PyArg_ParseTuple(args,(char *)"O:AnalysisResult_newAnonymousUri",&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_Strigi__AnalysisResult, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "AnalysisResult_newAnonymousUri" "', argument " "1"" of type '" "Strigi::AnalysisResult *""'"); 
+  }
+  arg1 = reinterpret_cast< Strigi::AnalysisResult * >(argp1);
+  {
+    try {
+      {
+        SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+        result = (arg1)->newAnonymousUri();
+        SWIG_PYTHON_THREAD_END_ALLOW;
+      }
+    }_CATCHALL();
+  }
+  resultobj = SWIG_From_std_string(static_cast< std::string >(result));
   return resultobj;
 fail:
   return NULL;
@@ -12298,6 +17783,47 @@ fail:
 }
 
 
+SWIGINTERN PyObject *_wrap_AnalysisResult_setEncoding(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  Strigi::AnalysisResult *arg1 = (Strigi::AnalysisResult *) 0 ;
+  char *arg2 = (char *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int res2 ;
+  char *buf2 = 0 ;
+  int alloc2 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  
+  if (!PyArg_ParseTuple(args,(char *)"OO:AnalysisResult_setEncoding",&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_Strigi__AnalysisResult, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "AnalysisResult_setEncoding" "', argument " "1"" of type '" "Strigi::AnalysisResult *""'"); 
+  }
+  arg1 = reinterpret_cast< Strigi::AnalysisResult * >(argp1);
+  res2 = SWIG_AsCharPtrAndSize(obj1, &buf2, NULL, &alloc2);
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "AnalysisResult_setEncoding" "', argument " "2"" of type '" "char const *""'");
+  }
+  arg2 = reinterpret_cast< char * >(buf2);
+  {
+    try {
+      {
+        SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+        (arg1)->setEncoding((char const *)arg2);
+        SWIG_PYTHON_THREAD_END_ALLOW;
+      }
+    }_CATCHALL();
+  }
+  resultobj = SWIG_Py_Void();
+  if (alloc2 == SWIG_NEWOBJ) delete[] buf2;
+  return resultobj;
+fail:
+  if (alloc2 == SWIG_NEWOBJ) delete[] buf2;
+  return NULL;
+}
+
+
 SWIGINTERN PyObject *_wrap_AnalysisResult_encoding(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
   PyObject *resultobj = 0;
   Strigi::AnalysisResult *arg1 = (Strigi::AnalysisResult *) 0 ;
@@ -12324,6 +17850,51 @@ SWIGINTERN PyObject *_wrap_AnalysisResult_encoding(PyObject *SWIGUNUSEDPARM(self
   resultobj = SWIG_From_std_string(static_cast< std::string >(*result));
   return resultobj;
 fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_AnalysisResult_setMimeType(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  Strigi::AnalysisResult *arg1 = (Strigi::AnalysisResult *) 0 ;
+  std::string *arg2 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int res2 = SWIG_OLDOBJ ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  
+  if (!PyArg_ParseTuple(args,(char *)"OO:AnalysisResult_setMimeType",&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_Strigi__AnalysisResult, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "AnalysisResult_setMimeType" "', argument " "1"" of type '" "Strigi::AnalysisResult *""'"); 
+  }
+  arg1 = reinterpret_cast< Strigi::AnalysisResult * >(argp1);
+  {
+    std::string *ptr = (std::string *)0;
+    res2 = SWIG_AsPtr_std_string(obj1, &ptr);
+    if (!SWIG_IsOK(res2)) {
+      SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "AnalysisResult_setMimeType" "', argument " "2"" of type '" "std::string const &""'"); 
+    }
+    if (!ptr) {
+      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "AnalysisResult_setMimeType" "', argument " "2"" of type '" "std::string const &""'"); 
+    }
+    arg2 = ptr;
+  }
+  {
+    try {
+      {
+        SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+        (arg1)->setMimeType((std::string const &)*arg2);
+        SWIG_PYTHON_THREAD_END_ALLOW;
+      }
+    }_CATCHALL();
+  }
+  resultobj = SWIG_Py_Void();
+  if (SWIG_IsNewObj(res2)) delete arg2;
+  return resultobj;
+fail:
+  if (SWIG_IsNewObj(res2)) delete arg2;
   return NULL;
 }
 
@@ -12388,32 +17959,133 @@ fail:
 }
 
 
-SWIGINTERN PyObject *_wrap_AnalysisResult_config(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+SWIGINTERN PyObject *_wrap_new_AnalysisResult(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
   PyObject *resultobj = 0;
-  Strigi::AnalysisResult *arg1 = (Strigi::AnalysisResult *) 0 ;
-  void *argp1 = 0 ;
-  int res1 = 0 ;
+  std::string *arg1 = 0 ;
+  time_t arg2 ;
+  PythonIndexWriter *arg3 = 0 ;
+  Strigi::StreamAnalyzer *arg4 = 0 ;
+  std::string *arg5 = 0 ;
+  int res1 = SWIG_OLDOBJ ;
+  unsigned long val2 ;
+  int ecode2 = 0 ;
+  void *argp3 = 0 ;
+  int res3 = 0 ;
+  void *argp4 = 0 ;
+  int res4 = 0 ;
+  int res5 = SWIG_OLDOBJ ;
   PyObject * obj0 = 0 ;
-  Strigi::AnalyzerConfiguration *result = 0 ;
+  PyObject * obj1 = 0 ;
+  PyObject * obj2 = 0 ;
+  PyObject * obj3 = 0 ;
+  PyObject * obj4 = 0 ;
+  Strigi::AnalysisResult *result = 0 ;
   
-  if (!PyArg_ParseTuple(args,(char *)"O:AnalysisResult_config",&obj0)) SWIG_fail;
-  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_Strigi__AnalysisResult, 0 |  0 );
-  if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "AnalysisResult_config" "', argument " "1"" of type '" "Strigi::AnalysisResult const *""'"); 
+  if (!PyArg_ParseTuple(args,(char *)"OOOOO:new_AnalysisResult",&obj0,&obj1,&obj2,&obj3,&obj4)) SWIG_fail;
+  {
+    std::string *ptr = (std::string *)0;
+    res1 = SWIG_AsPtr_std_string(obj0, &ptr);
+    if (!SWIG_IsOK(res1)) {
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "new_AnalysisResult" "', argument " "1"" of type '" "std::string const &""'"); 
+    }
+    if (!ptr) {
+      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "new_AnalysisResult" "', argument " "1"" of type '" "std::string const &""'"); 
+    }
+    arg1 = ptr;
   }
-  arg1 = reinterpret_cast< Strigi::AnalysisResult * >(argp1);
+  ecode2 = SWIG_AsVal_unsigned_SS_long(obj1, &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "new_AnalysisResult" "', argument " "2"" of type '" "time_t""'");
+  } 
+  arg2 = static_cast< time_t >(val2);
+  res3 = SWIG_ConvertPtr(obj2, &argp3, SWIGTYPE_p_PythonIndexWriter,  0 );
+  if (!SWIG_IsOK(res3)) {
+    SWIG_exception_fail(SWIG_ArgError(res3), "in method '" "new_AnalysisResult" "', argument " "3"" of type '" "PythonIndexWriter &""'"); 
+  }
+  if (!argp3) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "new_AnalysisResult" "', argument " "3"" of type '" "PythonIndexWriter &""'"); 
+  }
+  arg3 = reinterpret_cast< PythonIndexWriter * >(argp3);
+  res4 = SWIG_ConvertPtr(obj3, &argp4, SWIGTYPE_p_Strigi__StreamAnalyzer,  0 );
+  if (!SWIG_IsOK(res4)) {
+    SWIG_exception_fail(SWIG_ArgError(res4), "in method '" "new_AnalysisResult" "', argument " "4"" of type '" "Strigi::StreamAnalyzer &""'"); 
+  }
+  if (!argp4) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "new_AnalysisResult" "', argument " "4"" of type '" "Strigi::StreamAnalyzer &""'"); 
+  }
+  arg4 = reinterpret_cast< Strigi::StreamAnalyzer * >(argp4);
+  {
+    std::string *ptr = (std::string *)0;
+    res5 = SWIG_AsPtr_std_string(obj4, &ptr);
+    if (!SWIG_IsOK(res5)) {
+      SWIG_exception_fail(SWIG_ArgError(res5), "in method '" "new_AnalysisResult" "', argument " "5"" of type '" "std::string const &""'"); 
+    }
+    if (!ptr) {
+      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "new_AnalysisResult" "', argument " "5"" of type '" "std::string const &""'"); 
+    }
+    arg5 = ptr;
+  }
   {
     try {
       {
         SWIG_PYTHON_THREAD_BEGIN_ALLOW;
-        result = (Strigi::AnalyzerConfiguration *) &((Strigi::AnalysisResult const *)arg1)->config();
+        result = (Strigi::AnalysisResult *)new_Strigi_AnalysisResult((std::string const &)*arg1,arg2,*arg3,*arg4,(std::string const &)*arg5);
         SWIG_PYTHON_THREAD_END_ALLOW;
       }
     }_CATCHALL();
   }
-  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_Strigi__AnalyzerConfiguration, 0 |  0 );
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_Strigi__AnalysisResult, SWIG_POINTER_NEW |  0 );
+  if (SWIG_IsNewObj(res1)) delete arg1;
+  if (SWIG_IsNewObj(res5)) delete arg5;
   return resultobj;
 fail:
+  if (SWIG_IsNewObj(res1)) delete arg1;
+  if (SWIG_IsNewObj(res5)) delete arg5;
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_AnalysisResult_addText(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  Strigi::AnalysisResult *arg1 = (Strigi::AnalysisResult *) 0 ;
+  std::string *arg2 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int res2 = SWIG_OLDOBJ ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  
+  if (!PyArg_ParseTuple(args,(char *)"OO:AnalysisResult_addText",&obj0,&obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_Strigi__AnalysisResult, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "AnalysisResult_addText" "', argument " "1"" of type '" "Strigi::AnalysisResult *""'"); 
+  }
+  arg1 = reinterpret_cast< Strigi::AnalysisResult * >(argp1);
+  {
+    std::string *ptr = (std::string *)0;
+    res2 = SWIG_AsPtr_std_string(obj1, &ptr);
+    if (!SWIG_IsOK(res2)) {
+      SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "AnalysisResult_addText" "', argument " "2"" of type '" "std::string const &""'"); 
+    }
+    if (!ptr) {
+      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "AnalysisResult_addText" "', argument " "2"" of type '" "std::string const &""'"); 
+    }
+    arg2 = ptr;
+  }
+  {
+    try {
+      {
+        SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+        Strigi_AnalysisResult_addText(arg1,(std::string const &)*arg2);
+        SWIG_PYTHON_THREAD_END_ALLOW;
+      }
+    }_CATCHALL();
+  }
+  resultobj = SWIG_Py_Void();
+  if (SWIG_IsNewObj(res2)) delete arg2;
+  return resultobj;
+fail:
+  if (SWIG_IsNewObj(res2)) delete arg2;
   return NULL;
 }
 
@@ -13639,6 +19311,239 @@ fail:
 }
 
 
+SWIGINTERN PyObject *_wrap_PythonIndexManager_addFactory__SWIG_0(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  Strigi::StreamEndAnalyzerFactory *arg1 = (Strigi::StreamEndAnalyzerFactory *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  
+  if (!PyArg_ParseTuple(args,(char *)"O:PythonIndexManager_addFactory",&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_Strigi__StreamEndAnalyzerFactory, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "PythonIndexManager_addFactory" "', argument " "1"" of type '" "Strigi::StreamEndAnalyzerFactory *""'"); 
+  }
+  arg1 = reinterpret_cast< Strigi::StreamEndAnalyzerFactory * >(argp1);
+  {
+    try {
+      {
+        SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+        PythonIndexManager_addFactory__SWIG_0(arg1);
+        SWIG_PYTHON_THREAD_END_ALLOW;
+      }
+    }_CATCHALL();
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_PythonIndexManager_addFactory__SWIG_1(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  Strigi::StreamEventAnalyzerFactory *arg1 = (Strigi::StreamEventAnalyzerFactory *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  
+  if (!PyArg_ParseTuple(args,(char *)"O:PythonIndexManager_addFactory",&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_Strigi__StreamEventAnalyzerFactory, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "PythonIndexManager_addFactory" "', argument " "1"" of type '" "Strigi::StreamEventAnalyzerFactory *""'"); 
+  }
+  arg1 = reinterpret_cast< Strigi::StreamEventAnalyzerFactory * >(argp1);
+  {
+    try {
+      {
+        SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+        PythonIndexManager_addFactory__SWIG_1(arg1);
+        SWIG_PYTHON_THREAD_END_ALLOW;
+      }
+    }_CATCHALL();
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_PythonIndexManager_addFactory__SWIG_2(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  Strigi::StreamLineAnalyzerFactory *arg1 = (Strigi::StreamLineAnalyzerFactory *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  
+  if (!PyArg_ParseTuple(args,(char *)"O:PythonIndexManager_addFactory",&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_Strigi__StreamLineAnalyzerFactory, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "PythonIndexManager_addFactory" "', argument " "1"" of type '" "Strigi::StreamLineAnalyzerFactory *""'"); 
+  }
+  arg1 = reinterpret_cast< Strigi::StreamLineAnalyzerFactory * >(argp1);
+  {
+    try {
+      {
+        SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+        PythonIndexManager_addFactory__SWIG_2(arg1);
+        SWIG_PYTHON_THREAD_END_ALLOW;
+      }
+    }_CATCHALL();
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_PythonIndexManager_addFactory__SWIG_3(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  Strigi::StreamSaxAnalyzerFactory *arg1 = (Strigi::StreamSaxAnalyzerFactory *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  
+  if (!PyArg_ParseTuple(args,(char *)"O:PythonIndexManager_addFactory",&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_Strigi__StreamSaxAnalyzerFactory, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "PythonIndexManager_addFactory" "', argument " "1"" of type '" "Strigi::StreamSaxAnalyzerFactory *""'"); 
+  }
+  arg1 = reinterpret_cast< Strigi::StreamSaxAnalyzerFactory * >(argp1);
+  {
+    try {
+      {
+        SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+        PythonIndexManager_addFactory__SWIG_3(arg1);
+        SWIG_PYTHON_THREAD_END_ALLOW;
+      }
+    }_CATCHALL();
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_PythonIndexManager_addFactory__SWIG_4(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  Strigi::StreamThroughAnalyzerFactory *arg1 = (Strigi::StreamThroughAnalyzerFactory *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject * obj0 = 0 ;
+  
+  if (!PyArg_ParseTuple(args,(char *)"O:PythonIndexManager_addFactory",&obj0)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_Strigi__StreamThroughAnalyzerFactory, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "PythonIndexManager_addFactory" "', argument " "1"" of type '" "Strigi::StreamThroughAnalyzerFactory *""'"); 
+  }
+  arg1 = reinterpret_cast< Strigi::StreamThroughAnalyzerFactory * >(argp1);
+  {
+    try {
+      {
+        SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+        PythonIndexManager_addFactory__SWIG_4(arg1);
+        SWIG_PYTHON_THREAD_END_ALLOW;
+      }
+    }_CATCHALL();
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_PythonIndexManager_addFactory(PyObject *self, PyObject *args) {
+  int argc;
+  PyObject *argv[2];
+  int ii;
+  
+  if (!PyTuple_Check(args)) SWIG_fail;
+  argc = (int)PyObject_Length(args);
+  for (ii = 0; (ii < argc) && (ii < 1); ii++) {
+    argv[ii] = PyTuple_GET_ITEM(args,ii);
+  }
+  if (argc == 1) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_Strigi__StreamEndAnalyzerFactory, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      return _wrap_PythonIndexManager_addFactory__SWIG_0(self, args);
+    }
+  }
+  if (argc == 1) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_Strigi__StreamEventAnalyzerFactory, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      return _wrap_PythonIndexManager_addFactory__SWIG_1(self, args);
+    }
+  }
+  if (argc == 1) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_Strigi__StreamLineAnalyzerFactory, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      return _wrap_PythonIndexManager_addFactory__SWIG_2(self, args);
+    }
+  }
+  if (argc == 1) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_Strigi__StreamSaxAnalyzerFactory, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      return _wrap_PythonIndexManager_addFactory__SWIG_3(self, args);
+    }
+  }
+  if (argc == 1) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_Strigi__StreamThroughAnalyzerFactory, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      return _wrap_PythonIndexManager_addFactory__SWIG_4(self, args);
+    }
+  }
+  
+fail:
+  SWIG_SetErrorMsg(PyExc_NotImplementedError,"Wrong number of arguments for overloaded function 'PythonIndexManager_addFactory'.\n"
+    "  Possible C/C++ prototypes are:\n"
+    "    addFactory(Strigi::StreamEndAnalyzerFactory *)\n"
+    "    addFactory(Strigi::StreamEventAnalyzerFactory *)\n"
+    "    addFactory(Strigi::StreamLineAnalyzerFactory *)\n"
+    "    addFactory(Strigi::StreamSaxAnalyzerFactory *)\n"
+    "    PythonIndexManager_addFactory__SWIG_4(Strigi::StreamThroughAnalyzerFactory *)\n");
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_PythonIndexManager_clearFactories(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  
+  if (!PyArg_ParseTuple(args,(char *)":PythonIndexManager_clearFactories")) SWIG_fail;
+  {
+    try {
+      {
+        SWIG_PYTHON_THREAD_BEGIN_ALLOW;
+        PythonIndexManager_clearFactories();
+        SWIG_PYTHON_THREAD_END_ALLOW;
+      }
+    }_CATCHALL();
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
 SWIGINTERN PyObject *_wrap_disown_PythonIndexManager(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
   PyObject *resultobj = 0;
   PythonIndexManager *arg1 = (PythonIndexManager *) 0 ;
@@ -13672,364 +19577,6 @@ SWIGINTERN PyObject *PythonIndexManager_swigregister(PyObject *SWIGUNUSEDPARM(se
   PyObject *obj;
   if (!PyArg_ParseTuple(args,(char*)"O:swigregister", &obj)) return NULL;
   SWIG_TypeNewClientData(SWIGTYPE_p_PythonIndexManager, SWIG_NewClientData(obj));
-  return SWIG_Py_Void();
-}
-
-SWIGINTERN PyObject *_wrap_new_DirAnalyzer(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
-  PyObject *resultobj = 0;
-  PythonIndexManager *arg1 = 0 ;
-  Strigi::AnalyzerConfiguration *arg2 = 0 ;
-  void *argp1 = 0 ;
-  int res1 = 0 ;
-  void *argp2 = 0 ;
-  int res2 = 0 ;
-  PyObject * obj0 = 0 ;
-  PyObject * obj1 = 0 ;
-  PythonDirAnalyzer *result = 0 ;
-  
-  if (!PyArg_ParseTuple(args,(char *)"OO:new_DirAnalyzer",&obj0,&obj1)) SWIG_fail;
-  res1 = SWIG_ConvertPtr(obj0, &argp1, SWIGTYPE_p_PythonIndexManager,  0 );
-  if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "new_DirAnalyzer" "', argument " "1"" of type '" "PythonIndexManager &""'"); 
-  }
-  if (!argp1) {
-    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "new_DirAnalyzer" "', argument " "1"" of type '" "PythonIndexManager &""'"); 
-  }
-  arg1 = reinterpret_cast< PythonIndexManager * >(argp1);
-  res2 = SWIG_ConvertPtr(obj1, &argp2, SWIGTYPE_p_Strigi__AnalyzerConfiguration,  0 );
-  if (!SWIG_IsOK(res2)) {
-    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "new_DirAnalyzer" "', argument " "2"" of type '" "Strigi::AnalyzerConfiguration &""'"); 
-  }
-  if (!argp2) {
-    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "new_DirAnalyzer" "', argument " "2"" of type '" "Strigi::AnalyzerConfiguration &""'"); 
-  }
-  arg2 = reinterpret_cast< Strigi::AnalyzerConfiguration * >(argp2);
-  {
-    try {
-      {
-        SWIG_PYTHON_THREAD_BEGIN_ALLOW;
-        result = (PythonDirAnalyzer *)new PythonDirAnalyzer(*arg1,*arg2);
-        SWIG_PYTHON_THREAD_END_ALLOW;
-      }
-    }_CATCHALL();
-  }
-  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_PythonDirAnalyzer, SWIG_POINTER_NEW |  0 );
-  return resultobj;
-fail:
-  return NULL;
-}
-
-
-SWIGINTERN PyObject *_wrap_delete_DirAnalyzer(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
-  PyObject *resultobj = 0;
-  PythonDirAnalyzer *arg1 = (PythonDirAnalyzer *) 0 ;
-  void *argp1 = 0 ;
-  int res1 = 0 ;
-  PyObject * obj0 = 0 ;
-  
-  if (!PyArg_ParseTuple(args,(char *)"O:delete_DirAnalyzer",&obj0)) SWIG_fail;
-  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_PythonDirAnalyzer, SWIG_POINTER_DISOWN |  0 );
-  if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "delete_DirAnalyzer" "', argument " "1"" of type '" "PythonDirAnalyzer *""'"); 
-  }
-  arg1 = reinterpret_cast< PythonDirAnalyzer * >(argp1);
-  {
-    try {
-      {
-        SWIG_PYTHON_THREAD_BEGIN_ALLOW;
-        delete arg1;
-        SWIG_PYTHON_THREAD_END_ALLOW;
-      }
-    }_CATCHALL();
-  }
-  resultobj = SWIG_Py_Void();
-  return resultobj;
-fail:
-  return NULL;
-}
-
-
-SWIGINTERN PyObject *_wrap_DirAnalyzer_analyzeDir__SWIG_0(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
-  PyObject *resultobj = 0;
-  PythonDirAnalyzer *arg1 = (PythonDirAnalyzer *) 0 ;
-  std::string *arg2 = 0 ;
-  int arg3 ;
-  std::string *arg4 = 0 ;
-  void *argp1 = 0 ;
-  int res1 = 0 ;
-  int res2 = SWIG_OLDOBJ ;
-  int val3 ;
-  int ecode3 = 0 ;
-  int res4 = SWIG_OLDOBJ ;
-  PyObject * obj0 = 0 ;
-  PyObject * obj1 = 0 ;
-  PyObject * obj2 = 0 ;
-  PyObject * obj3 = 0 ;
-  int result;
-  
-  if (!PyArg_ParseTuple(args,(char *)"OOOO:DirAnalyzer_analyzeDir",&obj0,&obj1,&obj2,&obj3)) SWIG_fail;
-  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_PythonDirAnalyzer, 0 |  0 );
-  if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "DirAnalyzer_analyzeDir" "', argument " "1"" of type '" "PythonDirAnalyzer *""'"); 
-  }
-  arg1 = reinterpret_cast< PythonDirAnalyzer * >(argp1);
-  {
-    std::string *ptr = (std::string *)0;
-    res2 = SWIG_AsPtr_std_string(obj1, &ptr);
-    if (!SWIG_IsOK(res2)) {
-      SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "DirAnalyzer_analyzeDir" "', argument " "2"" of type '" "std::string const &""'"); 
-    }
-    if (!ptr) {
-      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "DirAnalyzer_analyzeDir" "', argument " "2"" of type '" "std::string const &""'"); 
-    }
-    arg2 = ptr;
-  }
-  ecode3 = SWIG_AsVal_int(obj2, &val3);
-  if (!SWIG_IsOK(ecode3)) {
-    SWIG_exception_fail(SWIG_ArgError(ecode3), "in method '" "DirAnalyzer_analyzeDir" "', argument " "3"" of type '" "int""'");
-  } 
-  arg3 = static_cast< int >(val3);
-  {
-    std::string *ptr = (std::string *)0;
-    res4 = SWIG_AsPtr_std_string(obj3, &ptr);
-    if (!SWIG_IsOK(res4)) {
-      SWIG_exception_fail(SWIG_ArgError(res4), "in method '" "DirAnalyzer_analyzeDir" "', argument " "4"" of type '" "std::string const &""'"); 
-    }
-    if (!ptr) {
-      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "DirAnalyzer_analyzeDir" "', argument " "4"" of type '" "std::string const &""'"); 
-    }
-    arg4 = ptr;
-  }
-  {
-    try {
-      {
-        SWIG_PYTHON_THREAD_BEGIN_ALLOW;
-        result = (int)(arg1)->analyzeDir((std::string const &)*arg2,arg3,(std::string const &)*arg4);
-        SWIG_PYTHON_THREAD_END_ALLOW;
-      }
-    }_CATCHALL();
-  }
-  resultobj = SWIG_From_int(static_cast< int >(result));
-  if (SWIG_IsNewObj(res2)) delete arg2;
-  if (SWIG_IsNewObj(res4)) delete arg4;
-  return resultobj;
-fail:
-  if (SWIG_IsNewObj(res2)) delete arg2;
-  if (SWIG_IsNewObj(res4)) delete arg4;
-  return NULL;
-}
-
-
-SWIGINTERN PyObject *_wrap_DirAnalyzer_analyzeDir__SWIG_1(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
-  PyObject *resultobj = 0;
-  PythonDirAnalyzer *arg1 = (PythonDirAnalyzer *) 0 ;
-  std::string *arg2 = 0 ;
-  int arg3 ;
-  void *argp1 = 0 ;
-  int res1 = 0 ;
-  int res2 = SWIG_OLDOBJ ;
-  int val3 ;
-  int ecode3 = 0 ;
-  PyObject * obj0 = 0 ;
-  PyObject * obj1 = 0 ;
-  PyObject * obj2 = 0 ;
-  int result;
-  
-  if (!PyArg_ParseTuple(args,(char *)"OOO:DirAnalyzer_analyzeDir",&obj0,&obj1,&obj2)) SWIG_fail;
-  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_PythonDirAnalyzer, 0 |  0 );
-  if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "DirAnalyzer_analyzeDir" "', argument " "1"" of type '" "PythonDirAnalyzer *""'"); 
-  }
-  arg1 = reinterpret_cast< PythonDirAnalyzer * >(argp1);
-  {
-    std::string *ptr = (std::string *)0;
-    res2 = SWIG_AsPtr_std_string(obj1, &ptr);
-    if (!SWIG_IsOK(res2)) {
-      SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "DirAnalyzer_analyzeDir" "', argument " "2"" of type '" "std::string const &""'"); 
-    }
-    if (!ptr) {
-      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "DirAnalyzer_analyzeDir" "', argument " "2"" of type '" "std::string const &""'"); 
-    }
-    arg2 = ptr;
-  }
-  ecode3 = SWIG_AsVal_int(obj2, &val3);
-  if (!SWIG_IsOK(ecode3)) {
-    SWIG_exception_fail(SWIG_ArgError(ecode3), "in method '" "DirAnalyzer_analyzeDir" "', argument " "3"" of type '" "int""'");
-  } 
-  arg3 = static_cast< int >(val3);
-  {
-    try {
-      {
-        SWIG_PYTHON_THREAD_BEGIN_ALLOW;
-        result = (int)(arg1)->analyzeDir((std::string const &)*arg2,arg3);
-        SWIG_PYTHON_THREAD_END_ALLOW;
-      }
-    }_CATCHALL();
-  }
-  resultobj = SWIG_From_int(static_cast< int >(result));
-  if (SWIG_IsNewObj(res2)) delete arg2;
-  return resultobj;
-fail:
-  if (SWIG_IsNewObj(res2)) delete arg2;
-  return NULL;
-}
-
-
-SWIGINTERN PyObject *_wrap_DirAnalyzer_analyzeDir__SWIG_2(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
-  PyObject *resultobj = 0;
-  PythonDirAnalyzer *arg1 = (PythonDirAnalyzer *) 0 ;
-  std::string *arg2 = 0 ;
-  void *argp1 = 0 ;
-  int res1 = 0 ;
-  int res2 = SWIG_OLDOBJ ;
-  PyObject * obj0 = 0 ;
-  PyObject * obj1 = 0 ;
-  int result;
-  
-  if (!PyArg_ParseTuple(args,(char *)"OO:DirAnalyzer_analyzeDir",&obj0,&obj1)) SWIG_fail;
-  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_PythonDirAnalyzer, 0 |  0 );
-  if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "DirAnalyzer_analyzeDir" "', argument " "1"" of type '" "PythonDirAnalyzer *""'"); 
-  }
-  arg1 = reinterpret_cast< PythonDirAnalyzer * >(argp1);
-  {
-    std::string *ptr = (std::string *)0;
-    res2 = SWIG_AsPtr_std_string(obj1, &ptr);
-    if (!SWIG_IsOK(res2)) {
-      SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "DirAnalyzer_analyzeDir" "', argument " "2"" of type '" "std::string const &""'"); 
-    }
-    if (!ptr) {
-      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "DirAnalyzer_analyzeDir" "', argument " "2"" of type '" "std::string const &""'"); 
-    }
-    arg2 = ptr;
-  }
-  {
-    try {
-      {
-        SWIG_PYTHON_THREAD_BEGIN_ALLOW;
-        result = (int)(arg1)->analyzeDir((std::string const &)*arg2);
-        SWIG_PYTHON_THREAD_END_ALLOW;
-      }
-    }_CATCHALL();
-  }
-  resultobj = SWIG_From_int(static_cast< int >(result));
-  if (SWIG_IsNewObj(res2)) delete arg2;
-  return resultobj;
-fail:
-  if (SWIG_IsNewObj(res2)) delete arg2;
-  return NULL;
-}
-
-
-SWIGINTERN PyObject *_wrap_DirAnalyzer_analyzeDir(PyObject *self, PyObject *args) {
-  int argc;
-  PyObject *argv[5];
-  int ii;
-  
-  if (!PyTuple_Check(args)) SWIG_fail;
-  argc = (int)PyObject_Length(args);
-  for (ii = 0; (ii < argc) && (ii < 4); ii++) {
-    argv[ii] = PyTuple_GET_ITEM(args,ii);
-  }
-  if (argc == 2) {
-    int _v;
-    void *vptr = 0;
-    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_PythonDirAnalyzer, 0);
-    _v = SWIG_CheckState(res);
-    if (_v) {
-      int res = SWIG_AsPtr_std_string(argv[1], (std::string**)(0));
-      _v = SWIG_CheckState(res);
-      if (_v) {
-        return _wrap_DirAnalyzer_analyzeDir__SWIG_2(self, args);
-      }
-    }
-  }
-  if (argc == 3) {
-    int _v;
-    void *vptr = 0;
-    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_PythonDirAnalyzer, 0);
-    _v = SWIG_CheckState(res);
-    if (_v) {
-      int res = SWIG_AsPtr_std_string(argv[1], (std::string**)(0));
-      _v = SWIG_CheckState(res);
-      if (_v) {
-        {
-          int res = SWIG_AsVal_int(argv[2], NULL);
-          _v = SWIG_CheckState(res);
-        }
-        if (_v) {
-          return _wrap_DirAnalyzer_analyzeDir__SWIG_1(self, args);
-        }
-      }
-    }
-  }
-  if (argc == 4) {
-    int _v;
-    void *vptr = 0;
-    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_PythonDirAnalyzer, 0);
-    _v = SWIG_CheckState(res);
-    if (_v) {
-      int res = SWIG_AsPtr_std_string(argv[1], (std::string**)(0));
-      _v = SWIG_CheckState(res);
-      if (_v) {
-        {
-          int res = SWIG_AsVal_int(argv[2], NULL);
-          _v = SWIG_CheckState(res);
-        }
-        if (_v) {
-          int res = SWIG_AsPtr_std_string(argv[3], (std::string**)(0));
-          _v = SWIG_CheckState(res);
-          if (_v) {
-            return _wrap_DirAnalyzer_analyzeDir__SWIG_0(self, args);
-          }
-        }
-      }
-    }
-  }
-  
-fail:
-  SWIG_SetErrorMsg(PyExc_NotImplementedError,"Wrong number of arguments for overloaded function 'DirAnalyzer_analyzeDir'.\n"
-    "  Possible C/C++ prototypes are:\n"
-    "    analyzeDir(PythonDirAnalyzer *,std::string const &,int,std::string const &)\n"
-    "    analyzeDir(PythonDirAnalyzer *,std::string const &,int)\n"
-    "    analyzeDir(PythonDirAnalyzer *,std::string const &)\n");
-  return NULL;
-}
-
-
-SWIGINTERN PyObject *_wrap_DirAnalyzer_stop(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
-  PyObject *resultobj = 0;
-  PythonDirAnalyzer *arg1 = (PythonDirAnalyzer *) 0 ;
-  void *argp1 = 0 ;
-  int res1 = 0 ;
-  PyObject * obj0 = 0 ;
-  
-  if (!PyArg_ParseTuple(args,(char *)"O:DirAnalyzer_stop",&obj0)) SWIG_fail;
-  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_PythonDirAnalyzer, 0 |  0 );
-  if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "DirAnalyzer_stop" "', argument " "1"" of type '" "PythonDirAnalyzer *""'"); 
-  }
-  arg1 = reinterpret_cast< PythonDirAnalyzer * >(argp1);
-  {
-    try {
-      {
-        SWIG_PYTHON_THREAD_BEGIN_ALLOW;
-        (arg1)->stop();
-        SWIG_PYTHON_THREAD_END_ALLOW;
-      }
-    }_CATCHALL();
-  }
-  resultobj = SWIG_Py_Void();
-  return resultobj;
-fail:
-  return NULL;
-}
-
-
-SWIGINTERN PyObject *DirAnalyzer_swigregister(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
-  PyObject *obj;
-  if (!PyArg_ParseTuple(args,(char*)"O:swigregister", &obj)) return NULL;
-  SWIG_TypeNewClientData(SWIGTYPE_p_PythonDirAnalyzer, SWIG_NewClientData(obj));
   return SWIG_Py_Void();
 }
 
@@ -14095,12 +19642,12 @@ static PyMethodDef SwigMethods[] = {
 	 { (char *)"StreamsBase_size", _wrap_StreamsBase_size, METH_VARARGS, NULL},
 	 { (char *)"StreamsBase_swigregister", StreamsBase_swigregister, METH_VARARGS, NULL},
 	 { (char *)"delete_InputStream", _wrap_delete_InputStream, METH_VARARGS, NULL},
-	 { (char *)"InputStream_read", _wrap_InputStream_read, METH_VARARGS, NULL},
 	 { (char *)"InputStream_skip", _wrap_InputStream_skip, METH_VARARGS, NULL},
 	 { (char *)"InputStream_reset", _wrap_InputStream_reset, METH_VARARGS, NULL},
+	 { (char *)"InputStream_openFile", _wrap_InputStream_openFile, METH_VARARGS, NULL},
+	 { (char *)"InputStream_read", _wrap_InputStream_read, METH_VARARGS, NULL},
 	 { (char *)"InputStream_swigregister", InputStream_swigregister, METH_VARARGS, NULL},
 	 { (char *)"delete_Reader", _wrap_delete_Reader, METH_VARARGS, NULL},
-	 { (char *)"Reader_read", _wrap_Reader_read, METH_VARARGS, NULL},
 	 { (char *)"Reader_skip", _wrap_Reader_skip, METH_VARARGS, NULL},
 	 { (char *)"Reader_reset", _wrap_Reader_reset, METH_VARARGS, NULL},
 	 { (char *)"Reader_swigregister", Reader_swigregister, METH_VARARGS, NULL},
@@ -14127,6 +19674,32 @@ static PyMethodDef SwigMethods[] = {
 	 { (char *)"RegisteredField_type", _wrap_RegisteredField_type, METH_VARARGS, NULL},
 	 { (char *)"delete_RegisteredField", _wrap_delete_RegisteredField, METH_VARARGS, NULL},
 	 { (char *)"RegisteredField_swigregister", RegisteredField_swigregister, METH_VARARGS, NULL},
+	 { (char *)"new_FieldRegister", _wrap_new_FieldRegister, METH_VARARGS, NULL},
+	 { (char *)"delete_FieldRegister", _wrap_delete_FieldRegister, METH_VARARGS, NULL},
+	 { (char *)"FieldRegister_registerField", _wrap_FieldRegister_registerField, METH_VARARGS, NULL},
+	 { (char *)"FieldRegister_pathField_set", _wrap_FieldRegister_pathField_set, METH_VARARGS, NULL},
+	 { (char *)"FieldRegister_pathField_get", _wrap_FieldRegister_pathField_get, METH_VARARGS, NULL},
+	 { (char *)"FieldRegister_parentLocationField_set", _wrap_FieldRegister_parentLocationField_set, METH_VARARGS, NULL},
+	 { (char *)"FieldRegister_parentLocationField_get", _wrap_FieldRegister_parentLocationField_get, METH_VARARGS, NULL},
+	 { (char *)"FieldRegister_encodingField_set", _wrap_FieldRegister_encodingField_set, METH_VARARGS, NULL},
+	 { (char *)"FieldRegister_encodingField_get", _wrap_FieldRegister_encodingField_get, METH_VARARGS, NULL},
+	 { (char *)"FieldRegister_mimetypeField_set", _wrap_FieldRegister_mimetypeField_set, METH_VARARGS, NULL},
+	 { (char *)"FieldRegister_mimetypeField_get", _wrap_FieldRegister_mimetypeField_get, METH_VARARGS, NULL},
+	 { (char *)"FieldRegister_filenameField_set", _wrap_FieldRegister_filenameField_set, METH_VARARGS, NULL},
+	 { (char *)"FieldRegister_filenameField_get", _wrap_FieldRegister_filenameField_get, METH_VARARGS, NULL},
+	 { (char *)"FieldRegister_extensionField_set", _wrap_FieldRegister_extensionField_set, METH_VARARGS, NULL},
+	 { (char *)"FieldRegister_extensionField_get", _wrap_FieldRegister_extensionField_get, METH_VARARGS, NULL},
+	 { (char *)"FieldRegister_embeddepthField_set", _wrap_FieldRegister_embeddepthField_set, METH_VARARGS, NULL},
+	 { (char *)"FieldRegister_embeddepthField_get", _wrap_FieldRegister_embeddepthField_get, METH_VARARGS, NULL},
+	 { (char *)"FieldRegister_mtimeField_set", _wrap_FieldRegister_mtimeField_set, METH_VARARGS, NULL},
+	 { (char *)"FieldRegister_mtimeField_get", _wrap_FieldRegister_mtimeField_get, METH_VARARGS, NULL},
+	 { (char *)"FieldRegister_sizeField_set", _wrap_FieldRegister_sizeField_set, METH_VARARGS, NULL},
+	 { (char *)"FieldRegister_sizeField_get", _wrap_FieldRegister_sizeField_get, METH_VARARGS, NULL},
+	 { (char *)"FieldRegister_typeField_set", _wrap_FieldRegister_typeField_set, METH_VARARGS, NULL},
+	 { (char *)"FieldRegister_typeField_get", _wrap_FieldRegister_typeField_get, METH_VARARGS, NULL},
+	 { (char *)"FieldRegister_parseErrorField_set", _wrap_FieldRegister_parseErrorField_set, METH_VARARGS, NULL},
+	 { (char *)"FieldRegister_parseErrorField_get", _wrap_FieldRegister_parseErrorField_get, METH_VARARGS, NULL},
+	 { (char *)"FieldRegister_swigregister", FieldRegister_swigregister, METH_VARARGS, NULL},
 	 { (char *)"RegisteredFieldVector_iterator", _wrap_RegisteredFieldVector_iterator, METH_VARARGS, NULL},
 	 { (char *)"RegisteredFieldVector___nonzero__", _wrap_RegisteredFieldVector___nonzero__, METH_VARARGS, NULL},
 	 { (char *)"RegisteredFieldVector___bool__", _wrap_RegisteredFieldVector___bool__, METH_VARARGS, NULL},
@@ -14161,32 +19734,104 @@ static PyMethodDef SwigMethods[] = {
 	 { (char *)"RegisteredFieldVector_capacity", _wrap_RegisteredFieldVector_capacity, METH_VARARGS, NULL},
 	 { (char *)"delete_RegisteredFieldVector", _wrap_delete_RegisteredFieldVector, METH_VARARGS, NULL},
 	 { (char *)"RegisteredFieldVector_swigregister", RegisteredFieldVector_swigregister, METH_VARARGS, NULL},
+	 { (char *)"new_StreamAnalyzer", _wrap_new_StreamAnalyzer, METH_VARARGS, NULL},
+	 { (char *)"delete_StreamAnalyzer", _wrap_delete_StreamAnalyzer, METH_VARARGS, NULL},
+	 { (char *)"StreamAnalyzer_setIndexWriter", _wrap_StreamAnalyzer_setIndexWriter, METH_VARARGS, NULL},
+	 { (char *)"StreamAnalyzer_swigregister", StreamAnalyzer_swigregister, METH_VARARGS, NULL},
 	 { (char *)"delete_StreamAnalyzerFactory", _wrap_delete_StreamAnalyzerFactory, METH_VARARGS, NULL},
 	 { (char *)"StreamAnalyzerFactory_name", _wrap_StreamAnalyzerFactory_name, METH_VARARGS, NULL},
+	 { (char *)"StreamAnalyzerFactory_registerFields", _wrap_StreamAnalyzerFactory_registerFields, METH_VARARGS, NULL},
+	 { (char *)"StreamAnalyzerFactory_addField", _wrap_StreamAnalyzerFactory_addField, METH_VARARGS, NULL},
 	 { (char *)"StreamAnalyzerFactory_registeredFields", _wrap_StreamAnalyzerFactory_registeredFields, METH_VARARGS, NULL},
 	 { (char *)"StreamAnalyzerFactory_swigregister", StreamAnalyzerFactory_swigregister, METH_VARARGS, NULL},
-	 { (char *)"StreamEndAnalyzerFactory_analyzesSubStreams", _wrap_StreamEndAnalyzerFactory_analyzesSubStreams, METH_VARARGS, NULL},
+	 { (char *)"delete_StreamEndAnalyzer", _wrap_delete_StreamEndAnalyzer, METH_VARARGS, NULL},
+	 { (char *)"StreamEndAnalyzer_checkHeader", _wrap_StreamEndAnalyzer_checkHeader, METH_VARARGS, NULL},
+	 { (char *)"StreamEndAnalyzer_analyze", _wrap_StreamEndAnalyzer_analyze, METH_VARARGS, NULL},
+	 { (char *)"StreamEndAnalyzer_error", _wrap_StreamEndAnalyzer_error, METH_VARARGS, NULL},
+	 { (char *)"StreamEndAnalyzer_name", _wrap_StreamEndAnalyzer_name, METH_VARARGS, NULL},
+	 { (char *)"new_StreamEndAnalyzer", _wrap_new_StreamEndAnalyzer, METH_VARARGS, NULL},
+	 { (char *)"disown_StreamEndAnalyzer", _wrap_disown_StreamEndAnalyzer, METH_VARARGS, NULL},
+	 { (char *)"StreamEndAnalyzer_swigregister", StreamEndAnalyzer_swigregister, METH_VARARGS, NULL},
+	 { (char *)"StreamEndAnalyzerFactory_newInstance", _wrap_StreamEndAnalyzerFactory_newInstance, METH_VARARGS, NULL},
+	 { (char *)"new_StreamEndAnalyzerFactory", _wrap_new_StreamEndAnalyzerFactory, METH_VARARGS, NULL},
 	 { (char *)"delete_StreamEndAnalyzerFactory", _wrap_delete_StreamEndAnalyzerFactory, METH_VARARGS, NULL},
+	 { (char *)"disown_StreamEndAnalyzerFactory", _wrap_disown_StreamEndAnalyzerFactory, METH_VARARGS, NULL},
 	 { (char *)"StreamEndAnalyzerFactory_swigregister", StreamEndAnalyzerFactory_swigregister, METH_VARARGS, NULL},
+	 { (char *)"delete_StreamEventAnalyzer", _wrap_delete_StreamEventAnalyzer, METH_VARARGS, NULL},
+	 { (char *)"StreamEventAnalyzer_name", _wrap_StreamEventAnalyzer_name, METH_VARARGS, NULL},
+	 { (char *)"StreamEventAnalyzer_startAnalysis", _wrap_StreamEventAnalyzer_startAnalysis, METH_VARARGS, NULL},
+	 { (char *)"StreamEventAnalyzer_endAnalysis", _wrap_StreamEventAnalyzer_endAnalysis, METH_VARARGS, NULL},
+	 { (char *)"StreamEventAnalyzer_handleData", _wrap_StreamEventAnalyzer_handleData, METH_VARARGS, NULL},
+	 { (char *)"StreamEventAnalyzer_isReadyWithStream", _wrap_StreamEventAnalyzer_isReadyWithStream, METH_VARARGS, NULL},
+	 { (char *)"new_StreamEventAnalyzer", _wrap_new_StreamEventAnalyzer, METH_VARARGS, NULL},
+	 { (char *)"disown_StreamEventAnalyzer", _wrap_disown_StreamEventAnalyzer, METH_VARARGS, NULL},
+	 { (char *)"StreamEventAnalyzer_swigregister", StreamEventAnalyzer_swigregister, METH_VARARGS, NULL},
+	 { (char *)"StreamEventAnalyzerFactory_newInstance", _wrap_StreamEventAnalyzerFactory_newInstance, METH_VARARGS, NULL},
+	 { (char *)"new_StreamEventAnalyzerFactory", _wrap_new_StreamEventAnalyzerFactory, METH_VARARGS, NULL},
 	 { (char *)"delete_StreamEventAnalyzerFactory", _wrap_delete_StreamEventAnalyzerFactory, METH_VARARGS, NULL},
+	 { (char *)"disown_StreamEventAnalyzerFactory", _wrap_disown_StreamEventAnalyzerFactory, METH_VARARGS, NULL},
 	 { (char *)"StreamEventAnalyzerFactory_swigregister", StreamEventAnalyzerFactory_swigregister, METH_VARARGS, NULL},
+	 { (char *)"delete_StreamLineAnalyzer", _wrap_delete_StreamLineAnalyzer, METH_VARARGS, NULL},
+	 { (char *)"StreamLineAnalyzer_name", _wrap_StreamLineAnalyzer_name, METH_VARARGS, NULL},
+	 { (char *)"StreamLineAnalyzer_startAnalysis", _wrap_StreamLineAnalyzer_startAnalysis, METH_VARARGS, NULL},
+	 { (char *)"StreamLineAnalyzer_endAnalysis", _wrap_StreamLineAnalyzer_endAnalysis, METH_VARARGS, NULL},
+	 { (char *)"StreamLineAnalyzer_handleLine", _wrap_StreamLineAnalyzer_handleLine, METH_VARARGS, NULL},
+	 { (char *)"StreamLineAnalyzer_isReadyWithStream", _wrap_StreamLineAnalyzer_isReadyWithStream, METH_VARARGS, NULL},
+	 { (char *)"new_StreamLineAnalyzer", _wrap_new_StreamLineAnalyzer, METH_VARARGS, NULL},
+	 { (char *)"disown_StreamLineAnalyzer", _wrap_disown_StreamLineAnalyzer, METH_VARARGS, NULL},
+	 { (char *)"StreamLineAnalyzer_swigregister", StreamLineAnalyzer_swigregister, METH_VARARGS, NULL},
+	 { (char *)"StreamLineAnalyzerFactory_newInstance", _wrap_StreamLineAnalyzerFactory_newInstance, METH_VARARGS, NULL},
+	 { (char *)"new_StreamLineAnalyzerFactory", _wrap_new_StreamLineAnalyzerFactory, METH_VARARGS, NULL},
 	 { (char *)"delete_StreamLineAnalyzerFactory", _wrap_delete_StreamLineAnalyzerFactory, METH_VARARGS, NULL},
+	 { (char *)"disown_StreamLineAnalyzerFactory", _wrap_disown_StreamLineAnalyzerFactory, METH_VARARGS, NULL},
 	 { (char *)"StreamLineAnalyzerFactory_swigregister", StreamLineAnalyzerFactory_swigregister, METH_VARARGS, NULL},
+	 { (char *)"new_StreamSaxAnalyzer", _wrap_new_StreamSaxAnalyzer, METH_VARARGS, NULL},
+	 { (char *)"delete_StreamSaxAnalyzer", _wrap_delete_StreamSaxAnalyzer, METH_VARARGS, NULL},
+	 { (char *)"StreamSaxAnalyzer_name", _wrap_StreamSaxAnalyzer_name, METH_VARARGS, NULL},
+	 { (char *)"StreamSaxAnalyzer_startAnalysis", _wrap_StreamSaxAnalyzer_startAnalysis, METH_VARARGS, NULL},
+	 { (char *)"StreamSaxAnalyzer_endAnalysis", _wrap_StreamSaxAnalyzer_endAnalysis, METH_VARARGS, NULL},
+	 { (char *)"StreamSaxAnalyzer_startElement", _wrap_StreamSaxAnalyzer_startElement, METH_VARARGS, NULL},
+	 { (char *)"StreamSaxAnalyzer_endElement", _wrap_StreamSaxAnalyzer_endElement, METH_VARARGS, NULL},
+	 { (char *)"StreamSaxAnalyzer_characters", _wrap_StreamSaxAnalyzer_characters, METH_VARARGS, NULL},
+	 { (char *)"StreamSaxAnalyzer_isReadyWithStream", _wrap_StreamSaxAnalyzer_isReadyWithStream, METH_VARARGS, NULL},
+	 { (char *)"disown_StreamSaxAnalyzer", _wrap_disown_StreamSaxAnalyzer, METH_VARARGS, NULL},
+	 { (char *)"StreamSaxAnalyzer_swigregister", StreamSaxAnalyzer_swigregister, METH_VARARGS, NULL},
+	 { (char *)"StreamSaxAnalyzerFactory_newInstance", _wrap_StreamSaxAnalyzerFactory_newInstance, METH_VARARGS, NULL},
+	 { (char *)"new_StreamSaxAnalyzerFactory", _wrap_new_StreamSaxAnalyzerFactory, METH_VARARGS, NULL},
 	 { (char *)"delete_StreamSaxAnalyzerFactory", _wrap_delete_StreamSaxAnalyzerFactory, METH_VARARGS, NULL},
+	 { (char *)"disown_StreamSaxAnalyzerFactory", _wrap_disown_StreamSaxAnalyzerFactory, METH_VARARGS, NULL},
 	 { (char *)"StreamSaxAnalyzerFactory_swigregister", StreamSaxAnalyzerFactory_swigregister, METH_VARARGS, NULL},
+	 { (char *)"delete_StreamThroughAnalyzer", _wrap_delete_StreamThroughAnalyzer, METH_VARARGS, NULL},
+	 { (char *)"StreamThroughAnalyzer_setIndexable", _wrap_StreamThroughAnalyzer_setIndexable, METH_VARARGS, NULL},
+	 { (char *)"StreamThroughAnalyzer_connectInputStream", _wrap_StreamThroughAnalyzer_connectInputStream, METH_VARARGS, NULL},
+	 { (char *)"StreamThroughAnalyzer_isReadyWithStream", _wrap_StreamThroughAnalyzer_isReadyWithStream, METH_VARARGS, NULL},
+	 { (char *)"StreamThroughAnalyzer_name", _wrap_StreamThroughAnalyzer_name, METH_VARARGS, NULL},
+	 { (char *)"new_StreamThroughAnalyzer", _wrap_new_StreamThroughAnalyzer, METH_VARARGS, NULL},
+	 { (char *)"disown_StreamThroughAnalyzer", _wrap_disown_StreamThroughAnalyzer, METH_VARARGS, NULL},
+	 { (char *)"StreamThroughAnalyzer_swigregister", StreamThroughAnalyzer_swigregister, METH_VARARGS, NULL},
+	 { (char *)"StreamThroughAnalyzerFactory_newInstance", _wrap_StreamThroughAnalyzerFactory_newInstance, METH_VARARGS, NULL},
+	 { (char *)"new_StreamThroughAnalyzerFactory", _wrap_new_StreamThroughAnalyzerFactory, METH_VARARGS, NULL},
 	 { (char *)"delete_StreamThroughAnalyzerFactory", _wrap_delete_StreamThroughAnalyzerFactory, METH_VARARGS, NULL},
+	 { (char *)"disown_StreamThroughAnalyzerFactory", _wrap_disown_StreamThroughAnalyzerFactory, METH_VARARGS, NULL},
 	 { (char *)"StreamThroughAnalyzerFactory_swigregister", StreamThroughAnalyzerFactory_swigregister, METH_VARARGS, NULL},
 	 { (char *)"delete_AnalysisResult", _wrap_delete_AnalysisResult, METH_VARARGS, NULL},
+	 { (char *)"AnalysisResult_index", _wrap_AnalysisResult_index, METH_VARARGS, NULL},
 	 { (char *)"AnalysisResult_child", _wrap_AnalysisResult_child, METH_VARARGS, NULL},
+	 { (char *)"AnalysisResult_addValue", _wrap_AnalysisResult_addValue, METH_VARARGS, NULL},
+	 { (char *)"AnalysisResult_addTriplet", _wrap_AnalysisResult_addTriplet, METH_VARARGS, NULL},
+	 { (char *)"AnalysisResult_newAnonymousUri", _wrap_AnalysisResult_newAnonymousUri, METH_VARARGS, NULL},
 	 { (char *)"AnalysisResult_fileName", _wrap_AnalysisResult_fileName, METH_VARARGS, NULL},
 	 { (char *)"AnalysisResult_path", _wrap_AnalysisResult_path, METH_VARARGS, NULL},
 	 { (char *)"AnalysisResult_parentPath", _wrap_AnalysisResult_parentPath, METH_VARARGS, NULL},
 	 { (char *)"AnalysisResult_mTime", _wrap_AnalysisResult_mTime, METH_VARARGS, NULL},
 	 { (char *)"AnalysisResult_depth", _wrap_AnalysisResult_depth, METH_VARARGS, NULL},
+	 { (char *)"AnalysisResult_setEncoding", _wrap_AnalysisResult_setEncoding, METH_VARARGS, NULL},
 	 { (char *)"AnalysisResult_encoding", _wrap_AnalysisResult_encoding, METH_VARARGS, NULL},
+	 { (char *)"AnalysisResult_setMimeType", _wrap_AnalysisResult_setMimeType, METH_VARARGS, NULL},
 	 { (char *)"AnalysisResult_mimeType", _wrap_AnalysisResult_mimeType, METH_VARARGS, NULL},
 	 { (char *)"AnalysisResult_extension", _wrap_AnalysisResult_extension, METH_VARARGS, NULL},
-	 { (char *)"AnalysisResult_config", _wrap_AnalysisResult_config, METH_VARARGS, NULL},
+	 { (char *)"new_AnalysisResult", _wrap_new_AnalysisResult, METH_VARARGS, NULL},
+	 { (char *)"AnalysisResult_addText", _wrap_AnalysisResult_addText, METH_VARARGS, NULL},
 	 { (char *)"AnalysisResult_swigregister", AnalysisResult_swigregister, METH_VARARGS, NULL},
 	 { (char *)"new_AnalyzerConfiguration", _wrap_new_AnalyzerConfiguration, METH_VARARGS, NULL},
 	 { (char *)"delete_AnalyzerConfiguration", _wrap_delete_AnalyzerConfiguration, METH_VARARGS, NULL},
@@ -14210,13 +19855,10 @@ static PyMethodDef SwigMethods[] = {
 	 { (char *)"new_PythonIndexManager", _wrap_new_PythonIndexManager, METH_VARARGS, NULL},
 	 { (char *)"delete_PythonIndexManager", _wrap_delete_PythonIndexManager, METH_VARARGS, NULL},
 	 { (char *)"PythonIndexManager_pythonIndexWriter", _wrap_PythonIndexManager_pythonIndexWriter, METH_VARARGS, NULL},
+	 { (char *)"PythonIndexManager_addFactory", _wrap_PythonIndexManager_addFactory, METH_VARARGS, NULL},
+	 { (char *)"PythonIndexManager_clearFactories", _wrap_PythonIndexManager_clearFactories, METH_VARARGS, NULL},
 	 { (char *)"disown_PythonIndexManager", _wrap_disown_PythonIndexManager, METH_VARARGS, NULL},
 	 { (char *)"PythonIndexManager_swigregister", PythonIndexManager_swigregister, METH_VARARGS, NULL},
-	 { (char *)"new_DirAnalyzer", _wrap_new_DirAnalyzer, METH_VARARGS, NULL},
-	 { (char *)"delete_DirAnalyzer", _wrap_delete_DirAnalyzer, METH_VARARGS, NULL},
-	 { (char *)"DirAnalyzer_analyzeDir", _wrap_DirAnalyzer_analyzeDir, METH_VARARGS, NULL},
-	 { (char *)"DirAnalyzer_stop", _wrap_DirAnalyzer_stop, METH_VARARGS, NULL},
-	 { (char *)"DirAnalyzer_swigregister", DirAnalyzer_swigregister, METH_VARARGS, NULL},
 	 { NULL, NULL, 0, NULL }
 };
 
@@ -14244,21 +19886,27 @@ static void *_p_Strigi__StreamSaxAnalyzerFactoryTo_p_Strigi__StreamAnalyzerFacto
 static void *_p_Strigi__StreamThroughAnalyzerFactoryTo_p_Strigi__StreamAnalyzerFactory(void *x, int *SWIGUNUSEDPARM(newmemory)) {
     return (void *)((Strigi::StreamAnalyzerFactory *)  ((Strigi::StreamThroughAnalyzerFactory *) x));
 }
-static swig_type_info _swigt__p_PythonDirAnalyzer = {"_p_PythonDirAnalyzer", "PythonDirAnalyzer *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_PythonIndexManager = {"_p_PythonIndexManager", "PythonIndexManager *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_PythonIndexWriter = {"_p_PythonIndexWriter", "PythonIndexWriter *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_Strigi__AnalysisResult = {"_p_Strigi__AnalysisResult", "Strigi::AnalysisResult *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_Strigi__AnalyzerConfiguration = {"_p_Strigi__AnalyzerConfiguration", "Strigi::AnalyzerConfiguration *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_Strigi__FieldProperties = {"_p_Strigi__FieldProperties", "Strigi::FieldProperties *", 0, 0, (void*)0, 0};
+static swig_type_info _swigt__p_Strigi__FieldRegister = {"_p_Strigi__FieldRegister", "Strigi::FieldRegister *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_Strigi__RegisteredField = {"_p_Strigi__RegisteredField", "Strigi::RegisteredField *", 0, 0, (void*)0, 0};
+static swig_type_info _swigt__p_Strigi__StreamAnalyzer = {"_p_Strigi__StreamAnalyzer", "Strigi::StreamAnalyzer *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_Strigi__StreamAnalyzerFactory = {"_p_Strigi__StreamAnalyzerFactory", "Strigi::StreamAnalyzerFactory *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_Strigi__StreamBaseBase = {"_p_Strigi__StreamBaseBase", "Strigi::StreamBaseBase *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_Strigi__StreamBaseT_char_t = {"_p_Strigi__StreamBaseT_char_t", "Strigi::StreamBase< char > *|Strigi::InputStream *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_Strigi__StreamBaseT_wchar_t_t = {"_p_Strigi__StreamBaseT_wchar_t_t", "Strigi::StreamBase< wchar_t > *|Strigi::Reader *", 0, 0, (void*)0, 0};
+static swig_type_info _swigt__p_Strigi__StreamEndAnalyzer = {"_p_Strigi__StreamEndAnalyzer", "Strigi::StreamEndAnalyzer *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_Strigi__StreamEndAnalyzerFactory = {"_p_Strigi__StreamEndAnalyzerFactory", "Strigi::StreamEndAnalyzerFactory *", 0, 0, (void*)0, 0};
+static swig_type_info _swigt__p_Strigi__StreamEventAnalyzer = {"_p_Strigi__StreamEventAnalyzer", "Strigi::StreamEventAnalyzer *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_Strigi__StreamEventAnalyzerFactory = {"_p_Strigi__StreamEventAnalyzerFactory", "Strigi::StreamEventAnalyzerFactory *", 0, 0, (void*)0, 0};
+static swig_type_info _swigt__p_Strigi__StreamLineAnalyzer = {"_p_Strigi__StreamLineAnalyzer", "Strigi::StreamLineAnalyzer *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_Strigi__StreamLineAnalyzerFactory = {"_p_Strigi__StreamLineAnalyzerFactory", "Strigi::StreamLineAnalyzerFactory *", 0, 0, (void*)0, 0};
+static swig_type_info _swigt__p_Strigi__StreamSaxAnalyzer = {"_p_Strigi__StreamSaxAnalyzer", "Strigi::StreamSaxAnalyzer *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_Strigi__StreamSaxAnalyzerFactory = {"_p_Strigi__StreamSaxAnalyzerFactory", "Strigi::StreamSaxAnalyzerFactory *", 0, 0, (void*)0, 0};
+static swig_type_info _swigt__p_Strigi__StreamThroughAnalyzer = {"_p_Strigi__StreamThroughAnalyzer", "Strigi::StreamThroughAnalyzer *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_Strigi__StreamThroughAnalyzerFactory = {"_p_Strigi__StreamThroughAnalyzerFactory", "Strigi::StreamThroughAnalyzerFactory *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_allocator_type = {"_p_allocator_type", "allocator_type *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_char = {"_p_char", "char *", 0, 0, (void*)0, 0};
@@ -14267,7 +19915,7 @@ static swig_type_info _swigt__p_difference_type = {"_p_difference_type", "differ
 static swig_type_info _swigt__p_int = {"_p_int", "int *|int32_t *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_long = {"_p_long", "int64_t *|long *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_p_PyObject = {"_p_p_PyObject", "PyObject **", 0, 0, (void*)0, 0};
-static swig_type_info _swigt__p_p_wchar_t = {"_p_p_wchar_t", "wchar_t **", 0, 0, (void*)0, 0};
+static swig_type_info _swigt__p_p_char = {"_p_p_char", "char **", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_reference = {"_p_reference", "reference *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_short = {"_p_short", "short *|int16_t *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_signed_char = {"_p_signed_char", "signed char *|int8_t *", 0, 0, (void*)0, 0};
@@ -14286,21 +19934,27 @@ static swig_type_info _swigt__p_value_type = {"_p_value_type", "value_type *", 0
 static swig_type_info _swigt__std__vectorT_Strigi__RegisteredField_const_p_std__allocatorT_Strigi__RegisteredField_const_p_t_t__value_type = {"_std__vectorT_Strigi__RegisteredField_const_p_std__allocatorT_Strigi__RegisteredField_const_p_t_t__value_type", "Strigi::RegisteredField *|std::vector< Strigi::RegisteredField const * >::value_type", 0, 0, (void*)0, 0};
 
 static swig_type_info *swig_type_initial[] = {
-  &_swigt__p_PythonDirAnalyzer,
   &_swigt__p_PythonIndexManager,
   &_swigt__p_PythonIndexWriter,
   &_swigt__p_Strigi__AnalysisResult,
   &_swigt__p_Strigi__AnalyzerConfiguration,
   &_swigt__p_Strigi__FieldProperties,
+  &_swigt__p_Strigi__FieldRegister,
   &_swigt__p_Strigi__RegisteredField,
+  &_swigt__p_Strigi__StreamAnalyzer,
   &_swigt__p_Strigi__StreamAnalyzerFactory,
   &_swigt__p_Strigi__StreamBaseBase,
   &_swigt__p_Strigi__StreamBaseT_char_t,
   &_swigt__p_Strigi__StreamBaseT_wchar_t_t,
+  &_swigt__p_Strigi__StreamEndAnalyzer,
   &_swigt__p_Strigi__StreamEndAnalyzerFactory,
+  &_swigt__p_Strigi__StreamEventAnalyzer,
   &_swigt__p_Strigi__StreamEventAnalyzerFactory,
+  &_swigt__p_Strigi__StreamLineAnalyzer,
   &_swigt__p_Strigi__StreamLineAnalyzerFactory,
+  &_swigt__p_Strigi__StreamSaxAnalyzer,
   &_swigt__p_Strigi__StreamSaxAnalyzerFactory,
+  &_swigt__p_Strigi__StreamThroughAnalyzer,
   &_swigt__p_Strigi__StreamThroughAnalyzerFactory,
   &_swigt__p_allocator_type,
   &_swigt__p_char,
@@ -14309,7 +19963,7 @@ static swig_type_info *swig_type_initial[] = {
   &_swigt__p_int,
   &_swigt__p_long,
   &_swigt__p_p_PyObject,
-  &_swigt__p_p_wchar_t,
+  &_swigt__p_p_char,
   &_swigt__p_reference,
   &_swigt__p_short,
   &_swigt__p_signed_char,
@@ -14328,21 +19982,27 @@ static swig_type_info *swig_type_initial[] = {
   &_swigt__std__vectorT_Strigi__RegisteredField_const_p_std__allocatorT_Strigi__RegisteredField_const_p_t_t__value_type,
 };
 
-static swig_cast_info _swigc__p_PythonDirAnalyzer[] = {  {&_swigt__p_PythonDirAnalyzer, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_PythonIndexManager[] = {  {&_swigt__p_PythonIndexManager, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_PythonIndexWriter[] = {  {&_swigt__p_PythonIndexWriter, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_Strigi__AnalysisResult[] = {  {&_swigt__p_Strigi__AnalysisResult, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_Strigi__AnalyzerConfiguration[] = {  {&_swigt__p_Strigi__AnalyzerConfiguration, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_Strigi__FieldProperties[] = {  {&_swigt__p_Strigi__FieldProperties, 0, 0, 0},{0, 0, 0, 0}};
+static swig_cast_info _swigc__p_Strigi__FieldRegister[] = {  {&_swigt__p_Strigi__FieldRegister, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_Strigi__RegisteredField[] = {  {&_swigt__p_Strigi__RegisteredField, 0, 0, 0},  {&_swigt__std__vectorT_Strigi__RegisteredField_const_p_std__allocatorT_Strigi__RegisteredField_const_p_t_t__value_type, 0, 0, 0},{0, 0, 0, 0}};
+static swig_cast_info _swigc__p_Strigi__StreamAnalyzer[] = {  {&_swigt__p_Strigi__StreamAnalyzer, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_Strigi__StreamAnalyzerFactory[] = {  {&_swigt__p_Strigi__StreamAnalyzerFactory, 0, 0, 0},  {&_swigt__p_Strigi__StreamEndAnalyzerFactory, _p_Strigi__StreamEndAnalyzerFactoryTo_p_Strigi__StreamAnalyzerFactory, 0, 0},  {&_swigt__p_Strigi__StreamEventAnalyzerFactory, _p_Strigi__StreamEventAnalyzerFactoryTo_p_Strigi__StreamAnalyzerFactory, 0, 0},  {&_swigt__p_Strigi__StreamLineAnalyzerFactory, _p_Strigi__StreamLineAnalyzerFactoryTo_p_Strigi__StreamAnalyzerFactory, 0, 0},  {&_swigt__p_Strigi__StreamSaxAnalyzerFactory, _p_Strigi__StreamSaxAnalyzerFactoryTo_p_Strigi__StreamAnalyzerFactory, 0, 0},  {&_swigt__p_Strigi__StreamThroughAnalyzerFactory, _p_Strigi__StreamThroughAnalyzerFactoryTo_p_Strigi__StreamAnalyzerFactory, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_Strigi__StreamBaseBase[] = {  {&_swigt__p_Strigi__StreamBaseT_wchar_t_t, _p_Strigi__StreamBaseT_wchar_t_tTo_p_Strigi__StreamBaseBase, 0, 0},  {&_swigt__p_Strigi__StreamBaseBase, 0, 0, 0},  {&_swigt__p_Strigi__StreamBaseT_char_t, _p_Strigi__StreamBaseT_char_tTo_p_Strigi__StreamBaseBase, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_Strigi__StreamBaseT_char_t[] = {  {&_swigt__p_Strigi__StreamBaseT_char_t, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_Strigi__StreamBaseT_wchar_t_t[] = {  {&_swigt__p_Strigi__StreamBaseT_wchar_t_t, 0, 0, 0},{0, 0, 0, 0}};
+static swig_cast_info _swigc__p_Strigi__StreamEndAnalyzer[] = {  {&_swigt__p_Strigi__StreamEndAnalyzer, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_Strigi__StreamEndAnalyzerFactory[] = {  {&_swigt__p_Strigi__StreamEndAnalyzerFactory, 0, 0, 0},{0, 0, 0, 0}};
+static swig_cast_info _swigc__p_Strigi__StreamEventAnalyzer[] = {  {&_swigt__p_Strigi__StreamEventAnalyzer, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_Strigi__StreamEventAnalyzerFactory[] = {  {&_swigt__p_Strigi__StreamEventAnalyzerFactory, 0, 0, 0},{0, 0, 0, 0}};
+static swig_cast_info _swigc__p_Strigi__StreamLineAnalyzer[] = {  {&_swigt__p_Strigi__StreamLineAnalyzer, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_Strigi__StreamLineAnalyzerFactory[] = {  {&_swigt__p_Strigi__StreamLineAnalyzerFactory, 0, 0, 0},{0, 0, 0, 0}};
+static swig_cast_info _swigc__p_Strigi__StreamSaxAnalyzer[] = {  {&_swigt__p_Strigi__StreamSaxAnalyzer, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_Strigi__StreamSaxAnalyzerFactory[] = {  {&_swigt__p_Strigi__StreamSaxAnalyzerFactory, 0, 0, 0},{0, 0, 0, 0}};
+static swig_cast_info _swigc__p_Strigi__StreamThroughAnalyzer[] = {  {&_swigt__p_Strigi__StreamThroughAnalyzer, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_Strigi__StreamThroughAnalyzerFactory[] = {  {&_swigt__p_Strigi__StreamThroughAnalyzerFactory, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_allocator_type[] = {  {&_swigt__p_allocator_type, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_char[] = {  {&_swigt__p_char, 0, 0, 0},{0, 0, 0, 0}};
@@ -14351,7 +20011,7 @@ static swig_cast_info _swigc__p_difference_type[] = {  {&_swigt__p_difference_ty
 static swig_cast_info _swigc__p_int[] = {  {&_swigt__p_int, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_long[] = {  {&_swigt__p_long, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_p_PyObject[] = {  {&_swigt__p_p_PyObject, 0, 0, 0},{0, 0, 0, 0}};
-static swig_cast_info _swigc__p_p_wchar_t[] = {  {&_swigt__p_p_wchar_t, 0, 0, 0},{0, 0, 0, 0}};
+static swig_cast_info _swigc__p_p_char[] = {  {&_swigt__p_p_char, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_reference[] = {  {&_swigt__p_reference, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_short[] = {  {&_swigt__p_short, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_signed_char[] = {  {&_swigt__p_signed_char, 0, 0, 0},{0, 0, 0, 0}};
@@ -14370,21 +20030,27 @@ static swig_cast_info _swigc__p_value_type[] = {  {&_swigt__p_value_type, 0, 0, 
 static swig_cast_info _swigc__std__vectorT_Strigi__RegisteredField_const_p_std__allocatorT_Strigi__RegisteredField_const_p_t_t__value_type[] = {  {&_swigt__p_Strigi__RegisteredField, 0, 0, 0},  {&_swigt__std__vectorT_Strigi__RegisteredField_const_p_std__allocatorT_Strigi__RegisteredField_const_p_t_t__value_type, 0, 0, 0},{0, 0, 0, 0}};
 
 static swig_cast_info *swig_cast_initial[] = {
-  _swigc__p_PythonDirAnalyzer,
   _swigc__p_PythonIndexManager,
   _swigc__p_PythonIndexWriter,
   _swigc__p_Strigi__AnalysisResult,
   _swigc__p_Strigi__AnalyzerConfiguration,
   _swigc__p_Strigi__FieldProperties,
+  _swigc__p_Strigi__FieldRegister,
   _swigc__p_Strigi__RegisteredField,
+  _swigc__p_Strigi__StreamAnalyzer,
   _swigc__p_Strigi__StreamAnalyzerFactory,
   _swigc__p_Strigi__StreamBaseBase,
   _swigc__p_Strigi__StreamBaseT_char_t,
   _swigc__p_Strigi__StreamBaseT_wchar_t_t,
+  _swigc__p_Strigi__StreamEndAnalyzer,
   _swigc__p_Strigi__StreamEndAnalyzerFactory,
+  _swigc__p_Strigi__StreamEventAnalyzer,
   _swigc__p_Strigi__StreamEventAnalyzerFactory,
+  _swigc__p_Strigi__StreamLineAnalyzer,
   _swigc__p_Strigi__StreamLineAnalyzerFactory,
+  _swigc__p_Strigi__StreamSaxAnalyzer,
   _swigc__p_Strigi__StreamSaxAnalyzerFactory,
+  _swigc__p_Strigi__StreamThroughAnalyzer,
   _swigc__p_Strigi__StreamThroughAnalyzerFactory,
   _swigc__p_allocator_type,
   _swigc__p_char,
@@ -14393,7 +20059,7 @@ static swig_cast_info *swig_cast_initial[] = {
   _swigc__p_int,
   _swigc__p_long,
   _swigc__p_p_PyObject,
-  _swigc__p_p_wchar_t,
+  _swigc__p_p_char,
   _swigc__p_reference,
   _swigc__p_short,
   _swigc__p_signed_char,
@@ -15007,6 +20673,24 @@ SWIG_init(void) {
   SWIG_Python_SetConstant(d, "Ok",SWIG_From_int(static_cast< int >(Strigi::Ok)));
   SWIG_Python_SetConstant(d, "Eof",SWIG_From_int(static_cast< int >(Strigi::Eof)));
   SWIG_Python_SetConstant(d, "Error",SWIG_From_int(static_cast< int >(Strigi::Error)));
+  PyDict_SetItemString(d,(char*)"cvar", SWIG_globals());
+  SWIG_addvarlink(SWIG_globals(),(char*)"FieldRegister_floatType",Swig_var_FieldRegister_floatType_get, Swig_var_FieldRegister_floatType_set);
+  SWIG_addvarlink(SWIG_globals(),(char*)"FieldRegister_integerType",Swig_var_FieldRegister_integerType_get, Swig_var_FieldRegister_integerType_set);
+  SWIG_addvarlink(SWIG_globals(),(char*)"FieldRegister_binaryType",Swig_var_FieldRegister_binaryType_get, Swig_var_FieldRegister_binaryType_set);
+  SWIG_addvarlink(SWIG_globals(),(char*)"FieldRegister_stringType",Swig_var_FieldRegister_stringType_get, Swig_var_FieldRegister_stringType_set);
+  SWIG_addvarlink(SWIG_globals(),(char*)"FieldRegister_datetimeType",Swig_var_FieldRegister_datetimeType_get, Swig_var_FieldRegister_datetimeType_set);
+  SWIG_addvarlink(SWIG_globals(),(char*)"FieldRegister_pathFieldName",Swig_var_FieldRegister_pathFieldName_get, Swig_var_FieldRegister_pathFieldName_set);
+  SWIG_addvarlink(SWIG_globals(),(char*)"FieldRegister_parentLocationFieldName",Swig_var_FieldRegister_parentLocationFieldName_get, Swig_var_FieldRegister_parentLocationFieldName_set);
+  SWIG_addvarlink(SWIG_globals(),(char*)"FieldRegister_encodingFieldName",Swig_var_FieldRegister_encodingFieldName_get, Swig_var_FieldRegister_encodingFieldName_set);
+  SWIG_addvarlink(SWIG_globals(),(char*)"FieldRegister_mimetypeFieldName",Swig_var_FieldRegister_mimetypeFieldName_get, Swig_var_FieldRegister_mimetypeFieldName_set);
+  SWIG_addvarlink(SWIG_globals(),(char*)"FieldRegister_filenameFieldName",Swig_var_FieldRegister_filenameFieldName_get, Swig_var_FieldRegister_filenameFieldName_set);
+  SWIG_addvarlink(SWIG_globals(),(char*)"FieldRegister_contentFieldName",Swig_var_FieldRegister_contentFieldName_get, Swig_var_FieldRegister_contentFieldName_set);
+  SWIG_addvarlink(SWIG_globals(),(char*)"FieldRegister_extensionFieldName",Swig_var_FieldRegister_extensionFieldName_get, Swig_var_FieldRegister_extensionFieldName_set);
+  SWIG_addvarlink(SWIG_globals(),(char*)"FieldRegister_embeddepthFieldName",Swig_var_FieldRegister_embeddepthFieldName_get, Swig_var_FieldRegister_embeddepthFieldName_set);
+  SWIG_addvarlink(SWIG_globals(),(char*)"FieldRegister_mtimeFieldName",Swig_var_FieldRegister_mtimeFieldName_get, Swig_var_FieldRegister_mtimeFieldName_set);
+  SWIG_addvarlink(SWIG_globals(),(char*)"FieldRegister_sizeFieldName",Swig_var_FieldRegister_sizeFieldName_get, Swig_var_FieldRegister_sizeFieldName_set);
+  SWIG_addvarlink(SWIG_globals(),(char*)"FieldRegister_typeFieldName",Swig_var_FieldRegister_typeFieldName_get, Swig_var_FieldRegister_typeFieldName_set);
+  SWIG_addvarlink(SWIG_globals(),(char*)"FieldRegister_defaultNamespace",Swig_var_FieldRegister_defaultNamespace_get, Swig_var_FieldRegister_defaultNamespace_set);
   
   /* Initialize threading */
   SWIG_PYTHON_INITIALIZE_THREADS;

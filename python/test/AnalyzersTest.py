@@ -63,7 +63,7 @@ class ThreadRunner(Thread):
    def run(self):
       try:
         #TODO: using > 1 threads is faulty still..
-        self.p['analyzer'].analyzeDir(self.dir, 1)
+        self.p['analyzer'].analyzeDir(self.dir)
       except Exception as e:
         print e
 
@@ -114,7 +114,7 @@ class AnalyzersTestCase(TestCase):
       triplets = {}
 
       p = self.prep()
-      p['analyzer'].analyzeDir(os.path.join(self.TESTDATA, 'mail'), 1)
+      p['analyzer'].analyzeDir(os.path.join(self.TESTDATA, 'mail'))
       
       expected = {
         ':bmqbh': 
