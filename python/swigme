@@ -1,0 +1,35 @@
+#!/bin/bash
+#STRIGI_PREFIX=/home/ben/dev/svn_strigi/strigi/install
+STRIGI_PREFIX=/usr
+# -dirvtable -fvirtual
+# 
+SWIG_OPTIONS="-c++ -Wall -w+322 -w+516 -threads -fvirtual"
+PYTHON_INCLUDE=/usr/include/python2.6
+
+#swig the code...
+STRIGI_INCLUDE=$STRIGI_PREFIX/include
+set -x
+mkdir -p swig
+ccache-swig swig -python -DSWIGGING $SWIG_OPTIONS -outdir . -I../../overrides -I$STRIGI_INCLUDE -I../include -o strigiPYTHON_wrap.cxx ../defs/strigi.i
+if [ $? -ne 0 ]; then exit 1; fi
+set +x
+cp streamanalyzer.py ../streamanalyzer.py
+cp strigiPYTHON_wrap.cxx ../strigiPYTHON_wrap.cxx
+cp strigiPYTHON_wrap.h ../include/strigiPYTHON_wrap.h
+
+#compile the c++ code
+set -x
+g++ -g -shared -fpic -o _streamanalyzer.so -L$STRIGI_PREFIX/lib -I$STRIGI_INCLUDE -I../include -I$PYTHON_INCLUDE -lstreams -lstreamanalyzer strigiPYTHON_wrap.cxx
+if [ $? -ne 0 ]; then exit 1; fi
+set +x
+
+echo "TODO:"
+grep -o 'SwigValueWrapper<.*>' strigiPYTHON_wrap.cxx|grep -v '<T>'|sort|uniq
+
+if [ $(grep -wc SWIGTYPE_p_Strigi__IndexWriter strigiPYTHON_wrap.cxx) -ne 0 ]; then echo "IndexWriter should not be used directly!!!"; fi
+if [ $(grep -wc SWIGTYPE_p_Strigi__IndexManager strigiPYTHON_wrap.cxx) -ne 0 ]; then echo "IndexManager should not be used directly!!!"; fi
+if [ $(grep -wc SWIGTYPE_p_Strigi__DirAnalyzer strigiPYTHON_wrap.cxx) -ne 0 ]; then echo "DirAnalyzer should not be used directly!!!"; fi
+
+ln -s _streamanalyzer.so strigita_python.so 2>/dev/null
+nm _streamanalyzer.so --demangle |grep " U "|grep -v "std::"|grep -v "Strigi::" |grep -vP "U [_]?Py"|grep -v '@@'
+
