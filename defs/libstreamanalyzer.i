@@ -34,6 +34,8 @@
 %ignore Strigi::StreamAnalyzer::configuration;
 %ignore Strigi::StreamAnalyzer::setIndexWriter(IndexWriter& writer);
 
+//TODO: testme:
+%ignore Strigi::StreamEndAnalyzerFactory::analyzesSubStreams;
 
 %extend Strigi::StreamAnalyzer {
   void setIndexWriter(PythonIndexWriter& writer){

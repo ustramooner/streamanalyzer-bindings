@@ -21,6 +21,9 @@ class IndexManager(PythonIndexManager):
   """ Adds a Analyzer Factory to the indexer. Note that this is global because Strigi does not provide any other way"""
   @staticmethod
   def addFactory(factory):
+    #TODO: need to find a better way of doing this!
+    if not 'STRIGI_PLUGIN_PATH' in os.environ:
+      os.environ['STRIGI_PLUGIN_PATH'] = os.path.dirname(__file__)
     IndexManager.factories.append(factory)
     PythonIndexManager.addFactory(factory)
   """ Clears all the custom factories """
