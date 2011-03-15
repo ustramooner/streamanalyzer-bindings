@@ -1,0 +1,4 @@
+[submodule "python"]
+	path = python
+	url = git://github.com/ustramooner/python-streamanalyzer.git
+
