@@ -15,5 +15,5 @@ Instructions on checking out strigi-bindings with git:
  git submodule update --init
 
 Please see documentation, issues, etc in each subproject:
-* https://github.com/ustramooner/python-streamanalyzer
+ * https://github.com/ustramooner/python-streamanalyzer
 
